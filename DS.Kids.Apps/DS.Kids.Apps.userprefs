@@ -1,0 +1,37 @@
+﻿<Properties StartupItem="Droid\DS.Kids.Apps.Droid.csproj">
+  <DisabledProjects>
+    <String>../DS.Kids.Core/DS.Kids.Core.csproj</String>
+    <String>iOS\DS.Kids.Apps.iOS.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.192.168.170.101:5555" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid\Views\SemaforoView.cs">
+    <Files>
+      <File FileName="Droid\Views\SemaforoView.cs" Line="41" Column="8" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DS.Kids.Apps" expanded="True">
+            <Node name="DS.Kids.Apps.Core" expanded="True" />
+            <Node name="DS.Kids.Apps.Droid" expanded="True">
+              <Node name="ComponentReferenceFolder" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="layout" expanded="True" />
+                <Node name="values" expanded="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="SemaforoView.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="DS.Kids.Model" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.DS.Kids.Apps.Droid AndroidDesignerPreferredDevice="Nexus 4" />
+</Properties>

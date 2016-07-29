@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="32dp"
+    android:paddingRight="10.5dp"
+    android:orientation="horizontal"
+    android:paddingTop="12dp"
+    android:paddingBottom="12dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:layout_gravity="center_vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<!--android:paddingTop="7dp"-->
+<!--<ds.kids.apps.droid.controls.BgBindableView
+        local:MvxBind="BackgroundResource Semaforo(AlimentoMedidaFaixaEtaria.Semaforo)"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="8dp"
+        android:layout_weight="0"
+        android:layout_width="12dp"
+        android:layout_height="12dp" />-->
+    <TextView
+        local:MvxBind="Text Nome"
+        android:textSize="14sp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <BRFX.BRFXSVGImageView
+        local:SVGAssetName="svg/delete.svg"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0"
+        android:layout_width="24dp"
+        android:layout_height="24dp" />
+</LinearLayout>

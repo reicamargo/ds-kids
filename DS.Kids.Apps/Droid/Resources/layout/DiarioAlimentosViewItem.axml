@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+<!--<ds.kids.apps.droid.controls.BgBindableView
+        local:MvxBind="BackgroundResource Semaforo(AlimentoMedidaFaixaEtaria.Semaforo)"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="8dp"
+        android:layout_width="12dp"
+        android:layout_height="12dp" />-->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <BRFX.BRFXTextView
+            local:MvxBind="Text Nome"
+            android:textSize="14sp"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/cinzaTexto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <BRFX.BRFXTextView
+            local:MvxBind="Text Format('Recomendado: {0:0.#} {1}', AlimentoMedidaFaixaEtaria.Quantidade, AlimentoMedidaFaixaEtaria.Medida.Nome)"
+            android:textSize="14sp"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/cinzaTexto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <BRFX.BRFXSVGImageView
+        local:SVGAssetName="svg/ico_add_food.svg"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentRight="true" />
+</RelativeLayout>

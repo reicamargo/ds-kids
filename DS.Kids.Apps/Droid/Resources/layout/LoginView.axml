@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    style="@style/padded_linear_layout"
+    local:MvxBind="BackgroundColor NativeColor(Color)">
+    <BRFX.BRFXTextView
+        style="@style/custom_font_label"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:clickable="false"
+        android:longClickable="false"
+        android:text="Já tem uma conta do DS KIDS?" />
+    <BRFX.BRFXTextView
+        style="@style/small_label"
+        android:clickable="false"
+        android:longClickable="false"
+        android:text="Digite seu e-mail e senha para entrar." />
+    <BRFXValidation.BRFXEditText
+        style="@style/default_edittext"
+        local:MvxBind="Text Email"
+        local:ErrorMessagePropertyName="Email"
+        android:inputType="textEmailAddress"
+        android:hint="exemplo@exemplo.com" />
+    <BRFXValidation.BRFXEditText
+        style="@style/default_edittext"
+        local:MvxBind="Text Senha"
+        local:ErrorMessagePropertyName="Senha"
+        android:hint="Sua senha"
+        android:imeOptions="actionDone"
+        android:password="True" />
+    <BRFX.BRFXButton
+        style="@style/default_button"
+        local:MvxBind="Click EntrarCommand; TextColor NativeColor(Color)"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:text="Entrar" />
+    <BRFX.BRFXButton
+        style="@style/default_button"
+        local:MvxBind="Click EsqueciSenhaCommand; TextColor NativeColor(Color)"
+        android:text="Esqueceu a senha?" />
+</LinearLayout>

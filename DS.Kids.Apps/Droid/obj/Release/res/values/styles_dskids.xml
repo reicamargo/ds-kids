@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+	<style name="Theme.Dskids" parent="Theme.Dskids.Base">
+
+	</style>
+
+	<style name="Theme.Dskids.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+		<item name="windowActionBar">false</item>
+		<item name="windowNoTitle">true</item>
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorAccent</item>
+		<item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+		<item name="android:colorControlNormal">@color/white</item>
+		<item name="colorControlNormal">@color/white</item>
+		<item name="android:textColorPrimary">@color/textColorPrimary</item>
+		<item name="android:windowBackground">@color/windowBackground</item>
+		<item name="android:windowActionBarOverlay">true</item>
+		<item name="windowActionBarOverlay">true</item>
+	</style>
+
+	<style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+		<item name="spinBars">true</item>
+		<item name="color">@android:color/white</item>
+	</style>
+
+</resources>

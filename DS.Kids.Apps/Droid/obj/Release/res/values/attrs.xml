@@ -1,0 +1,1 @@
+<resources><declare-styleable name="MvxRecyclerView"><attr name="HeaderItemTemplate" format="string" /><attr name="FooterItemTemplate" format="string" /><attr name="HighlightItemTemplate" format="string" /></declare-styleable><declare-styleable name="CrescimentoViewHeaderItem"><attr name="Editable" format="boolean" /></declare-styleable></resources>

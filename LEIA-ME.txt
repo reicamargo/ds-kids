@@ -1,0 +1,3 @@
+- Antes de executar o projeto instale MultilingualAppToolkit.exe
+- executar no Powershell em modo de administrados set-executionpolicy remotesigned (isso habilita a execução de scripts)
+ * Pode ser que você tenha duas versões do powershell instaladas no seu PC. É importante executar esse script nas duas.

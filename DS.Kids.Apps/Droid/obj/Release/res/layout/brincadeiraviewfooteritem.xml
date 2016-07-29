@@ -1,0 +1,1 @@
+<TextView local:MvxBind="Visibility BrincadeiraFooterVisibility(Tipo)" style="@style/disclaimer" android:layout_marginTop="10dp" android:text="@string/disclaimer" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:local="http://schemas.android.com/apk/res-auto" />

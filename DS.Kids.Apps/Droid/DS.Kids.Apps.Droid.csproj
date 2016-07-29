@@ -1,0 +1,775 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{6546738A-42C0-407C-A8A8-196121312D51}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>DS.Kids.Apps.Droid</RootNamespace>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AndroidApplication>True</AndroidApplication>
+    <AndroidUseLatestPlatformSdk>False</AndroidUseLatestPlatformSdk>
+    <AssemblyName>DS.Kids.Apps.Droid</AssemblyName>
+    <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <NuGetPackageImportStamp>3c2e3ac2</NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidLinkMode>Full</AndroidLinkMode>
+    <ConsolePause>false</ConsolePause>
+    <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
+    <AndroidSupportedAbis>armeabi,armeabi-v7a,x86</AndroidSupportedAbis>
+    <JavaMaximumHeapSize>1G</JavaMaximumHeapSize>
+    <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
+    <AndroidLinkSkip>BRFX.Core;BRFX.Core.Droid;DS.Kids.Apps.Core;DS.Kids.Model;DS.Kids.Model.Communication</AndroidLinkSkip>
+    <BundleAssemblies>False</BundleAssemblies>
+    <AndroidCreatePackagePerAbi>False</AndroidCreatePackagePerAbi>
+    <AndroidStoreUncompressedFileExtensions />
+    <MandroidI18n />
+    <Debugger>Xamarin</Debugger>
+    <AndroidEnableMultiDex>False</AndroidEnableMultiDex>
+    <DevInstrumentationEnabled>True</DevInstrumentationEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>False</AndroidUseSharedRuntime>
+    <ConsolePause>false</ConsolePause>
+    <JavaMaximumHeapSize>1G</JavaMaximumHeapSize>
+    <AndroidLinkSkip>BRFX.Core;BRFX.Core.Droid;DS.Kids.Apps.Core;DS.Kids.Model;DS.Kids.Model.Communication</AndroidLinkSkip>
+    <AndroidLinkMode>Full</AndroidLinkMode>
+    <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
+    <BundleAssemblies>False</BundleAssemblies>
+    <AndroidCreatePackagePerAbi>True</AndroidCreatePackagePerAbi>
+    <AndroidSupportedAbis>armeabi,armeabi-v7a,x86</AndroidSupportedAbis>
+    <AndroidStoreUncompressedFileExtensions />
+    <AndroidKeyStore>True</AndroidKeyStore>
+    <AndroidSigningKeyStore>dskids.keystore</AndroidSigningKeyStore>
+    <AndroidSigningStorePass>123Mudar</AndroidSigningStorePass>
+    <AndroidSigningKeyAlias>DSKIDS</AndroidSigningKeyAlias>
+    <AndroidSigningKeyPass>123Mudar</AndroidSigningKeyPass>
+    <MandroidI18n />
+    <Debugger>Xamarin</Debugger>
+    <AotAssemblies>False</AotAssemblies>
+    <EnableLLVM>False</EnableLLVM>
+    <AndroidEnableMultiDex>False</AndroidEnableMultiDex>
+    <EnableProguard>False</EnableProguard>
+    <DevInstrumentationEnabled>False</DevInstrumentationEnabled>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BRFX.Core.Droid">
+      <HintPath>BRFX\BRFX.Core.Droid.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.CrossCore.Droid">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.CrossCore.3.5.1\lib\MonoAndroid\Cirrious.CrossCore.Droid.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Binding.Droid">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.CrossCore.3.5.1\lib\MonoAndroid\Cirrious.MvvmCross.Binding.Droid.dll</HintPath>
+    </Reference>
+    <Reference Include="Crashlytics.Droid">
+      <HintPath>Crashlytics\Crashlytics.Droid.dll</HintPath>
+    </Reference>
+    <Reference Include="MoPubAndroid">
+      <HintPath>..\Mopub\MoPubAndroid.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib" />
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Newtonsoft.Json.7.0.1\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="OxyPlot, Version=2015.1.744.0, Culture=neutral, PublicKeyToken=638079a8f0bd61e9, processorArchitecture=MSIL">
+      <HintPath>..\..\Packages\OxyPlot.Core.2015.1.744-alpha\lib\portable-net4+sl5+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1+Xamarin.iOS10\OxyPlot.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="OxyPlot.Xamarin.Android, Version=2015.1.741.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\Packages\OxyPlot.Mobile.2015.1.744-alpha\lib\MonoAndroid\OxyPlot.Xamarin.Android.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Parse.Android">
+      <HintPath>..\..\Packages\Parse.1.6.0\lib\MonoAndroid\Parse.Android.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Collections" />
+    <Reference Include="System.Globalization" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.ObjectModel" />
+    <Reference Include="System.Runtime" />
+    <Reference Include="System.Threading.Tasks" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Mono.Android" />
+    <Reference Include="BRFX.Core">
+      <HintPath>..\iOS\BRFX\BRFX.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.CrossCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e16445fd9b451819">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.CrossCore.3.5.1\lib\MonoAndroid\Cirrious.CrossCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e16445fd9b451819">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.5.1\lib\MonoAndroid\Cirrious.MvvmCross.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Binding, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.CrossCore.3.5.1\lib\MonoAndroid\Cirrious.MvvmCross.Binding.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.5.1\lib\MonoAndroid\Cirrious.MvvmCross.Droid.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Droid.Fragging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.Droid.Fragging.3.5.1\lib\MonoAndroid\Cirrious.MvvmCross.Droid.Fragging.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Localization, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.CrossCore.3.5.1\lib\MonoAndroid\Cirrious.MvvmCross.Localization.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.Color, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.Plugin.Color.3.5.1\lib\MonoAndroid\Cirrious.MvvmCross.Plugins.Color.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.Color.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.Plugin.Color.3.5.1\lib\MonoAndroid\Cirrious.MvvmCross.Plugins.Color.Droid.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.DownloadCache, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.Plugin.DownloadCache.3.5.1\lib\MonoAndroid\Cirrious.MvvmCross.Plugins.DownloadCache.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.DownloadCache.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.Plugin.DownloadCache.3.5.1\lib\MonoAndroid\Cirrious.MvvmCross.Plugins.DownloadCache.Droid.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.File, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.Plugin.File.3.5.1\lib\MonoAndroid\Cirrious.MvvmCross.Plugins.File.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.File.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.Plugin.File.3.5.1\lib\MonoAndroid\Cirrious.MvvmCross.Plugins.File.Droid.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.Json, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.Plugin.Json.3.5.1\lib\MonoAndroid\Cirrious.MvvmCross.Plugins.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.Messenger, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.Plugin.Messenger.3.5.1\lib\MonoAndroid\Cirrious.MvvmCross.Plugins.Messenger.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.PictureChooser, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.Plugin.PictureChooser.3.5.1\lib\MonoAndroid\Cirrious.MvvmCross.Plugins.PictureChooser.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.PictureChooser.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.Plugin.PictureChooser.3.5.1\lib\MonoAndroid\Cirrious.MvvmCross.Plugins.PictureChooser.Droid.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.Visibility, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.Plugin.Visibility.3.5.1\lib\MonoAndroid\Cirrious.MvvmCross.Plugins.Visibility.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.Visibility.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.Plugin.Visibility.3.5.1\lib\MonoAndroid\Cirrious.MvvmCross.Plugins.Visibility.Droid.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.WebBrowser, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.Plugin.WebBrowser.3.5.1\lib\MonoAndroid\Cirrious.MvvmCross.Plugins.WebBrowser.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.WebBrowser.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.Plugin.WebBrowser.3.5.1\lib\MonoAndroid\Cirrious.MvvmCross.Plugins.WebBrowser.Droid.dll</HintPath>
+    </Reference>
+    <Reference Include="SvgAndroid">
+      <HintPath>BRFX\SvgAndroid.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Extensions, Version=2.2.29.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <HintPath>..\..\packages\Microsoft.Net.Http.2.2.29\lib\monoandroid\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives, Version=4.2.29.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <HintPath>..\..\packages\Microsoft.Net.Http.2.2.29\lib\monoandroid\System.Net.Http.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.Design">
+      <HintPath>..\..\Packages\Xamarin.Android.Support.Design.23.0.1.3\lib\MonoAndroid403\Xamarin.Android.Support.Design.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Packages\Xamarin.Android.Support.v4.23.0.1.3\lib\MonoAndroid403\Xamarin.Android.Support.v4.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.AppCompat, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Packages\Xamarin.Android.Support.v7.AppCompat.23.0.1.3\lib\MonoAndroid403\Xamarin.Android.Support.v7.AppCompat.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.CardView, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Packages\Xamarin.Android.Support.v7.CardView.23.0.1.3\lib\MonoAndroid403\Xamarin.Android.Support.v7.CardView.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.RecyclerView, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Packages\Xamarin.Android.Support.v7.RecyclerView.23.0.1.3\lib\MonoAndroid403\Xamarin.Android.Support.v7.RecyclerView.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Xamarin.Facebook">
+      <HintPath>..\..\Packages\Xamarin.Facebook.Android.4.6.0.0\lib\MonoAndroid403\Xamarin.Facebook.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Xamarin.GooglePlayServices.Analytics">
+      <HintPath>..\..\Packages\Xamarin.GooglePlayServices.Analytics.26.0.0.0\lib\MonoAndroid41\Xamarin.GooglePlayServices.Analytics.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Xamarin.GooglePlayServices.Base">
+      <HintPath>..\..\Packages\Xamarin.GooglePlayServices.Base.26.0.0.0\lib\MonoAndroid41\Xamarin.GooglePlayServices.Base.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ads\MoPubAds.cs" />
+    <Compile Include="Analytics\GoogleAnalytics.cs" />
+    <Compile Include="Bootstrap\ColorPluginBootstrap.cs" />
+    <Compile Include="Bootstrap\DownloadCachePluginBootstrap.cs" />
+    <Compile Include="Bootstrap\FilePluginBootstrap.cs" />
+    <Compile Include="Bootstrap\JsonPluginBootstrap.cs" />
+    <Compile Include="Bootstrap\MessengerPluginBootstrap.cs" />
+    <Compile Include="Bootstrap\PictureChooserPluginBootstrap.cs" />
+    <Compile Include="Bootstrap\VisibilityPluginBootstrap.cs" />
+    <Compile Include="Bootstrap\WebBrowserPluginBootstrap.cs" />
+    <Compile Include="Controls\ArrayRecyclerAdapter.cs" />
+    <Compile Include="Controls\CardapiosRecyclerViewAdapter.cs" />
+    <Compile Include="Controls\HeaderFooterRecyclerViewAdapter.cs" />
+    <Compile Include="Controls\MyLinearLayoutManager.cs" />
+    <Compile Include="Controls\ResizableMvxImageView.cs" />
+    <Compile Include="Converters\LeftMenuSVGConverter.cs" />
+    <Compile Include="Converters\StringFormatValueConverter.cs" />
+    <Compile Include="Converters\TipoCrescimentoSVGConverter.cs" />
+    <Compile Include="LinkerPleaseInclude.cs" />
+    <Compile Include="Plugins\FbData.cs" />
+    <Compile Include="Plugins\LocalNotifications.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="Setup.cs" />
+    <Compile Include="SplashScreen.cs" />
+    <Compile Include="Views\AdicionarFilhoView.cs" />
+    <Compile Include="Views\AlterarFilhoView.cs" />
+    <Compile Include="Views\AlterarSenhaView.cs" />
+    <Compile Include="Views\AtualizarPesoAlturaView.cs" />
+    <Compile Include="Views\AvaliacaoView.cs" />
+    <Compile Include="Views\BaseHomeChildView.cs" />
+    <Compile Include="Views\BrincadeirasView.cs" />
+    <Compile Include="Views\BrincadeiraView.cs" />
+    <Compile Include="Views\CardapiosView.cs" />
+    <Compile Include="Views\CrescimentoViewHeaderItem.cs" />
+    <Compile Include="Views\CrescimentoView.cs" />
+    <Compile Include="Views\CrescimentoViewListFragment.cs" />
+    <Compile Include="Views\CriarContaView.cs" />
+    <Compile Include="Views\EsqueciSenhaView.cs" />
+    <Compile Include="Views\LeftMenuView.cs" />
+    <Compile Include="Views\LoginView.cs" />
+    <Compile Include="Views\MainLoadingView.cs" />
+    <Compile Include="Views\MainView.cs" />
+    <Compile Include="Views\SobreView.cs" />
+    <Compile Include="Views\SobreWebView.cs" />
+    <Compile Include="Views\PoliticaPrivacidadeView.cs" />
+    <Compile Include="Views\CategoriasView.cs" />
+    <Compile Include="Views\CategoriaView.cs" />
+    <Compile Include="Views\DicaView.cs" />
+    <Compile Include="Mvx\IMvxRecyclerAdapter.cs" />
+    <Compile Include="Mvx\IMvxRecyclerViewHolder.cs" />
+    <Compile Include="Mvx\MvxRecyclerAdapter.cs" />
+    <Compile Include="Mvx\MvxRecyclerView.cs" />
+    <Compile Include="Mvx\MvxRecyclerViewHolder.cs" />
+    <Compile Include="Controls\BrincadeiraRecyclerViewAdapter.cs" />
+    <Compile Include="Controls\BrincadeiraRecyclerView.cs" />
+    <Compile Include="Controls\CategoriasRecyclerViewAdapter.cs" />
+    <Compile Include="Controls\HighlightRecyclerViewAdapter.cs" />
+    <Compile Include="Controls\CardapiosRecyclerView.cs" />
+    <Compile Include="Controls\CategoriasRecyclerView.cs" />
+    <Compile Include="Converters\LeftMenuVisibilityConverter.cs" />
+    <Compile Include="Converters\LeftMenuSVGArrowConverter.cs" />
+    <Compile Include="Converters\BrincadeiraCheckVisibilityConverter.cs" />
+    <Compile Include="Converters\TipoAmbienteConverter.cs" />
+    <Compile Include="Converters\BrincadeiraIdadeConverter.cs" />
+    <Compile Include="Converters\DateFormatConverter.cs" />
+    <Compile Include="Converters\CrescimentoBgDrawableConverter.cs" />
+    <Compile Include="Converters\CrescimentoFormattedTextConverter.cs" />
+    <Compile Include="Converters\CrescimentoPesoConverter.cs" />
+    <Compile Include="Controls\SquareLinearLayout.cs" />
+    <Compile Include="Controls\DicaRecyclerView.cs" />
+    <Compile Include="Controls\DicaRecyclerViewAdapter.cs" />
+    <Compile Include="Controls\DicaVideoView.cs" />
+    <Compile Include="Controls\DicaVideoFragment.cs" />
+    <Compile Include="Views\DiarioView.cs" />
+    <Compile Include="Views\SemaforoView.cs" />
+    <Compile Include="Converters\SemaforoConverter.cs" />
+    <Compile Include="Controls\BgBindableView.cs" />
+    <Compile Include="Views\DiarioRefeicaoView.cs" />
+    <Compile Include="Controls\DiarioRefeicaoRecyclerView.cs" />
+    <Compile Include="Controls\DiarioRefeicaoRecyclerViewAdapter.cs" />
+    <Compile Include="Converters\DiarioRefeicaoHeaderTextConverter.cs" />
+    <Compile Include="Converters\DiarioRefeicaoHeaderVisibilityConverter.cs" />
+    <Compile Include="Views\DiarioAlimentosView.cs" />
+    <Compile Include="Controls\HeaderFooterRecyclerView.cs" />
+    <Compile Include="Converters\RefeicaoRealizadaCheckSVGConverter.cs" />
+    <Compile Include="Controls\PagedHorizontalScrollView.cs" />
+    <Compile Include="Converters\CarinhaSVGConverter.cs" />
+    <Compile Include="Views\DiarioHelpView.cs" />
+    <Compile Include="Converters\CarinhaDotConverter.cs" />
+    <Compile Include="Converters\CarinhaDotVisibilityConverter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\styles_dskids.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <None Include="app.config" />
+    <AndroidAsset Include="Assets\fonts\Hangyaboly.ttf" />
+    <None Include="Properties\AndroidManifest.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\login_logo.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\layout\SplashScreen.axml" />
+    <AndroidResource Include="Resources\layout\MainView.axml" />
+    <AndroidResource Include="Resources\layout\MainLoadingView.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\LoginView.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\CriarContaView.axml" />
+    <AndroidResource Include="Resources\layout\EsqueciSenhaView.axml" />
+    <AndroidResource Include="Resources\layout\PoliticaPrivacidadeView.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\AlterarSenhaView.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\AdicionarFilhoView.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\CardapiosView.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\ItemCardapio.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\BrincadeirasView.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\AlterarFilhoView.axml" />
+    <AndroidResource Include="Resources\layout\BrincadeirasViewItem.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\LeftMenuView.axml" />
+    <AndroidResource Include="Resources\drawable\border.xml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\BrincadeiraView.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\SobreView.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\CardapiosViewItem.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\CategoriasView.axml" />
+    <AndroidResource Include="Resources\layout\CategoriaView.axml" />
+    <AndroidResource Include="Resources\layout\DicaView.axml" />
+    <AndroidResource Include="Resources\layout\CrescimentoView.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\AvaliacaoView.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\CategoriasViewItem.axml" />
+    <AndroidResource Include="Resources\layout\CardapiosViewHeaderItem.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\CardapiosViewFooterItem.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\CrescimentoViewItem.axml" />
+    <AndroidResource Include="Resources\layout\BrincadeiraViewHeaderItem.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\BrincadeiraViewItem.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\BrincadeiraViewFooterItem.axml" />
+    <AndroidResource Include="Resources\layout\AtualizarPesoAlturaView.axml" />
+    <AndroidAsset Include="Assets\svg\bt_fechar.svg" />
+    <AndroidAsset Include="Assets\svg\ico_dica_child.svg" />
+    <AndroidAsset Include="Assets\svg\ico_dica_park.svg" />
+    <AndroidAsset Include="Assets\svg\rosto_feliz.svg" />
+    <AndroidAsset Include="Assets\svg\rosto_triste.svg" />
+    <AndroidResource Include="Resources\layout\CategoriaViewItem.axml" />
+    <AndroidResource Include="Resources\drawable\list_divider.xml" />
+    <AndroidResource Include="Resources\layout\CategoriasViewHighlightItem.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\reftit_01.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\reftit_02.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\reftit_03.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\reftit_04.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\reftit_05.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\reftit_06.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\reftit_01.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\reftit_02.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\reftit_03.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\reftit_04.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\reftit_05.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\reftit_06.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\reftit_01.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\reftit_02.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\reftit_03.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\reftit_04.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\reftit_05.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\reftit_06.png" />
+    <AndroidResource Include="Resources\drawable\black_overlay.xml" />
+    <AndroidResource Include="Resources\layout\CrescimentoViewHeaderItem.axml" />
+    <AndroidResource Include="Resources\layout\SobreWebView.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\LeftMenuViewFilhosItem.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\login_logo.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\login_logo.png" />
+    <AndroidResource Include="Resources\layout\LeftMenuViewListFilhosItem.axml" />
+    <AndroidResource Include="Resources\layout\LeftMenuViewListFilhosFooterItem.axml" />
+    <AndroidResource Include="Resources\drawable\rounded_corners.xml" />
+    <AndroidAsset Include="Assets\svg\bt_mais.svg" />
+    <AndroidAsset Include="Assets\svg\bt_seta_baixo.svg" />
+    <AndroidAsset Include="Assets\svg\bt_seta_cima.svg" />
+    <AndroidAsset Include="Assets\svg\ico_check.svg" />
+    <AndroidResource Include="Resources\layout\CrescimentoViewListFragment.axml" />
+    <AndroidResource Include="Resources\drawable\green_rounded_corners.xml" />
+    <AndroidResource Include="Resources\drawable\red_rounded_corners.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\bg_atualizar.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\bg_atualizar.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\bg_atualizar.png" />
+    <AndroidAsset Include="Assets\svg\bt_mais_azul.svg" />
+    <AndroidAsset Include="Assets\svg\bt_mais_branco.svg" />
+    <AndroidResource Include="Resources\layout\DicaViewVideo.axml" />
+    <AndroidResource Include="Resources\layout\DicaViewImagem.axml" />
+    <AndroidResource Include="Resources\layout\DicaViewTexto.axml" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\carregando.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\erro.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\carregando.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\erro.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\carregando.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\erro.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\tit_popup.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\tit_popup.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\tit_popup.png" />
+    <AndroidResource Include="Resources\layout\DicaViewFragmentVideo.axml" />
+    <AndroidAsset Include="Assets\svg\play_button.svg" />
+    <AndroidResource Include="Resources\drawable\cardapio_header.xml" />
+    <AndroidResource Include="Resources\drawable\shadow.9.png" />
+    <AndroidResource Include="Resources\drawable\cardapio_footer_shadow.9.png" />
+    <AndroidResource Include="Resources\drawable\cardapio_header_shadow.9.png" />
+    <AndroidResource Include="Resources\drawable\cardapio_item_shadow.9.png" />
+    <AndroidResource Include="Resources\drawable\cardapio_item.xml" />
+    <AndroidResource Include="Resources\drawable\cardapio_footer.xml" />
+    <AndroidResource Include="Resources\layout\DiarioView.axml" />
+    <AndroidResource Include="Resources\layout\SemaforoView.axml" />
+    <AndroidResource Include="Resources\drawable\green_bullet.xml" />
+    <AndroidResource Include="Resources\drawable\red_bullet.xml" />
+    <AndroidResource Include="Resources\drawable\yellow_bullet.xml" />
+    <AndroidResource Include="Resources\layout\SemaforoViewItem.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_search.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_action_search.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_action_search.png" />
+    <AndroidResource Include="Resources\layout\DiarioViewItem.axml" />
+    <AndroidResource Include="Resources\layout\DiarioRefeicaoView.axml" />
+    <AndroidResource Include="Resources\layout\DiarioRefeicaoViewItem.axml" />
+    <AndroidResource Include="Resources\layout\DiarioRefeicaoViewHeaderItem.axml" />
+    <AndroidResource Include="Resources\layout\DiarioRefeicaoViewFooterItem.axml" />
+    <AndroidAsset Include="Assets\svg\ico_add_food.svg" />
+    <AndroidAsset Include="Assets\svg\ico_calendar.svg" />
+    <AndroidAsset Include="Assets\svg\ico_check_miss.svg" />
+    <AndroidAsset Include="Assets\svg\ico_check_ok.svg" />
+    <AndroidAsset Include="Assets\svg\ico_d_miss.svg" />
+    <AndroidAsset Include="Assets\svg\ico_d_ok.svg" />
+    <AndroidAsset Include="Assets\svg\menu00.svg" />
+    <AndroidAsset Include="Assets\svg\menu00on.svg" />
+    <AndroidResource Include="Resources\layout\DiarioAlimentosView.axml" />
+    <AndroidResource Include="Resources\layout\DiarioAlimentosViewItem.axml" />
+    <AndroidAsset Include="Assets\svg\smile1.svg" />
+    <AndroidAsset Include="Assets\svg\smile2.svg" />
+    <AndroidAsset Include="Assets\svg\smile3.svg" />
+    <AndroidAsset Include="Assets\svg\smile4.svg" />
+    <AndroidResource Include="Resources\layout\DiarioHelpView.axml" />
+    <AndroidResource Include="Resources\drawable\carinha_bullet_on.xml" />
+    <AndroidResource Include="Resources\drawable\carinha_bullet_off.xml" />
+    <AndroidResource Include="Resources\menu\diarioMenu.xml" />
+    <AndroidResource Include="Resources\layout\DicaViewFooterItem.axml" />
+    <AndroidResource Include="Resources\layout\CrescimentoViewFooterItem.axml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\MvxBindingAttributes.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_launcher.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\..\DS.Kids.Model.Communication\DS.Kids.Model.Communication.csproj">
+      <Project>{642AAFEE-5724-49E5-9CA4-63EB57FC6D06}</Project>
+      <Name>DS.Kids.Model.Communication</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DS.Kids.Model\DS.Kids.Model.csproj">
+      <Project>{0AC4D40F-7031-4D10-9F69-5FCF2ED547A5}</Project>
+      <Name>DS.Kids.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DS.Kids.Apps.Core\DS.Kids.Apps.Core.csproj">
+      <Project>{496E506E-F56F-4016-9163-DC832766B4E9}</Project>
+      <Name>DS.Kids.Apps.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Values-en-rUS\AppResources.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\AppResources.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\SplashStyle.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\Strings.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\colors.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <XamarinComponentReference Include="facebookandroid">
+      <Visible>False</Visible>
+      <Version>4.6.0.0</Version>
+    </XamarinComponentReference>
+    <XamarinComponentReference Include="googleplayservices">
+      <Visible>False</Visible>
+      <Version>25.0.0.0</Version>
+    </XamarinComponentReference>
+    <XamarinComponentReference Include="oxyplot">
+      <Visible>False</Visible>
+      <Version>2015.1.744</Version>
+    </XamarinComponentReference>
+    <XamarinComponentReference Include="xamandroidsupportv4-18">
+      <Visible>False</Visible>
+      <Version>22.2.0.0</Version>
+    </XamarinComponentReference>
+    <XamarinComponentReference Include="xamandroidsupportv7appcompat">
+      <Visible>False</Visible>
+      <Version>22.2.0.0</Version>
+    </XamarinComponentReference>
+    <XamarinComponentReference Include="xamandroidsupportv7cardview">
+      <Visible>False</Visible>
+      <Version>22.2.0.0</Version>
+    </XamarinComponentReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\Style.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\dimens.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values-v21\styles_dskids.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\black_gradient.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\svg\menu01.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\svg\menu02.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\svg\menu03.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\svg\menu04.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\svg\menu05.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\attrs.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+    <Error Condition="!Exists('..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets'))" />
+  </Target>
+  <Import Project="..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
+  <ItemGroup>
+    <AndroidAsset Include="Assets\svg\bt_ref_dica.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-xhdpi\bg_login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\svg\bot_close.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\menu\alterarSenhaMenu.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_accept.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_action_accept.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_action_accept.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_action_new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_action_new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\borderFill.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\bg_cadastro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\bg_login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-xhdpi\bg_cadastro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-xxhdpi\bg_login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-xxhdpi\bg_cadastro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\svg\menu01on.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\svg\menu02on.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\svg\menu03on.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\svg\menu04on.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\svg\menu05on.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\svg\mais_ico1.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\svg\mais_ico2.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\svg\mais_ico3.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\svg\mais_ico4.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\bggaveta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-xhdpi\bggaveta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-xxhdpi\bggaveta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\svg\logods.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\svg\logomv.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\svg\ico_defaultuser.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\svg\icologin_camera.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\svg\icologin_fem.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\svg\icologin_masc.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\svg\ico_defaultuser_blue.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_diario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_action_diario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_action_diario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\svg\icologin_camera_azul.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\svg\tit_bemvindo.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\svg\logo.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\svg\delete.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\item_selector.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\scrim_top.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\scrim_bottom.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-v21\item_selector.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\logoAdesFinal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\splash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-xhdpi\splash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-xxhdpi\splash.png" />
+  </ItemGroup>
+  <PropertyGroup>
+    <PreBuildEvent>powershell.exe -File "$(ProjectDir)PreBuild\prebuild.ps1" "$(ProjectDir)Properties\AndroidManifest.xml" "$(ProjectDir)Resources\values\Strings.xml"</PreBuildEvent>
+  </PropertyGroup>
+</Project>

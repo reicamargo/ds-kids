@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0AC4D40F-7031-4D10-9F69-5FCF2ED547A5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DS.Kids.Model</RootNamespace>
+    <AssemblyName>DS.Kids.Model</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkProfile>Profile259</TargetFrameworkProfile>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Alimento.cs" />
+    <Compile Include="AlimentoMedidaFaixaEtaria.cs" />
+    <Compile Include="Cardapio.cs" />
+    <Compile Include="Carinha.cs" />
+    <Compile Include="Categoria.cs" />
+    <Compile Include="Crescimento.cs" />
+    <Compile Include="Brincadeira.cs" />
+    <Compile Include="Crianca.cs" />
+    <Compile Include="DestaqueAlimento.cs" />
+    <Compile Include="Diario.cs" />
+    <Compile Include="DiarioDTO.cs" />
+    <Compile Include="Dica.cs" />
+    <Compile Include="EsqueciMinhaSenha.cs" />
+    <Compile Include="FaixaEtaria.cs" />
+    <Compile Include="Optin.cs" />
+    <Compile Include="ParceiroSingleton.cs" />
+    <Compile Include="RefeicaoGrupoPartial.cs" />
+    <Compile Include="Grupo.cs" />
+    <Compile Include="Material.cs" />
+    <Compile Include="Medida.cs" />
+    <Compile Include="Objetivo.cs" />
+    <Compile Include="Paragrafo.cs" />
+    <Compile Include="Parceiro.cs" />
+    <Compile Include="RedesSociais.cs" />
+    <Compile Include="Refeicao.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RefeicaoDiario.cs" />
+    <Compile Include="RefeicaoItem.cs" />
+    <Compile Include="RefeicaoGrupo.cs" />
+    <Compile Include="Repositories\IAlimentos.cs" />
+    <Compile Include="Repositories\IParceiro.cs" />
+    <Compile Include="Repositories\IRefeicoesDiarios.cs" />
+    <Compile Include="Repositories\IDicas.cs" />
+    <Compile Include="Repositories\ICategorias.cs" />
+    <Compile Include="Repositories\IBrincadeiras.cs" />
+    <Compile Include="Repositories\ILoginsSociais.cs" />
+    <Compile Include="Repositories\IParagrafos.cs" />
+    <Compile Include="Repositories\IParceiros.cs" />
+    <Compile Include="Repositories\IRefeicoes.cs" />
+    <Compile Include="Repositories\IRefeicoesGrupos.cs" />
+    <Compile Include="Semaforo.cs" />
+    <Compile Include="Services\IAlimento.cs" />
+    <Compile Include="Services\ICardapio.cs" />
+    <Compile Include="Services\IDiario.cs" />
+    <Compile Include="Services\IOptin.cs" />
+    <Compile Include="Services\ISenha.cs" />
+    <Compile Include="Repositories\Exceptions.cs" />
+    <Compile Include="Services\IToken.cs" />
+    <Compile Include="StatusCarinha.cs" />
+    <Compile Include="TipoGrupoRefeicao.cs" />
+    <Compile Include="TipoParagrafo.cs" />
+    <Compile Include="TipoParceiro.cs" />
+    <Compile Include="TipoAmbiente.cs" />
+    <Compile Include="TipoRefeicao.cs" />
+    <Compile Include="RefeicaoDiarioPartial.cs" />
+    <Compile Include="TrocaDeSenha.cs" />
+    <Compile Include="Validations\ResultCodes.cs" />
+    <Compile Include="LoginSocial.cs" />
+    <Compile Include="Percentil.cs" />
+    <Compile Include="PesoAltura.cs" />
+    <Compile Include="Repositories\ICrescimentos.cs" />
+    <Compile Include="Repositories\ICriancas.cs" />
+    <Compile Include="Repositories\IResponsaveis.cs" />
+    <Compile Include="Repositories\ITokens.cs" />
+    <Compile Include="Result.cs" />
+    <Compile Include="Services\ICrescimento.cs" />
+    <Compile Include="Services\ICrianca.cs" />
+    <Compile Include="Support\BaseModel.cs" />
+    <Compile Include="Login.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Responsavel.cs" />
+    <Compile Include="Services\IResponsavel.cs" />
+    <Compile Include="Services\ILogin.cs" />
+    <Compile Include="Support\ExtentionMethods.cs" />
+    <Compile Include="Support\Throw.cs" />
+    <Compile Include="TipoCrescimento.cs" />
+    <Compile Include="Token.cs" />
+    <Compile Include="Validations\Messages.cs" />
+    <Compile Include="Validations\Validate.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\portable-net45+wp80+win8+wpa81+dnxcore50\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+  </Target>
+</Project>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingTop="?attr/actionBarSize"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<!--local:header="@layout/diariorefeicaoviewheaderitem"-->
+    <com.mopub.mobileads.MoPubView
+        android:id="@+id/ad_banner"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="6dp"
+        android:layout_height="50dp" />
+    <ds.kids.apps.droid.controls.DiarioRefeicaoRecyclerView
+        local:MvxBind="ItemsSource RefeicoesGrupo; HeaderItemClick RefeicaoGrupoSelectedCommand; ItemClick DeleteAlimentoCommand"
+        local:MvxItemTemplate="@layout/diariorefeicaoviewitem"
+        local:HeaderItemTemplate="@layout/diariorefeicaoviewheaderitem"
+        local:FooterItemTemplate="@layout/diariorefeicaoviewfooteritem"
+        android:id="@+id/diarioRefeicao_recyclerView"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:drawSelectorOnTop="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</LinearLayout>

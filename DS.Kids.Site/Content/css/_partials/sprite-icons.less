@@ -1,0 +1,63 @@
+﻿.stitches-sprite(@x: 0, @y: 0, @width: 0, @height: 0) {
+    background-position: @x @y;
+    width: @width;
+    height: @height;
+}
+
+.sprite {
+    background-image: url(../../img/sprites/sprite.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+
+    &.ico-cardapios {
+        .stitches-sprite(-5px, -5px, 45px, 31px);
+    }
+
+    &.ico-dicas {
+        .stitches-sprite(-60px, -5px, 33px, 34px);
+    }
+
+    &.ico-evolucao {
+        .stitches-sprite(-103px, -5px, 33px, 28px);
+    }
+
+    &.ico-voltar {
+        .stitches-sprite(-146px, -5px, 20px, 12px);
+    }
+
+    &.kic-adeptos {
+        .stitches-sprite(-176px, -5px, 138px, 53px);
+    }
+
+    &.kic-descobridores {
+        .stitches-sprite(-5px, -68px, 221px, 73px);
+    }
+
+    &.kic-empresa {
+        .stitches-sprite(-5px, -151px, 137px, 73px);
+    }
+
+    &.kic-exploradores {
+        .stitches-sprite(-152px, -151px, 132px, 58px);
+    }
+
+    &.kic-pioneiros {
+        .stitches-sprite(-236px, -68px, 59px, 54px);
+    }
+
+    &.kic-saudaveis {
+        .stitches-sprite(-5px, -234px, 234px, 43px);
+    }
+
+    &.kic-seguidores {
+        .stitches-sprite(-324px, -5px, 220px, 53px);
+    }
+
+    &.kic-vips {
+        .stitches-sprite(-249px, -219px, 278px, 40px);
+    }
+
+    &.kickar {
+        .stitches-sprite(-305px, -68px, 31px, 29px);
+    }
+}

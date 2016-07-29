@@ -1,0 +1,750 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{8E4EC8EC-197E-428B-B8D4-605A47A3EFCD}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>DS.Kids.Apps.iOS</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>DSKidsAppsiOS</AssemblyName>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <NuGetPackageImportStamp>4aa9bb13</NuGetPackageImportStamp>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>i386</MtouchArch>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchDebug>True</MtouchDebug>
+    <MtouchSdkVersion>8.3</MtouchSdkVersion>
+    <MtouchProfiling>False</MtouchProfiling>
+    <MtouchExtraArgs>--linkskip=BRFX.Core --linkskip=BRFXCoreIOS --linkskip=DS.Kids.Apps.Core --linkskip=DS.Kids.Model --linkskip=DS.Kids.Model.Communication --linkskip=System.Core --linkskip=System.Threading.Tasks</MtouchExtraArgs>
+    <MtouchFastDev>False</MtouchFastDev>
+    <MtouchEnableGenericValueTypeSharing>True</MtouchEnableGenericValueTypeSharing>
+    <MtouchUseLlvm>False</MtouchUseLlvm>
+    <MtouchUseThumb>False</MtouchUseThumb>
+    <MtouchUseSGen>False</MtouchUseSGen>
+    <MtouchUseRefCounting>False</MtouchUseRefCounting>
+    <MtouchOptimizePNGs>True</MtouchOptimizePNGs>
+    <MtouchI18n />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchArch>i386</MtouchArch>
+    <ConsolePause>false</ConsolePause>
+    <MtouchLink>Full</MtouchLink>
+    <MtouchSdkVersion>8.3</MtouchSdkVersion>
+    <MtouchDebug>False</MtouchDebug>
+    <MtouchProfiling>False</MtouchProfiling>
+    <MtouchExtraArgs>--linkskip=BRFX.Core --linkskip=BRFXCoreIOS --linkskip=DS.Kids.Apps.Core --linkskip=DS.Kids.Model --linkskip=DS.Kids.Model.Communication --linkskip=System.Core --linkskip=System.Threading.Tasks</MtouchExtraArgs>
+    <MtouchFastDev>False</MtouchFastDev>
+    <MtouchEnableGenericValueTypeSharing>True</MtouchEnableGenericValueTypeSharing>
+    <MtouchUseLlvm>False</MtouchUseLlvm>
+    <MtouchUseThumb>False</MtouchUseThumb>
+    <MtouchUseSGen>False</MtouchUseSGen>
+    <MtouchUseRefCounting>False</MtouchUseRefCounting>
+    <MtouchOptimizePNGs>True</MtouchOptimizePNGs>
+    <MtouchI18n />
+    <CodesignKey>iPhone Developer: Alexandre Tarifa (JB4MKU6A35)</CodesignKey>
+    <CodesignProvision />
+    <CodesignEntitlements />
+    <CodesignResourceRules />
+    <CodesignExtraArgs />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>ARMv7, ARMv7s</MtouchArch>
+    <CodesignEntitlements>
+    </CodesignEntitlements>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchDebug>True</MtouchDebug>
+    <CodesignProvision>
+    </CodesignProvision>
+    <CodesignResourceRules />
+    <CodesignExtraArgs />
+    <MtouchSdkVersion>8.3</MtouchSdkVersion>
+    <MtouchLink>Full</MtouchLink>
+    <MtouchProfiling>False</MtouchProfiling>
+    <MtouchExtraArgs>--linkskip=BRFX.Core --linkskip=BRFXCoreIOS --linkskip=DS.Kids.Apps.Core --linkskip=DS.Kids.Model --linkskip=DS.Kids.Model.Communication --linkskip=System.Core --linkskip=System.Threading.Tasks</MtouchExtraArgs>
+    <MtouchFastDev>False</MtouchFastDev>
+    <MtouchEnableGenericValueTypeSharing>True</MtouchEnableGenericValueTypeSharing>
+    <MtouchUseLlvm>False</MtouchUseLlvm>
+    <MtouchUseThumb>False</MtouchUseThumb>
+    <MtouchUseSGen>False</MtouchUseSGen>
+    <MtouchUseRefCounting>False</MtouchUseRefCounting>
+    <MtouchOptimizePNGs>True</MtouchOptimizePNGs>
+    <MtouchI18n />
+    <BuildIpa>True</BuildIpa>
+    <IpaMetadata />
+    <IpaPackageName />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignEntitlements>
+    </CodesignEntitlements>
+    <MtouchArch>ARMv7, ARMv7s, ARM64</MtouchArch>
+    <ConsolePause>false</ConsolePause>
+    <CodesignKey>iPhone Distribution</CodesignKey>
+    <MtouchSdkVersion>8.3</MtouchSdkVersion>
+    <MtouchLink>Full</MtouchLink>
+    <MtouchDebug>False</MtouchDebug>
+    <MtouchProfiling>False</MtouchProfiling>
+    <MtouchExtraArgs>--linkskip=BRFX.Core --linkskip=BRFXCoreIOS --linkskip=DS.Kids.Apps.Core --linkskip=DS.Kids.Model --linkskip=DS.Kids.Model.Communication --linkskip=System.Core --linkskip=System.Threading.Tasks</MtouchExtraArgs>
+    <MtouchFastDev>False</MtouchFastDev>
+    <MtouchEnableGenericValueTypeSharing>True</MtouchEnableGenericValueTypeSharing>
+    <MtouchUseLlvm>False</MtouchUseLlvm>
+    <MtouchUseThumb>False</MtouchUseThumb>
+    <MtouchUseSGen>False</MtouchUseSGen>
+    <MtouchUseRefCounting>False</MtouchUseRefCounting>
+    <MtouchOptimizePNGs>True</MtouchOptimizePNGs>
+    <MtouchI18n />
+    <CodesignProvision>
+    </CodesignProvision>
+    <CodesignResourceRules />
+    <CodesignExtraArgs />
+    <BuildIpa>True</BuildIpa>
+    <IpaIncludeArtwork>False</IpaIncludeArtwork>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Ad-Hoc|iPhone' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Ad-Hoc</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <IpaIncludeArtwork>False</IpaIncludeArtwork>
+    <CodesignKey>iPhone Distribution: B2U Editora Ltda (C92NH3Z85J)</CodesignKey>
+    <CodesignProvision>
+    </CodesignProvision>
+    <BuildIpa>True</BuildIpa>
+    <CodesignResourceRules />
+    <CodesignExtraArgs />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'AppStore|iPhone' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\AppStore</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <CodesignProvision>866ff9f7-5d62-4643-89f4-70d6226a140a</CodesignProvision>
+    <CodesignKey>iPhone Distribution</CodesignKey>
+    <MtouchSdkVersion>9.3</MtouchSdkVersion>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchDebug>False</MtouchDebug>
+    <MtouchProfiling>False</MtouchProfiling>
+    <MtouchFastDev>False</MtouchFastDev>
+    <MtouchUseLlvm>False</MtouchUseLlvm>
+    <MtouchUseThumb>False</MtouchUseThumb>
+    <MtouchUseSGen>False</MtouchUseSGen>
+    <MtouchUseRefCounting>False</MtouchUseRefCounting>
+    <OptimizePNGs>True</OptimizePNGs>
+    <MtouchFloat32>False</MtouchFloat32>
+    <MtouchI18n />
+    <CodesignResourceRules />
+    <CodesignExtraArgs />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BRFX.Core">
+      <HintPath>BRFX\BRFX.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="BRFXCoreIOS">
+      <HintPath>BRFX\BRFXCoreIOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.CrossCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e16445fd9b451819, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.CrossCore.3.5.1\lib\Xamarin.iOS10\Cirrious.CrossCore.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Cirrious.CrossCore.Touch, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.CrossCore.3.5.1\lib\Xamarin.iOS10\Cirrious.CrossCore.Touch.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e16445fd9b451819, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.5.1\lib\Xamarin.iOS10\Cirrious.MvvmCross.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Binding, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.CrossCore.3.5.1\lib\Xamarin.iOS10\Cirrious.MvvmCross.Binding.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Binding.Touch, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.CrossCore.3.5.1\lib\Xamarin.iOS10\Cirrious.MvvmCross.Binding.Touch.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Localization, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.CrossCore.3.5.1\lib\Xamarin.iOS10\Cirrious.MvvmCross.Localization.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.Color, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.Plugin.Color.3.5.1\lib\Xamarin.iOS10\Cirrious.MvvmCross.Plugins.Color.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.Color.Touch, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.Plugin.Color.3.5.1\lib\Xamarin.iOS10\Cirrious.MvvmCross.Plugins.Color.Touch.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.DownloadCache, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.Plugin.DownloadCache.3.5.1\lib\Xamarin.iOS10\Cirrious.MvvmCross.Plugins.DownloadCache.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.DownloadCache.Touch, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.Plugin.DownloadCache.3.5.1\lib\Xamarin.iOS10\Cirrious.MvvmCross.Plugins.DownloadCache.Touch.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.File, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.Plugin.File.3.5.1\lib\Xamarin.iOS10\Cirrious.MvvmCross.Plugins.File.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.File.Touch, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.Plugin.File.3.5.1\lib\Xamarin.iOS10\Cirrious.MvvmCross.Plugins.File.Touch.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.Json, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.Plugin.Json.3.5.1\lib\Xamarin.iOS10\Cirrious.MvvmCross.Plugins.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.Messenger, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.Plugin.Messenger.3.5.1\lib\Xamarin.iOS10\Cirrious.MvvmCross.Plugins.Messenger.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.PictureChooser, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.Plugin.PictureChooser.3.5.1\lib\Xamarin.iOS10\Cirrious.MvvmCross.Plugins.PictureChooser.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.PictureChooser.Touch, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.Plugin.PictureChooser.3.5.1\lib\Xamarin.iOS10\Cirrious.MvvmCross.Plugins.PictureChooser.Touch.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.Visibility, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.Plugin.Visibility.3.5.1\lib\Xamarin.iOS10\Cirrious.MvvmCross.Plugins.Visibility.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.Visibility.Touch, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.Plugin.Visibility.3.5.1\lib\Xamarin.iOS10\Cirrious.MvvmCross.Plugins.Visibility.Touch.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.WebBrowser, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.Plugin.WebBrowser.3.5.1\lib\Xamarin.iOS10\Cirrious.MvvmCross.Plugins.WebBrowser.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.WebBrowser.Touch, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.Plugin.WebBrowser.3.5.1\lib\Xamarin.iOS10\Cirrious.MvvmCross.Plugins.WebBrowser.Touch.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Touch, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.5.1\lib\Xamarin.iOS10\Cirrious.MvvmCross.Touch.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CorePlotiOS">
+      <HintPath>..\Components\coreplot-1.5.1.2\lib\ios-unified\CorePlotiOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Crashlytics">
+      <HintPath>Crashlytics\Crashlytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook, Version=4.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\Packages\Xamarin.Facebook.iOS.4.4.0.0\lib\Xamarin.iOS10\Facebook.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="GoogleAnalytics.iOS">
+      <HintPath>..\Components\googleanalytics-3.0.12\lib\ios-unified\GoogleAnalytics.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="MoPubSDK">
+      <HintPath>..\Mopub\MoPubSDK.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Newtonsoft.Json.7.0.1\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Parse.iOS">
+      <HintPath>..\..\Packages\Parse.1.6.0\lib\Xamarin.iOS10\Parse.iOS.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TPKeyboardAvoiding">
+      <HintPath>.\TPKeyboardAvoiding.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.iOS" />
+    <Reference Include="System.Net.Http.Primitives">
+      <HintPath>..\..\packages\Microsoft.Net.Http.2.2.29\lib\Xamarin.iOS10\System.Net.Http.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Extensions">
+      <HintPath>..\..\packages\Microsoft.Net.Http.2.2.29\lib\Xamarin.iOS10\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\DS.Kids.Model\DS.Kids.Model.csproj">
+      <Project>{0AC4D40F-7031-4D10-9F69-5FCF2ED547A5}</Project>
+      <Name>DS.Kids.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DS.Kids.Model.Communication\DS.Kids.Model.Communication.csproj">
+      <Project>{642AAFEE-5724-49E5-9CA4-63EB57FC6D06}</Project>
+      <Name>DS.Kids.Model.Communication</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DS.Kids.Apps.Core\DS.Kids.Apps.Core.csproj">
+      <Project>{496e506e-f56f-4016-9163-dc832766b4e9}</Project>
+      <Name>DS.Kids.Apps.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Default%402x.png" />
+    <BundleResource Include="Resources\Default-568h%402x.png" />
+    <BundleResource Include="Resources\login_bg%402x.png" />
+    <BundleResource Include="Resources\login_bg%403x.png" />
+    <BundleResource Include="Resources\login_camera%402x.png" />
+    <BundleResource Include="Resources\login_camera%403x.png" />
+    <BundleResource Include="Resources\login_sexo_fem%402x.png" />
+    <BundleResource Include="Resources\login_sexo_fem%403x.png" />
+    <BundleResource Include="Resources\login_sexo_masc%402x.png" />
+    <BundleResource Include="Resources\login_sexo_masc%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\botav%402x.png" />
+    <BundleResource Include="Resources\botav%403x.png" />
+    <BundleResource Include="Resources\bot01%402x.png" />
+    <BundleResource Include="Resources\bot01%403x.png" />
+    <BundleResource Include="Resources\bot02%402x.png" />
+    <BundleResource Include="Resources\bot02%403x.png" />
+    <BundleResource Include="Resources\bot03%402x.png" />
+    <BundleResource Include="Resources\bot03%403x.png" />
+    <BundleResource Include="Resources\bot04%402x.png" />
+    <BundleResource Include="Resources\bot04%403x.png" />
+    <BundleResource Include="Resources\bot05%402x.png" />
+    <BundleResource Include="Resources\bot05%403x.png" />
+    <BundleResource Include="Resources\bot06%402x.png" />
+    <BundleResource Include="Resources\bot06%403x.png" />
+    <BundleResource Include="Resources\tit01%402x.png" />
+    <BundleResource Include="Resources\tit01%403x.png" />
+    <BundleResource Include="Resources\tit02%402x.png" />
+    <BundleResource Include="Resources\tit02%403x.png" />
+    <BundleResource Include="Resources\tit03%402x.png" />
+    <BundleResource Include="Resources\tit03%403x.png" />
+    <BundleResource Include="Resources\tit04%402x.png" />
+    <BundleResource Include="Resources\tit04%403x.png" />
+    <BundleResource Include="Resources\tit05%402x.png" />
+    <BundleResource Include="Resources\tit05%403x.png" />
+    <BundleResource Include="Resources\tit06%402x.png" />
+    <BundleResource Include="Resources\tit06%403x.png" />
+    <BundleResource Include="Resources\bt1%402x.png" />
+    <BundleResource Include="Resources\bt1%403x.png" />
+    <BundleResource Include="Resources\bt2%402x.png" />
+    <BundleResource Include="Resources\bt2%403x.png" />
+    <BundleResource Include="Resources\bt3%402x.png" />
+    <BundleResource Include="Resources\bt3%403x.png" />
+    <BundleResource Include="Resources\bt4%402x.png" />
+    <BundleResource Include="Resources\bt4%403x.png" />
+    <BundleResource Include="Resources\verdechar%402x.png" />
+    <BundleResource Include="Resources\verdechar%403x.png" />
+    <BundleResource Include="Resources\vermelhochar%402x.png" />
+    <BundleResource Include="Resources\vermelhochar%403x.png" />
+    <BundleResource Include="Resources\bt1on%402x.png" />
+    <BundleResource Include="Resources\bt1on%403x.png" />
+    <BundleResource Include="Resources\bt4on%402x.png" />
+    <BundleResource Include="Resources\bt4on%403x.png" />
+    <BundleResource Include="Resources\bt3on%403x.png" />
+    <BundleResource Include="Resources\bt3on%402x.png" />
+    <BundleResource Include="Resources\bt2on%402x.png" />
+    <BundleResource Include="Resources\bt2on%403x.png" />
+    <BundleResource Include="Resources\ico1%402x.png" />
+    <BundleResource Include="Resources\ico1%403x.png" />
+    <BundleResource Include="Resources\ico2%402x.png" />
+    <BundleResource Include="Resources\ico2%403x.png" />
+    <BundleResource Include="Resources\separador%402x.png" />
+    <BundleResource Include="Resources\separador%403x.png" />
+    <BundleResource Include="Resources\visto%402x.png" />
+    <BundleResource Include="Resources\visto%403x.png" />
+    <BundleResource Include="Resources\bg_glass%402x.png" />
+    <BundleResource Include="Resources\bg_glass%403x.png" />
+    <BundleResource Include="Resources\fecharazul%402x.png" />
+    <BundleResource Include="Resources\fecharazul%403x.png" />
+    <BundleResource Include="Resources\avatar-default%402x.png" />
+    <BundleResource Include="Resources\avatar-default%403x.png" />
+    <BundleResource Include="Resources\ico_star%402x.png" />
+    <BundleResource Include="Resources\ico_star%403x.png" />
+    <BundleResource Include="Resources\icomais_01%402x.png" />
+    <BundleResource Include="Resources\icomais_01%403x.png" />
+    <BundleResource Include="Resources\icomais_02%402x.png" />
+    <BundleResource Include="Resources\icomais_02%403x.png" />
+    <BundleResource Include="Resources\icomais_03%402x.png" />
+    <BundleResource Include="Resources\icomais_03%403x.png" />
+    <BundleResource Include="Resources\logods%402x.png" />
+    <BundleResource Include="Resources\logods%403x.png" />
+    <BundleResource Include="Resources\logomv%402x.png" />
+    <BundleResource Include="Resources\logomv%403x.png" />
+    <BundleResource Include="Resources\popbg%402x.png" />
+    <BundleResource Include="Resources\popbg%403x.png" />
+    <BundleResource Include="Resources\poptit%402x.png" />
+    <BundleResource Include="Resources\poptit%403x.png" />
+    <BundleResource Include="Resources\carregando%403x.png" />
+    <BundleResource Include="Resources\carregando%402x.png" />
+    <BundleResource Include="Resources\erro%402x.png" />
+    <BundleResource Include="Resources\erro%403x.png" />
+    <BundleResource Include="Resources\bt0on%402x.png" />
+    <BundleResource Include="Resources\bt0on%403x.png" />
+    <BundleResource Include="Resources\ico_add_food%402x.png" />
+    <BundleResource Include="Resources\ico_add_food%403x.png" />
+    <BundleResource Include="Resources\ico_calendar%402x.png" />
+    <BundleResource Include="Resources\ico_calendar%403x.png" />
+    <BundleResource Include="Resources\ico_check_miss%402x.png" />
+    <BundleResource Include="Resources\ico_check_miss%403x.png" />
+    <BundleResource Include="Resources\ico_check_ok%402x.png" />
+    <BundleResource Include="Resources\ico_check_ok%403x.png" />
+    <BundleResource Include="Resources\ico_d_miss%402x.png" />
+    <BundleResource Include="Resources\ico_d_miss%403x.png" />
+    <BundleResource Include="Resources\ico_d_ok%402x.png" />
+    <BundleResource Include="Resources\ico_d_ok%403x.png" />
+    <BundleResource Include="Resources\ico_stats%402x.png" />
+    <BundleResource Include="Resources\ico_stats%403x.png" />
+    <BundleResource Include="Resources\smile1_triste%402x.png" />
+    <BundleResource Include="Resources\smile1_triste%403x.png" />
+    <BundleResource Include="Resources\smile2_medio%402x.png" />
+    <BundleResource Include="Resources\smile2_medio%403x.png" />
+    <BundleResource Include="Resources\smile3_feliz%402x.png" />
+    <BundleResource Include="Resources\smile3_feliz%403x.png" />
+    <BundleResource Include="Resources\smile4_cheio%402x.png" />
+    <BundleResource Include="Resources\smile4_cheio%403x.png" />
+    <BundleResource Include="Resources\bt0%402x.png" />
+    <BundleResource Include="Resources\bt0%403x.png" />
+    <BundleResource Include="Resources\seta%402x.png" />
+    <BundleResource Include="Resources\seta%403x.png" />
+    <BundleResource Include="Resources\Icon-Small%402x.png" />
+    <BundleResource Include="Resources\Icon-Small-40%402x.png" />
+    <BundleResource Include="Resources\Icon-60%402x.png" />
+    <BundleResource Include="Resources\logoAdesFinal%402x.png" />
+    <BundleResource Include="Resources\logoAdesFinal%403x.png" />
+    <BundleResource Include="Resources\MPCloseButtonX.png" />
+    <BundleResource Include="Resources\MPCloseButtonX%402x.png" />
+    <BundleResource Include="Resources\MPCloseButtonX%403x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\LaunchImages.launchimage\Splash-ScreenRetina4.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Images.xcassets\LaunchImages.launchimage\Splash-Screen_640x960.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-87%403x.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-60%403x.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-60%402x.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-58%402x.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-40%403x.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-40%402x.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <None Include="app.config" />
+    <Content Include="en.lproj\Localizable.strings" />
+    <None Include="Info.plist">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Entitlements.plist" />
+    <InterfaceDefinition Include="MPAdBrowserController.xib" />
+    <None Include="packages.config" />
+    <InterfaceDefinition Include="ViewsStoryBoard.storyboard">
+      <SubType>Designer</SubType>
+    </InterfaceDefinition>
+    <BundleResource Include="Resources\Hangyaboly.ttf" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Contents.json">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Images.xcassets\LaunchImages.launchimage\Contents.json">
+      <InProject>false</InProject>
+    </ImageAsset>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ads\MoPubconfig.cs" />
+    <Compile Include="Bootstrap\ColorPluginBootstrap.cs" />
+    <Compile Include="Bootstrap\DownloadCachePluginBootstrap.cs" />
+    <Compile Include="Bootstrap\FilePluginBootstrap.cs" />
+    <Compile Include="Bootstrap\JsonPluginBootstrap.cs" />
+    <Compile Include="Bootstrap\MessengerPluginBootstrap.cs" />
+    <Compile Include="Bootstrap\PictureChooserPluginBootstrap.cs" />
+    <Compile Include="Bootstrap\VisibilityPluginBootstrap.cs" />
+    <Compile Include="Bootstrap\WebBrowserPluginBootstrap.cs" />
+    <Compile Include="Controls\DiarioRefeicaoTableViewSource.cs" />
+    <Compile Include="Controls\DiarioAlimentosTableViewSource.cs" />
+    <Compile Include="Controls\SemaforoTableViewSource.cs" />
+    <Compile Include="Controls\DicaTableViewSource.cs" />
+    <Compile Include="Controls\DiarioTableViewSource.cs" />
+    <Compile Include="Converters\DiarioRefeicaoComidaImageConverter.cs" />
+    <Compile Include="Converters\CarinhaImageConverter.cs" />
+    <Compile Include="Converters\DiarioBulletAlphaConverter.cs" />
+    <Compile Include="Views\DiarioHelpView.cs" />
+    <Compile Include="Views\DiarioHelpView.designer.cs">
+      <DependentUpon>DiarioHelpView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DiarioAlimentosView.cs" />
+    <Compile Include="Views\DiarioAlimentosView.designer.cs">
+      <DependentUpon>DiarioAlimentosView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DiarioRefeicaoView.cs" />
+    <Compile Include="Views\DiarioRefeicaoView.designer.cs">
+      <DependentUpon>DiarioRefeicaoView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MopubInterstitialAdDelegate.cs" />
+    <Compile Include="Views\SemaforoView.cs" />
+    <Compile Include="Views\SemaforoView.designer.cs">
+      <DependentUpon>SemaforoView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DiarioView.cs" />
+    <Compile Include="Views\DiarioView.designer.cs">
+      <DependentUpon>DiarioView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MaisWebView.cs" />
+    <Compile Include="Views\MaisWebView.designer.cs">
+      <DependentUpon>MaisWebView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Plugins\LocalNotifications.cs" />
+    <Compile Include="Views\PoliticaPrivacidadeView.cs" />
+    <Compile Include="Views\PoliticaPrivacidadeView.designer.cs">
+      <DependentUpon>PoliticaPrivacidadeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AlterarSenhaView.cs" />
+    <Compile Include="Views\AlterarSenhaView.designer.cs">
+      <DependentUpon>AlterarSenhaView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ConfiguracoesCollectionViewSource.cs" />
+    <Compile Include="Views\AlterarFilhoView.cs" />
+    <Compile Include="Views\AlterarFilhoView.designer.cs">
+      <DependentUpon>AlterarFilhoView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Analytics\GoogleAnalytics.cs" />
+    <Compile Include="Views\BaseHomeChildView.cs" />
+    <Compile Include="Views\ConfiguracoesView.cs" />
+    <Compile Include="Views\ConfiguracoesView.designer.cs">
+      <DependentUpon>ConfiguracoesView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\CategoriaTableViewSource.cs" />
+    <Compile Include="Views\DicaView.cs" />
+    <Compile Include="Views\DicaView.designer.cs">
+      <DependentUpon>DicaView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CategoriaView.cs" />
+    <Compile Include="Views\CategoriaView.designer.cs">
+      <DependentUpon>CategoriaView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\CategoriasCollectionViewSource.cs" />
+    <Compile Include="Controls\BrincadeiraTableViewSource.cs" />
+    <Compile Include="Controls\BrincadeirasCollectionViewSource.cs" />
+    <Compile Include="Views\BrincadeiraView.cs" />
+    <Compile Include="Views\BrincadeiraView.designer.cs">
+      <DependentUpon>BrincadeiraView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\CrescimentosTableViewSource.cs" />
+    <Compile Include="Views\SobreView.cs" />
+    <Compile Include="Views\SobreView.designer.cs">
+      <DependentUpon>SobreView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AtualizarPesoAlturaView.cs" />
+    <Compile Include="Views\AtualizarPesoAlturaView.designer.cs">
+      <DependentUpon>AtualizarPesoAlturaView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AlturaPickerViewModel.cs" />
+    <Compile Include="Controls\CardapiosTableViewSource.cs" />
+    <Compile Include="Controls\GraphHelper.cs" />
+    <Compile Include="Controls\PesoPickerViewModel.cs" />
+    <Compile Include="Views\AvaliacaoView.cs" />
+    <Compile Include="Views\AvaliacaoView.designer.cs">
+      <DependentUpon>AvaliacaoView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\BrincadeirasView.cs" />
+    <Compile Include="Views\BrincadeirasView.designer.cs">
+      <DependentUpon>BrincadeirasView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CardapiosView.cs" />
+    <Compile Include="Views\CardapiosView.designer.cs">
+      <DependentUpon>CardapiosView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CategoriasView.cs" />
+    <Compile Include="Views\CategoriasView.designer.cs">
+      <DependentUpon>CategoriasView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CrescimentoView.cs" />
+    <Compile Include="Views\CrescimentoView.designer.cs">
+      <DependentUpon>CrescimentoView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\HomeView.cs" />
+    <Compile Include="Views\HomeView.designer.cs">
+      <DependentUpon>HomeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Plugins\FbData.cs" />
+    <Compile Include="Views\AdicionarFilhoView.cs" />
+    <Compile Include="Views\AdicionarFilhoView.designer.cs">
+      <DependentUpon>AdicionarFilhoView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExtensionMethods.cs" />
+    <Compile Include="Views\LoginView.cs" />
+    <Compile Include="Views\LoginView.designer.cs">
+      <DependentUpon>LoginView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MainView.cs" />
+    <Compile Include="Views\MainView.designer.cs">
+      <DependentUpon>MainView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EsqueciSenhaView.cs" />
+    <Compile Include="Views\EsqueciSenhaView.designer.cs">
+      <DependentUpon>EsqueciSenhaView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LinkerPleaseInclude.cs" />
+    <Compile Include="Views\CriarContaView.cs" />
+    <Compile Include="Views\CriarContaView.designer.cs">
+      <DependentUpon>CriarContaView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="Setup.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <XamarinComponentReference Include="coreplot">
+      <Visible>False</Visible>
+      <Version>1.5.1.2</Version>
+    </XamarinComponentReference>
+    <XamarinComponentReference Include="facebookios">
+      <Visible>False</Visible>
+      <Version>4.4.0</Version>
+    </XamarinComponentReference>
+    <XamarinComponentReference Include="googleanalytics">
+      <Visible>False</Visible>
+      <Version>3.0.12</Version>
+    </XamarinComponentReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\login_bg_cadastro%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\login_bg_cadastro%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\login_bg_tit%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\login_bg_tit%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\botl%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\botl%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\soc01%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\soc01%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\soc03%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\soc03%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\fechar%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\fechar%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\text-field%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\text-field%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\back%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\back%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\login_logo%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\login_logo%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="Resources/Images.xcassets/AppIcons.appiconset/Contents.json">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources/Images.xcassets/AppIcons.appiconset/Icon-40@2x.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources/Images.xcassets/AppIcons.appiconset/Icon-40@3x.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources/Images.xcassets/AppIcons.appiconset/Icon-58@2x.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources/Images.xcassets/AppIcons.appiconset/Icon-60@2x.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources/Images.xcassets/AppIcons.appiconset/Icon-60@3x.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources/Images.xcassets/AppIcons.appiconset/Icon-87@3x.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources/Images.xcassets/LaunchImages.launchimage/Contents.json">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources/Images.xcassets/LaunchImages.launchimage/Splash-ScreenRetina4.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources/Images.xcassets/LaunchImages.launchimage/Splash-Screen_640x960.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\back_blue%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\back_blue%403x.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <Import Project="..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+  </Target>
+</Project>

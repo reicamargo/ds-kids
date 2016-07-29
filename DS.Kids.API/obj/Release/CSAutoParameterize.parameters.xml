@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DSKids-Web.config Connection String" description="DSKids Connection String used in web.config by the application to access the database." defaultValue="Data Source=MVSQLHOMOLOG2;Initial Catalog=DSKids;User ID=Dieta; Persist Security Info=True; Pwd=h0m0l0g@c@0_s0l" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\ProjetosTF\\ds-kids-v2\\DS\.Kids\.API\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DSKids']/@connectionString" />
+  </parameter>
+</parameters>

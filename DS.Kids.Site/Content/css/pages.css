@@ -1,0 +1,96 @@
+﻿@font-face {
+  font-family: 'Hangyaboly';
+  src: url('../fonts/angyaboly-webfont.eot');
+  src: url('../fonts/hangyaboly-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/hangyaboly-webfont.woff2') format('woff2'), url('../fonts/hangyaboly-webfont.woff') format('woff'), url('../fonts/hangyaboly-webfont.ttf') format('truetype'), url('../fonts/hangyaboly-webfont.svg#hangyabolyregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  color: #666;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: Helvetica, Roboto, sans-serif;
+  text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  font-family: Hangyaboly, Roboto, Helvetica;
+}
+img {
+  max-width: 100%;
+}
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+.vbottom {
+  display: inline-block;
+  vertical-align: bottom;
+  float: none;
+}
+.navbar.navbar-default,
+footer {
+  display: none !important;
+}
+.pg-manifesto {
+  padding-bottom: 30px;
+}
+.pg-manifesto img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+.pg-manifesto h1 {
+  color: #ff8c14;
+  font-size: 30px;
+  text-align: left;
+}
+.pg-manifesto p {
+  text-align: left;
+}
+.pg-equipe section {
+  border-top: 1px solid #ccc;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+.pg-equipe section:first-child {
+  border: 0 none;
+  padding: 0;
+}
+.pg-equipe h2 {
+  color: #5f349e;
+  margin-bottom: 20px;
+}
+.pg-equipe img {
+  display: block;
+  margin: 0 auto 10px;
+  max-width: 85%;
+}
+.pg-equipe figcaption {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.pg-equipe figcaption p {
+  font-family: Hangyaboly, Helvetica, Roboto, sans-serif;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+.pg-patrocinio {
+  padding-top: 10px;
+}
+.pg-patrocinio .row {
+  margin-top: 30px;
+}
+.pg-patrocinio img {
+  max-width: 100%;
+}
+.pg-patrocinio img.ds {
+  max-width: 40%;
+}

@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <style name="DSKids.Toolbar.Title" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+    <item name="android:textColor">@color/white</item>
+  </style>
+
+  <style name="ThemeOverlay.DSKids.ActionBar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+    <item name="android:colorControlNormal">@color/white</item>
+    <item name="android:textColorPrimary">@color/white</item>
+    <item name="android:windowActionBarOverlay">true</item>
+    <item name="colorControlNormal">@color/white</item>
+    <item name="windowActionBarOverlay">true</item>
+  </style>
+
+  <style name="default_linear_layout">
+    <item name="android:orientation">vertical</item>
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">fill_parent</item>
+    <item name="android:gravity">center_vertical</item>
+  </style>
+
+  <style name="padded_linear_layout" parent="@style/default_linear_layout">
+    <item name="android:paddingLeft">  40dp </item>
+    <item name="android:paddingRight"> 40dp </item>
+  </style>
+
+  <style name="default_edittext" parent="@android:style/Widget.Material.EditText">
+    <item name="android:padding"> 12dp </item>
+    <item name="android:textSize"> 13sp </item>
+    <item name="android:imeOptions">actionNext </item>
+    <item name="android:singleLine"> true </item>
+    <item name="android:gravity"> center|left </item>
+    <item name="android:background">@drawable/border</item>
+    <item name="android:textColorHint">@color/white</item>
+    <item name="android:textColor">@color/white</item>
+    <item name="android:layout_marginBottom">5dp</item>
+    <item name="android:layout_marginLeft">28dp</item>
+    <item name="android:layout_marginRight">28dp</item>
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textCursorDrawable">@null</item>
+  </style>
+
+  <style name="search_edittext" parent="@android:style/Widget.Material.EditText">
+    <item name="android:textSize"> 16sp </item>
+    <item name="android:singleLine"> true </item>
+    <item name="android:paddingTop"> 12dp </item>
+    <item name="android:paddingLeft"> 0dp </item>
+    <item name="android:paddingRight"> 12dp </item>
+    <item name="android:background">@null</item>
+    <item name="android:layout_height">40dp</item>
+    <item name="android:paddingBottom"> 12dp </item>
+    <item name="android:gravity"> center|left </item>
+    <item name="android:imeOptions">actionDone</item>
+    <item name="android:layout_marginLeft">0dp</item>
+    <item name="android:layout_marginRight">0dp</item>
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">40dp</item>
+    <item name="android:textColor">@color/cinzaTexto</item>
+    <item name="android:textColorHint">@color/cinzaTexto</item>
+  </style>
+
+  <style name="default_label" parent="@android:style/Widget.Material.TextView">
+    <item name="android:textColor">@color/white</item>
+    <item name="android:gravity">center</item>
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+  </style>
+
+  <style name="disclaimer" parent="@android:style/Widget.Material.TextView">
+    <item name="android:textSize">10sp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textColor">@color/cinzaTexto</item>
+    <item name="android:gravity">center</item>
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+  </style>
+
+  <style name="small_label" parent="@style/default_label">
+    <item name="android:padding">5dp</item>
+    <item name="android:textSize">12sp</item>
+  </style>
+
+  <style name="medium_label" parent="@style/default_label">
+    <item name="android:layout_marginBottom">10dp</item>
+    <item name="android:layout_marginTop">10dp</item>
+    <item name="android:layout_marginLeft">5dp</item>
+    <item name="android:layout_marginRight">5dp</item>
+    <item name="android:textSize">14sp</item>
+  </style>
+
+  <style name="custom_font_label" parent="@style/default_label">
+    <item name="CustomFont">Hangyaboly</item>
+    <item name="android:textSize">30sp</item>
+    <item name="android:paddingLeft">38dp</item>
+    <item name="android:paddingRight">38dp</item>
+  </style>
+
+  <style name="default_button" parent="@android:style/Widget.Material.Button">
+    <item name="android:layout_marginLeft"> 28dp</item>
+    <item name="android:layout_marginRight">28dp</item>
+    <item name="android:layout_marginBottom">10dp</item>
+    <item name="android:background">@color/white</item>
+    <item name="android:textColor">@color/colorPrimary</item>
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+  </style>
+
+  <style name="padded_button" parent="@style/default_button">
+    <item name="android:layout_marginTop">10dp</item>
+    <item name="android:layout_marginBottom">30dp</item>
+  </style>
+
+  <style name="linear_menu">
+    <item name="android:orientation">horizontal</item>
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_gravity">center_vertical</item>
+    <item name="android:layout_height">55dp</item>
+    <item name="android:background">@drawable/item_selector</item>
+  </style>
+
+  <style name="label_menu" parent="@android:style/Widget.Material.TextView">
+    <item name="android:clickable"> false </item>
+    <item name="android:longClickable"> false </item>
+    <item name="android:gravity">center_vertical</item>
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">fill_parent</item>
+    <item name="android:textSize">18sp</item>
+    <item name="android:paddingLeft">80dp</item>
+    <item name="android:textColor">@color/cinzaTexto</item>
+  </style>
+
+  <style name="svg_menu">
+    <item name="android:layout_width">25dp</item>
+    <item name="android:layout_height">25dp</item>
+    <item name="android:gravity">center_vertical</item>
+    <item name="android:layout_marginTop">15dp</item>
+    <item name="android:layout_marginBottom">15dp</item>
+    <item name="android:layout_marginLeft">20dp</item>
+  </style>
+  
+  <style name="carinha_dot">
+    <item name="android:layout_margin"> 1dp </item>
+    <item name="android:layout_width"> 7dp </item>
+    <item name="android:layout_height"> 6dp </item>
+  </style>
+
+  <style name="carinha_dot_holder">
+    <item name="android:orientation"> vertical </item>
+    <item name="android:layout_width"> wrap_content </item>
+    <item name="android:layout_marginLeft"> 5dp </item>
+    <item name="android:layout_gravity"> center </item>
+    <item name="android:layout_height"> wrap_content </item>
+  </style>
+
+  <style name="carinha_text">
+    <item name="android:textSize"> 10sp </item>
+    <item name="android:paddingTop"> 5dp </item>
+    <item name="android:paddingLeft"> 10dp </item>
+    <item name="android:paddingRight"> 10dp </item>
+    <item name="android:gravity"> center_horizontal|top </item>
+    <item name="android:textColor"> @color/white </item>
+    <item name="android:layout_height"> 40dp </item>
+    <item name="android:layout_width"> fill_parent </item>
+  </style>
+
+  <style name="carinha_svg">
+    <item name="android:layout_width">45dp</item>
+    <item name="android:layout_height">45dp</item>
+  </style>
+
+  <style name="carinha_wrapper">
+    <item name="android:layout_width">0dp</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:orientation">vertical</item>
+    <item name="android:gravity">center_horizontal</item>
+    <item name="android:layout_weight">1</item>
+  </style>
+
+  <style name="carinha_inner_wrapper">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:orientation">horizontal</item>
+  </style>
+
+  <style name="sobre_header_label" parent="@style/default_label">
+    <item name="android:gravity">left</item>
+    <item name="android:textSize">18sp</item>
+    <item name="android:paddingLeft">5dp </item>
+    <item name="android:paddingBottom">10dp</item>
+    <item name="android:layout_marginLeft">10dp</item>
+    <item name="android:layout_marginRight">10dp</item>
+    <item name="android:textColor">@color/azulTitulo</item>
+  </style>
+
+  <style name="sobre_menu">
+    <item name="android:paddingLeft">10dp</item>
+    <item name="android:layout_height">40dp</item>
+    <item name="android:orientation">horizontal</item>
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_gravity">center_vertical</item>
+    <item name="android:gravity">center_vertical</item>
+    <item name="android:background">?android:attr/selectableItemBackground</item>
+  </style>
+
+  <style name="sobre_svg">
+    <item name="android:layout_width">20dp</item>
+    <item name="android:layout_height">20dp</item>
+    <item name="android:layout_margin">10dp</item>
+    <item name="android:layout_gravity">center_vertical</item>
+    <item name="android:gravity">center_vertical</item>
+  </style>
+
+  <style name="sobre_label">
+    <item name="android:textSize">18sp</item>
+    <item name="android:gravity">center</item>
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textColor">@color/cinzaTexto</item>
+  </style>
+</resources>

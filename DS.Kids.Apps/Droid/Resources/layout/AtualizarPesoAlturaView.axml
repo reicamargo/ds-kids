@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_atualizar"
+    android:paddingTop="30dp"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <brfx.core.droid.controls.BRFXSVGImageView
+        local:SVGAssetName="svg/bot_close.svg"
+        local:MvxBind="Click GoBackCommand"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true" />
+    <LinearLayout
+        style="@style/padded_linear_layout">
+        <ImageView
+            local:MvxBind="Click GoBackCommand"
+            android:src="@drawable/tit_popup"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="240dp"
+            android:layout_marginBottom="40dp" />
+        <BRFX.BRFXTextView
+            style="@style/default_label"
+            android:text="Insira os dados de seu filho(a)" />
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <BRFXValidation.BRFXEditText
+                style="@style/default_edittext"
+                android:layout_margin="0dp"
+                local:DecimalDigitsBeforeZero="1"
+                local:DecimalDigitsAfterZero="2"
+                android:inputType="numberDecimal"
+                local:MvxBind="Text Altura"
+                local:ErrorMessagePropertyName="Altura"
+                android:hint="Altura" />
+            <TextView
+                android:text="m"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/white"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <BRFXValidation.BRFXEditText
+                style="@style/default_edittext"
+                android:layout_margin="0dp"
+                android:imeOptions="actionDone"
+                local:MvxBind="Text Peso"
+                local:DecimalDigitsBeforeZero="3"
+                local:DecimalDigitsAfterZero="2"
+                android:inputType="numberDecimal"
+                local:ErrorMessagePropertyName="Peso"
+                android:hint="Peso" />
+            <TextView
+                android:text="kg"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <BRFX.BRFXButton
+            local:MvxBind="Click AtualizarCommand"
+            android:text="Atualizar"
+            android:textColor="@color/rosaBrincadeira"
+            android:background="@color/white"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp" />
+    </LinearLayout>
+</RelativeLayout>

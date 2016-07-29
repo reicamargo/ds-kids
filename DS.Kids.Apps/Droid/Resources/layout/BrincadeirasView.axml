@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingTop="?attr/actionBarSize"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <com.mopub.mobileads.MoPubView
+        android:id="@+id/ad_banner"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="4dp"
+        android:layout_height="50dp" />
+    <cirrious.mvvmcross.droid.recyclerview.MvxRecyclerView
+        android:id="@+id/brincadeiras_recyclerView"
+        local:MvxBind="ItemsSource Brincadeiras; ItemClick BrincadeiraSelectedCommand"
+        local:MvxItemTemplate="@layout/brincadeirasviewitem"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="2" />
+</LinearLayout>

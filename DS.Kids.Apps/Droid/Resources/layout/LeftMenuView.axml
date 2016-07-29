@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/bggaveta"
+        android:layout_width="match_parent"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:layout_height="130dp">
+        <RelativeLayout
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_marginBottom="15dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp">
+                <BRFX.BRFXSVGImageView
+                    local:SVGAssetName="svg/ico_defaultuser.svg"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+                <BRFX.RoundedImageView
+                    local:MvxBind="ImageUrl RelativeToAbsoluteUrl(Crianca.UrlImagem); Click SelecionarCurrentFilhoCommand"
+                    local:riv_corner_radius="30dp"
+                    local:riv_oval="false"
+                    android:scaleType="centerCrop"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+            </RelativeLayout>
+            <MvxGridView
+                local:MvxBind="ItemsSource ListaCriancas; ItemClick SelecionarFilhoCommand;Visibility Visibility(ListaCriancas.Count)"
+                local:MvxItemTemplate="@layout/leftmenuviewfilhositem"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="0dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:numColumns="4" />
+        </RelativeLayout>
+        <RelativeLayout
+            local:MvxBind="Click AlternarMenuVisivelCommand"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <BRFX.BRFXTextView
+                local:MvxBind="Text Crianca.Nome"
+                android:textColor="@color/white"
+                android:layout_centerVertical="true"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RelativeLayout
+                android:layout_alignParentRight="true"
+                android:layout_width="40dp"
+                android:layout_height="40dp">
+                <BRFX.BRFXSVGImageView
+                    local:MvxBind="SVGAssetName LeftMenuSVGArrow(SelectedMenu)"
+                    android:paddingTop="7dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="3dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        local:MvxBind="Visibility LeftMenuVisibility(SelectedMenu, 0)">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                local:MvxBind="BackgroundColor BackgroundColorIndex(SelectedIndex, 0)">
+                <RelativeLayout
+                    style="@style/linear_menu"
+                    local:MvxBind="Click DiarioCommand">
+                    <TextView
+                        style="@style/label_menu"
+                        android:text="Diário" />
+                    <BRFX.BRFXSVGImageView
+                        style="@style/svg_menu"
+                        local:MvxBind="SVGAssetName LeftMenuSVG(SelectedIndex, 0)" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                local:MvxBind="BackgroundColor BackgroundColorIndex(SelectedIndex, 1)">
+                <RelativeLayout
+                    style="@style/linear_menu"
+                    local:MvxBind="Click CardapiosCommand">
+                    <TextView
+                        style="@style/label_menu"
+                        android:text="Cardápio" />
+                    <BRFX.BRFXSVGImageView
+                        style="@style/svg_menu"
+                        local:MvxBind="SVGAssetName LeftMenuSVG(SelectedIndex, 1)" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                local:MvxBind="BackgroundColor BackgroundColorIndex(SelectedIndex, 2)">
+                <RelativeLayout
+                    style="@style/linear_menu"
+                    local:MvxBind="Click CrescimentoCommand">
+                    <TextView
+                        style="@style/label_menu"
+                        android:text="Crescimento" />
+                    <BRFX.BRFXSVGImageView
+                        style="@style/svg_menu"
+                        local:MvxBind="SVGAssetName LeftMenuSVG(SelectedIndex, 2)" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                local:MvxBind="BackgroundColor BackgroundColorIndex(SelectedIndex, 3)">
+                <RelativeLayout
+                    style="@style/linear_menu"
+                    local:MvxBind="Click BrincadeirasCommand">
+                    <TextView
+                        style="@style/label_menu"
+                        android:text="Brincadeiras" />
+                    <BRFX.BRFXSVGImageView
+                        style="@style/svg_menu"
+                        local:MvxBind="SVGAssetName LeftMenuSVG(SelectedIndex, 3)" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                local:MvxBind="BackgroundColor BackgroundColorIndex(SelectedIndex, 4)">
+                <RelativeLayout
+                    style="@style/linear_menu"
+                    local:MvxBind="Click CategoriasCommand">
+                    <TextView
+                        style="@style/label_menu"
+                        android:text="Dicas" />
+                    <BRFX.BRFXSVGImageView
+                        style="@style/svg_menu"
+                        local:MvxBind="SVGAssetName LeftMenuSVG(SelectedIndex, 4)" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <View
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@color/lighter_gray"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp" />
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                local:MvxBind="BackgroundColor BackgroundColorIndex(SelectedIndex, 5)">
+                <RelativeLayout
+                    style="@style/linear_menu"
+                    local:MvxBind="Click SobreCommand">
+                    <TextView
+                        style="@style/label_menu"
+                        android:text="Sobre" />
+                    <BRFX.BRFXSVGImageView
+                        style="@style/svg_menu"
+                        local:MvxBind="SVGAssetName LeftMenuSVG(SelectedIndex, 5)" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    <BRFX.MvxListViewWithHeader
+        local:MvxBind="ItemsSource User.Criancas; ItemClick EditarFilhoCommand;Visibility LeftMenuVisibility(SelectedMenu, 1)"
+        local:MvxItemTemplate="@layout/leftmenuviewlistfilhositem"
+        local:footer="@layout/leftmenuviewlistfilhosfooteritem"
+        local:AcceptNullElementClicks="true"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</LinearLayout>

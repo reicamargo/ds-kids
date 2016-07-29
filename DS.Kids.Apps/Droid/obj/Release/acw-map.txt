@@ -1,0 +1,676 @@
+Cirrious.MvvmCross.Droid.RecyclerView.MvxRecyclerAdapter, DS.Kids.Apps.Droid;md558b9aa7eb0ea1a52c0917124a4ed8bb1.MvxRecyclerAdapter
+Cirrious.MvvmCross.Droid.RecyclerView.MvxRecyclerAdapter, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md558b9aa7eb0ea1a52c0917124a4ed8bb1.MvxRecyclerAdapter
+Cirrious.MvvmCross.Droid.RecyclerView.MvxRecyclerAdapter;md558b9aa7eb0ea1a52c0917124a4ed8bb1.MvxRecyclerAdapter
+cirrious.mvvmcross.droid.recyclerview.MvxRecyclerAdapter;md558b9aa7eb0ea1a52c0917124a4ed8bb1.MvxRecyclerAdapter
+Cirrious.MvvmCross.Droid.RecyclerView.MvxRecyclerView, DS.Kids.Apps.Droid;cirrious.mvvmcross.droid.recyclerview.MvxRecyclerView
+Cirrious.MvvmCross.Droid.RecyclerView.MvxRecyclerView, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;cirrious.mvvmcross.droid.recyclerview.MvxRecyclerView
+Cirrious.MvvmCross.Droid.RecyclerView.MvxRecyclerView;cirrious.mvvmcross.droid.recyclerview.MvxRecyclerView
+cirrious.mvvmcross.droid.recyclerview.MvxRecyclerView;cirrious.mvvmcross.droid.recyclerview.MvxRecyclerView
+Cirrious.MvvmCross.Droid.RecyclerView.MvxRecyclerViewHolder, DS.Kids.Apps.Droid;md558b9aa7eb0ea1a52c0917124a4ed8bb1.MvxRecyclerViewHolder
+Cirrious.MvvmCross.Droid.RecyclerView.MvxRecyclerViewHolder, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md558b9aa7eb0ea1a52c0917124a4ed8bb1.MvxRecyclerViewHolder
+Cirrious.MvvmCross.Droid.RecyclerView.MvxRecyclerViewHolder;md558b9aa7eb0ea1a52c0917124a4ed8bb1.MvxRecyclerViewHolder
+cirrious.mvvmcross.droid.recyclerview.MvxRecyclerViewHolder;md558b9aa7eb0ea1a52c0917124a4ed8bb1.MvxRecyclerViewHolder
+DS.Kids.Apps.Droid.SplashScreen, DS.Kids.Apps.Droid;md5b4c374dfd6f26598774045aac1e59c2f.SplashScreen
+DS.Kids.Apps.Droid.SplashScreen, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md5b4c374dfd6f26598774045aac1e59c2f.SplashScreen
+DS.Kids.Apps.Droid.SplashScreen;md5b4c374dfd6f26598774045aac1e59c2f.SplashScreen
+ds.kids.apps.droid.SplashScreen;md5b4c374dfd6f26598774045aac1e59c2f.SplashScreen
+DS.Kids.Apps.Droid.SquareLinearLayout, DS.Kids.Apps.Droid;ds.kids.apps.droid.SquareLinearLayout
+DS.Kids.Apps.Droid.SquareLinearLayout, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;ds.kids.apps.droid.SquareLinearLayout
+DS.Kids.Apps.Droid.SquareLinearLayout;ds.kids.apps.droid.SquareLinearLayout
+ds.kids.apps.droid.SquareLinearLayout;ds.kids.apps.droid.SquareLinearLayout
+DS.Kids.Apps.Droid.DicaVideoView, DS.Kids.Apps.Droid;ds.kids.apps.droid.DicaVideoView
+DS.Kids.Apps.Droid.DicaVideoView, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;ds.kids.apps.droid.DicaVideoView
+DS.Kids.Apps.Droid.DicaVideoView;ds.kids.apps.droid.DicaVideoView
+ds.kids.apps.droid.DicaVideoView;ds.kids.apps.droid.DicaVideoView
+DS.Kids.Apps.Droid.DicaVideoFragment, DS.Kids.Apps.Droid;md5b4c374dfd6f26598774045aac1e59c2f.DicaVideoFragment
+DS.Kids.Apps.Droid.DicaVideoFragment, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md5b4c374dfd6f26598774045aac1e59c2f.DicaVideoFragment
+DS.Kids.Apps.Droid.DicaVideoFragment;md5b4c374dfd6f26598774045aac1e59c2f.DicaVideoFragment
+ds.kids.apps.droid.DicaVideoFragment;md5b4c374dfd6f26598774045aac1e59c2f.DicaVideoFragment
+DS.Kids.Apps.Droid.Views.AdicionarFilhoView, DS.Kids.Apps.Droid;md5949073af779a84ae1cc8a401676c7b14.AdicionarFilhoView
+DS.Kids.Apps.Droid.Views.AdicionarFilhoView, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md5949073af779a84ae1cc8a401676c7b14.AdicionarFilhoView
+DS.Kids.Apps.Droid.Views.AdicionarFilhoView;md5949073af779a84ae1cc8a401676c7b14.AdicionarFilhoView
+ds.kids.apps.droid.views.AdicionarFilhoView;md5949073af779a84ae1cc8a401676c7b14.AdicionarFilhoView
+DS.Kids.Apps.Droid.Views.AlterarFilhoView, DS.Kids.Apps.Droid;md5949073af779a84ae1cc8a401676c7b14.AlterarFilhoView
+DS.Kids.Apps.Droid.Views.AlterarFilhoView, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md5949073af779a84ae1cc8a401676c7b14.AlterarFilhoView
+DS.Kids.Apps.Droid.Views.AlterarFilhoView;md5949073af779a84ae1cc8a401676c7b14.AlterarFilhoView
+ds.kids.apps.droid.views.AlterarFilhoView;md5949073af779a84ae1cc8a401676c7b14.AlterarFilhoView
+DS.Kids.Apps.Droid.Views.AlterarSenhaView, DS.Kids.Apps.Droid;md5949073af779a84ae1cc8a401676c7b14.AlterarSenhaView
+DS.Kids.Apps.Droid.Views.AlterarSenhaView, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md5949073af779a84ae1cc8a401676c7b14.AlterarSenhaView
+DS.Kids.Apps.Droid.Views.AlterarSenhaView;md5949073af779a84ae1cc8a401676c7b14.AlterarSenhaView
+ds.kids.apps.droid.views.AlterarSenhaView;md5949073af779a84ae1cc8a401676c7b14.AlterarSenhaView
+DS.Kids.Apps.Droid.Views.AtualizarPesoAlturaView, DS.Kids.Apps.Droid;md5949073af779a84ae1cc8a401676c7b14.AtualizarPesoAlturaView
+DS.Kids.Apps.Droid.Views.AtualizarPesoAlturaView, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md5949073af779a84ae1cc8a401676c7b14.AtualizarPesoAlturaView
+DS.Kids.Apps.Droid.Views.AtualizarPesoAlturaView;md5949073af779a84ae1cc8a401676c7b14.AtualizarPesoAlturaView
+ds.kids.apps.droid.views.AtualizarPesoAlturaView;md5949073af779a84ae1cc8a401676c7b14.AtualizarPesoAlturaView
+DS.Kids.Apps.Droid.Views.AvaliacaoView, DS.Kids.Apps.Droid;md5949073af779a84ae1cc8a401676c7b14.AvaliacaoView
+DS.Kids.Apps.Droid.Views.AvaliacaoView, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md5949073af779a84ae1cc8a401676c7b14.AvaliacaoView
+DS.Kids.Apps.Droid.Views.AvaliacaoView;md5949073af779a84ae1cc8a401676c7b14.AvaliacaoView
+ds.kids.apps.droid.views.AvaliacaoView;md5949073af779a84ae1cc8a401676c7b14.AvaliacaoView
+DS.Kids.Apps.Droid.Views.BaseHomeChildView, DS.Kids.Apps.Droid;md5949073af779a84ae1cc8a401676c7b14.BaseHomeChildView
+DS.Kids.Apps.Droid.Views.BaseHomeChildView, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md5949073af779a84ae1cc8a401676c7b14.BaseHomeChildView
+DS.Kids.Apps.Droid.Views.BaseHomeChildView;md5949073af779a84ae1cc8a401676c7b14.BaseHomeChildView
+ds.kids.apps.droid.views.BaseHomeChildView;md5949073af779a84ae1cc8a401676c7b14.BaseHomeChildView
+DS.Kids.Apps.Droid.Views.BrincadeirasView, DS.Kids.Apps.Droid;md5949073af779a84ae1cc8a401676c7b14.BrincadeirasView
+DS.Kids.Apps.Droid.Views.BrincadeirasView, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md5949073af779a84ae1cc8a401676c7b14.BrincadeirasView
+DS.Kids.Apps.Droid.Views.BrincadeirasView;md5949073af779a84ae1cc8a401676c7b14.BrincadeirasView
+ds.kids.apps.droid.views.BrincadeirasView;md5949073af779a84ae1cc8a401676c7b14.BrincadeirasView
+DS.Kids.Apps.Droid.Views.BrincadeiraView, DS.Kids.Apps.Droid;md5949073af779a84ae1cc8a401676c7b14.BrincadeiraView
+DS.Kids.Apps.Droid.Views.BrincadeiraView, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md5949073af779a84ae1cc8a401676c7b14.BrincadeiraView
+DS.Kids.Apps.Droid.Views.BrincadeiraView;md5949073af779a84ae1cc8a401676c7b14.BrincadeiraView
+ds.kids.apps.droid.views.BrincadeiraView;md5949073af779a84ae1cc8a401676c7b14.BrincadeiraView
+DS.Kids.Apps.Droid.Views.CardapiosView, DS.Kids.Apps.Droid;md5949073af779a84ae1cc8a401676c7b14.CardapiosView
+DS.Kids.Apps.Droid.Views.CardapiosView, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md5949073af779a84ae1cc8a401676c7b14.CardapiosView
+DS.Kids.Apps.Droid.Views.CardapiosView;md5949073af779a84ae1cc8a401676c7b14.CardapiosView
+ds.kids.apps.droid.views.CardapiosView;md5949073af779a84ae1cc8a401676c7b14.CardapiosView
+DS.Kids.Apps.Droid.Views.CrescimentoViewHeaderItem, DS.Kids.Apps.Droid;ds.kids.apps.droid.views.CrescimentoViewHeaderItem
+DS.Kids.Apps.Droid.Views.CrescimentoViewHeaderItem, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;ds.kids.apps.droid.views.CrescimentoViewHeaderItem
+DS.Kids.Apps.Droid.Views.CrescimentoViewHeaderItem;ds.kids.apps.droid.views.CrescimentoViewHeaderItem
+ds.kids.apps.droid.views.CrescimentoViewHeaderItem;ds.kids.apps.droid.views.CrescimentoViewHeaderItem
+DS.Kids.Apps.Droid.Views.CrescimentoView, DS.Kids.Apps.Droid;md5949073af779a84ae1cc8a401676c7b14.CrescimentoView
+DS.Kids.Apps.Droid.Views.CrescimentoView, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md5949073af779a84ae1cc8a401676c7b14.CrescimentoView
+DS.Kids.Apps.Droid.Views.CrescimentoView;md5949073af779a84ae1cc8a401676c7b14.CrescimentoView
+ds.kids.apps.droid.views.CrescimentoView;md5949073af779a84ae1cc8a401676c7b14.CrescimentoView
+DS.Kids.Apps.Droid.Views.CrescimentoViewListFragment, DS.Kids.Apps.Droid;md5949073af779a84ae1cc8a401676c7b14.CrescimentoViewListFragment
+DS.Kids.Apps.Droid.Views.CrescimentoViewListFragment, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md5949073af779a84ae1cc8a401676c7b14.CrescimentoViewListFragment
+DS.Kids.Apps.Droid.Views.CrescimentoViewListFragment;md5949073af779a84ae1cc8a401676c7b14.CrescimentoViewListFragment
+ds.kids.apps.droid.views.CrescimentoViewListFragment;md5949073af779a84ae1cc8a401676c7b14.CrescimentoViewListFragment
+DS.Kids.Apps.Droid.Views.CriarContaView, DS.Kids.Apps.Droid;md5949073af779a84ae1cc8a401676c7b14.CriarContaView
+DS.Kids.Apps.Droid.Views.CriarContaView, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md5949073af779a84ae1cc8a401676c7b14.CriarContaView
+DS.Kids.Apps.Droid.Views.CriarContaView;md5949073af779a84ae1cc8a401676c7b14.CriarContaView
+ds.kids.apps.droid.views.CriarContaView;md5949073af779a84ae1cc8a401676c7b14.CriarContaView
+DS.Kids.Apps.Droid.Views.EsqueciSenhaView, DS.Kids.Apps.Droid;md5949073af779a84ae1cc8a401676c7b14.EsqueciSenhaView
+DS.Kids.Apps.Droid.Views.EsqueciSenhaView, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md5949073af779a84ae1cc8a401676c7b14.EsqueciSenhaView
+DS.Kids.Apps.Droid.Views.EsqueciSenhaView;md5949073af779a84ae1cc8a401676c7b14.EsqueciSenhaView
+ds.kids.apps.droid.views.EsqueciSenhaView;md5949073af779a84ae1cc8a401676c7b14.EsqueciSenhaView
+DS.Kids.Apps.Droid.Views.LeftMenuView, DS.Kids.Apps.Droid;md5949073af779a84ae1cc8a401676c7b14.LeftMenuView
+DS.Kids.Apps.Droid.Views.LeftMenuView, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md5949073af779a84ae1cc8a401676c7b14.LeftMenuView
+DS.Kids.Apps.Droid.Views.LeftMenuView;md5949073af779a84ae1cc8a401676c7b14.LeftMenuView
+ds.kids.apps.droid.views.LeftMenuView;md5949073af779a84ae1cc8a401676c7b14.LeftMenuView
+DS.Kids.Apps.Droid.Views.LoginView, DS.Kids.Apps.Droid;md5949073af779a84ae1cc8a401676c7b14.LoginView
+DS.Kids.Apps.Droid.Views.LoginView, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md5949073af779a84ae1cc8a401676c7b14.LoginView
+DS.Kids.Apps.Droid.Views.LoginView;md5949073af779a84ae1cc8a401676c7b14.LoginView
+ds.kids.apps.droid.views.LoginView;md5949073af779a84ae1cc8a401676c7b14.LoginView
+DS.Kids.Apps.Droid.Views.MainLoadingView, DS.Kids.Apps.Droid;md5949073af779a84ae1cc8a401676c7b14.MainLoadingView
+DS.Kids.Apps.Droid.Views.MainLoadingView, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md5949073af779a84ae1cc8a401676c7b14.MainLoadingView
+DS.Kids.Apps.Droid.Views.MainLoadingView;md5949073af779a84ae1cc8a401676c7b14.MainLoadingView
+ds.kids.apps.droid.views.MainLoadingView;md5949073af779a84ae1cc8a401676c7b14.MainLoadingView
+DS.Kids.Apps.Droid.Views.MainView, DS.Kids.Apps.Droid;md5949073af779a84ae1cc8a401676c7b14.MainView
+DS.Kids.Apps.Droid.Views.MainView, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md5949073af779a84ae1cc8a401676c7b14.MainView
+DS.Kids.Apps.Droid.Views.MainView;md5949073af779a84ae1cc8a401676c7b14.MainView
+ds.kids.apps.droid.views.MainView;md5949073af779a84ae1cc8a401676c7b14.MainView
+DS.Kids.Apps.Droid.Views.SobreView, DS.Kids.Apps.Droid;md5949073af779a84ae1cc8a401676c7b14.SobreView
+DS.Kids.Apps.Droid.Views.SobreView, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md5949073af779a84ae1cc8a401676c7b14.SobreView
+DS.Kids.Apps.Droid.Views.SobreView;md5949073af779a84ae1cc8a401676c7b14.SobreView
+ds.kids.apps.droid.views.SobreView;md5949073af779a84ae1cc8a401676c7b14.SobreView
+DS.Kids.Apps.Droid.Views.SobreWebView, DS.Kids.Apps.Droid;md5949073af779a84ae1cc8a401676c7b14.SobreWebView
+DS.Kids.Apps.Droid.Views.SobreWebView, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md5949073af779a84ae1cc8a401676c7b14.SobreWebView
+DS.Kids.Apps.Droid.Views.SobreWebView;md5949073af779a84ae1cc8a401676c7b14.SobreWebView
+ds.kids.apps.droid.views.SobreWebView;md5949073af779a84ae1cc8a401676c7b14.SobreWebView
+DS.Kids.Apps.Droid.Views.SobreWebView/MyWebViewClient, DS.Kids.Apps.Droid;md5949073af779a84ae1cc8a401676c7b14.SobreWebView_MyWebViewClient
+DS.Kids.Apps.Droid.Views.SobreWebView+MyWebViewClient, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md5949073af779a84ae1cc8a401676c7b14.SobreWebView_MyWebViewClient
+DS.Kids.Apps.Droid.Views.SobreWebView.MyWebViewClient;md5949073af779a84ae1cc8a401676c7b14.SobreWebView_MyWebViewClient
+ds.kids.apps.droid.views.SobreWebView_MyWebViewClient;md5949073af779a84ae1cc8a401676c7b14.SobreWebView_MyWebViewClient
+DS.Kids.Apps.Droid.Views.PoliticaPrivacidadeView, DS.Kids.Apps.Droid;md5949073af779a84ae1cc8a401676c7b14.PoliticaPrivacidadeView
+DS.Kids.Apps.Droid.Views.PoliticaPrivacidadeView, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md5949073af779a84ae1cc8a401676c7b14.PoliticaPrivacidadeView
+DS.Kids.Apps.Droid.Views.PoliticaPrivacidadeView;md5949073af779a84ae1cc8a401676c7b14.PoliticaPrivacidadeView
+ds.kids.apps.droid.views.PoliticaPrivacidadeView;md5949073af779a84ae1cc8a401676c7b14.PoliticaPrivacidadeView
+DS.Kids.Apps.Droid.Views.CategoriasView, DS.Kids.Apps.Droid;md5949073af779a84ae1cc8a401676c7b14.CategoriasView
+DS.Kids.Apps.Droid.Views.CategoriasView, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md5949073af779a84ae1cc8a401676c7b14.CategoriasView
+DS.Kids.Apps.Droid.Views.CategoriasView;md5949073af779a84ae1cc8a401676c7b14.CategoriasView
+ds.kids.apps.droid.views.CategoriasView;md5949073af779a84ae1cc8a401676c7b14.CategoriasView
+DS.Kids.Apps.Droid.Views.CategoriaView, DS.Kids.Apps.Droid;md5949073af779a84ae1cc8a401676c7b14.CategoriaView
+DS.Kids.Apps.Droid.Views.CategoriaView, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md5949073af779a84ae1cc8a401676c7b14.CategoriaView
+DS.Kids.Apps.Droid.Views.CategoriaView;md5949073af779a84ae1cc8a401676c7b14.CategoriaView
+ds.kids.apps.droid.views.CategoriaView;md5949073af779a84ae1cc8a401676c7b14.CategoriaView
+DS.Kids.Apps.Droid.Views.DicaView, DS.Kids.Apps.Droid;md5949073af779a84ae1cc8a401676c7b14.DicaView
+DS.Kids.Apps.Droid.Views.DicaView, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md5949073af779a84ae1cc8a401676c7b14.DicaView
+DS.Kids.Apps.Droid.Views.DicaView;md5949073af779a84ae1cc8a401676c7b14.DicaView
+ds.kids.apps.droid.views.DicaView;md5949073af779a84ae1cc8a401676c7b14.DicaView
+DS.Kids.Apps.Droid.Views.DiarioView, DS.Kids.Apps.Droid;md5949073af779a84ae1cc8a401676c7b14.DiarioView
+DS.Kids.Apps.Droid.Views.DiarioView, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md5949073af779a84ae1cc8a401676c7b14.DiarioView
+DS.Kids.Apps.Droid.Views.DiarioView;md5949073af779a84ae1cc8a401676c7b14.DiarioView
+ds.kids.apps.droid.views.DiarioView;md5949073af779a84ae1cc8a401676c7b14.DiarioView
+DS.Kids.Apps.Droid.Views.SemaforoView, DS.Kids.Apps.Droid;md5949073af779a84ae1cc8a401676c7b14.SemaforoView
+DS.Kids.Apps.Droid.Views.SemaforoView, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md5949073af779a84ae1cc8a401676c7b14.SemaforoView
+DS.Kids.Apps.Droid.Views.SemaforoView;md5949073af779a84ae1cc8a401676c7b14.SemaforoView
+ds.kids.apps.droid.views.SemaforoView;md5949073af779a84ae1cc8a401676c7b14.SemaforoView
+DS.Kids.Apps.Droid.Views.DiarioRefeicaoView, DS.Kids.Apps.Droid;md5949073af779a84ae1cc8a401676c7b14.DiarioRefeicaoView
+DS.Kids.Apps.Droid.Views.DiarioRefeicaoView, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md5949073af779a84ae1cc8a401676c7b14.DiarioRefeicaoView
+DS.Kids.Apps.Droid.Views.DiarioRefeicaoView;md5949073af779a84ae1cc8a401676c7b14.DiarioRefeicaoView
+ds.kids.apps.droid.views.DiarioRefeicaoView;md5949073af779a84ae1cc8a401676c7b14.DiarioRefeicaoView
+DS.Kids.Apps.Droid.Views.DiarioAlimentosView, DS.Kids.Apps.Droid;md5949073af779a84ae1cc8a401676c7b14.DiarioAlimentosView
+DS.Kids.Apps.Droid.Views.DiarioAlimentosView, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md5949073af779a84ae1cc8a401676c7b14.DiarioAlimentosView
+DS.Kids.Apps.Droid.Views.DiarioAlimentosView;md5949073af779a84ae1cc8a401676c7b14.DiarioAlimentosView
+ds.kids.apps.droid.views.DiarioAlimentosView;md5949073af779a84ae1cc8a401676c7b14.DiarioAlimentosView
+DS.Kids.Apps.Droid.Views.DiarioHelpView, DS.Kids.Apps.Droid;md5949073af779a84ae1cc8a401676c7b14.DiarioHelpView
+DS.Kids.Apps.Droid.Views.DiarioHelpView, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md5949073af779a84ae1cc8a401676c7b14.DiarioHelpView
+DS.Kids.Apps.Droid.Views.DiarioHelpView;md5949073af779a84ae1cc8a401676c7b14.DiarioHelpView
+ds.kids.apps.droid.views.DiarioHelpView;md5949073af779a84ae1cc8a401676c7b14.DiarioHelpView
+DS.Kids.Apps.Droid.Plugins.FbData, DS.Kids.Apps.Droid;md55dde1a1a54831bb29b0aaea2e147a8f2.FbData
+DS.Kids.Apps.Droid.Plugins.FbData, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md55dde1a1a54831bb29b0aaea2e147a8f2.FbData
+DS.Kids.Apps.Droid.Plugins.FbData;md55dde1a1a54831bb29b0aaea2e147a8f2.FbData
+ds.kids.apps.droid.plugins.FbData;md55dde1a1a54831bb29b0aaea2e147a8f2.FbData
+DS.Kids.Apps.Droid.Plugins.AlarmReceiver, DS.Kids.Apps.Droid;md55dde1a1a54831bb29b0aaea2e147a8f2.AlarmReceiver
+DS.Kids.Apps.Droid.Plugins.AlarmReceiver, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md55dde1a1a54831bb29b0aaea2e147a8f2.AlarmReceiver
+DS.Kids.Apps.Droid.Plugins.AlarmReceiver;md55dde1a1a54831bb29b0aaea2e147a8f2.AlarmReceiver
+ds.kids.apps.droid.plugins.AlarmReceiver;md55dde1a1a54831bb29b0aaea2e147a8f2.AlarmReceiver
+DS.Kids.Apps.Droid.Plugins.OnBootReceiver, DS.Kids.Apps.Droid;md55dde1a1a54831bb29b0aaea2e147a8f2.OnBootReceiver
+DS.Kids.Apps.Droid.Plugins.OnBootReceiver, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md55dde1a1a54831bb29b0aaea2e147a8f2.OnBootReceiver
+DS.Kids.Apps.Droid.Plugins.OnBootReceiver;md55dde1a1a54831bb29b0aaea2e147a8f2.OnBootReceiver
+ds.kids.apps.droid.plugins.OnBootReceiver;md55dde1a1a54831bb29b0aaea2e147a8f2.OnBootReceiver
+DS.Kids.Apps.Droid.Controls.ArrayRecyclerAdapter, DS.Kids.Apps.Droid;md5d57e88b522f8a87d44d2b64e786daad3.ArrayRecyclerAdapter
+DS.Kids.Apps.Droid.Controls.ArrayRecyclerAdapter, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md5d57e88b522f8a87d44d2b64e786daad3.ArrayRecyclerAdapter
+DS.Kids.Apps.Droid.Controls.ArrayRecyclerAdapter;md5d57e88b522f8a87d44d2b64e786daad3.ArrayRecyclerAdapter
+ds.kids.apps.droid.controls.ArrayRecyclerAdapter;md5d57e88b522f8a87d44d2b64e786daad3.ArrayRecyclerAdapter
+DS.Kids.Apps.Droid.Controls.CardapiosRecyclerViewAdapter, DS.Kids.Apps.Droid;md5d57e88b522f8a87d44d2b64e786daad3.CardapiosRecyclerViewAdapter
+DS.Kids.Apps.Droid.Controls.CardapiosRecyclerViewAdapter, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md5d57e88b522f8a87d44d2b64e786daad3.CardapiosRecyclerViewAdapter
+DS.Kids.Apps.Droid.Controls.CardapiosRecyclerViewAdapter;md5d57e88b522f8a87d44d2b64e786daad3.CardapiosRecyclerViewAdapter
+ds.kids.apps.droid.controls.CardapiosRecyclerViewAdapter;md5d57e88b522f8a87d44d2b64e786daad3.CardapiosRecyclerViewAdapter
+DS.Kids.Apps.Droid.Controls.HeaderFooterRecyclerViewAdapter`1, DS.Kids.Apps.Droid;md5d57e88b522f8a87d44d2b64e786daad3.HeaderFooterRecyclerViewAdapter_1
+DS.Kids.Apps.Droid.Controls.HeaderFooterRecyclerViewAdapter`1, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md5d57e88b522f8a87d44d2b64e786daad3.HeaderFooterRecyclerViewAdapter_1
+DS.Kids.Apps.Droid.Controls.HeaderFooterRecyclerViewAdapter`1;md5d57e88b522f8a87d44d2b64e786daad3.HeaderFooterRecyclerViewAdapter_1
+ds.kids.apps.droid.controls.HeaderFooterRecyclerViewAdapter_1;md5d57e88b522f8a87d44d2b64e786daad3.HeaderFooterRecyclerViewAdapter_1
+DS.Kids.Apps.Droid.Controls.MyLinearLayoutManager, DS.Kids.Apps.Droid;md5d57e88b522f8a87d44d2b64e786daad3.MyLinearLayoutManager
+DS.Kids.Apps.Droid.Controls.MyLinearLayoutManager, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md5d57e88b522f8a87d44d2b64e786daad3.MyLinearLayoutManager
+DS.Kids.Apps.Droid.Controls.MyLinearLayoutManager;md5d57e88b522f8a87d44d2b64e786daad3.MyLinearLayoutManager
+ds.kids.apps.droid.controls.MyLinearLayoutManager;md5d57e88b522f8a87d44d2b64e786daad3.MyLinearLayoutManager
+DS.Kids.Apps.Droid.Controls.ResizableMvxImageView, DS.Kids.Apps.Droid;ds.kids.apps.droid.controls.ResizableMvxImageView
+DS.Kids.Apps.Droid.Controls.ResizableMvxImageView, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;ds.kids.apps.droid.controls.ResizableMvxImageView
+DS.Kids.Apps.Droid.Controls.ResizableMvxImageView;ds.kids.apps.droid.controls.ResizableMvxImageView
+ds.kids.apps.droid.controls.ResizableMvxImageView;ds.kids.apps.droid.controls.ResizableMvxImageView
+DS.Kids.Apps.Droid.Controls.BrincadeiraRecyclerViewAdapter, DS.Kids.Apps.Droid;md5d57e88b522f8a87d44d2b64e786daad3.BrincadeiraRecyclerViewAdapter
+DS.Kids.Apps.Droid.Controls.BrincadeiraRecyclerViewAdapter, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md5d57e88b522f8a87d44d2b64e786daad3.BrincadeiraRecyclerViewAdapter
+DS.Kids.Apps.Droid.Controls.BrincadeiraRecyclerViewAdapter;md5d57e88b522f8a87d44d2b64e786daad3.BrincadeiraRecyclerViewAdapter
+ds.kids.apps.droid.controls.BrincadeiraRecyclerViewAdapter;md5d57e88b522f8a87d44d2b64e786daad3.BrincadeiraRecyclerViewAdapter
+DS.Kids.Apps.Droid.Controls.BrincadeiraRecyclerView, DS.Kids.Apps.Droid;ds.kids.apps.droid.controls.BrincadeiraRecyclerView
+DS.Kids.Apps.Droid.Controls.BrincadeiraRecyclerView, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;ds.kids.apps.droid.controls.BrincadeiraRecyclerView
+DS.Kids.Apps.Droid.Controls.BrincadeiraRecyclerView;ds.kids.apps.droid.controls.BrincadeiraRecyclerView
+ds.kids.apps.droid.controls.BrincadeiraRecyclerView;ds.kids.apps.droid.controls.BrincadeiraRecyclerView
+DS.Kids.Apps.Droid.Controls.CategoriasRecyclerViewAdapter, DS.Kids.Apps.Droid;md5d57e88b522f8a87d44d2b64e786daad3.CategoriasRecyclerViewAdapter
+DS.Kids.Apps.Droid.Controls.CategoriasRecyclerViewAdapter, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md5d57e88b522f8a87d44d2b64e786daad3.CategoriasRecyclerViewAdapter
+DS.Kids.Apps.Droid.Controls.CategoriasRecyclerViewAdapter;md5d57e88b522f8a87d44d2b64e786daad3.CategoriasRecyclerViewAdapter
+ds.kids.apps.droid.controls.CategoriasRecyclerViewAdapter;md5d57e88b522f8a87d44d2b64e786daad3.CategoriasRecyclerViewAdapter
+DS.Kids.Apps.Droid.Controls.HighlightRecyclerViewAdapter, DS.Kids.Apps.Droid;md5d57e88b522f8a87d44d2b64e786daad3.HighlightRecyclerViewAdapter
+DS.Kids.Apps.Droid.Controls.HighlightRecyclerViewAdapter, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md5d57e88b522f8a87d44d2b64e786daad3.HighlightRecyclerViewAdapter
+DS.Kids.Apps.Droid.Controls.HighlightRecyclerViewAdapter;md5d57e88b522f8a87d44d2b64e786daad3.HighlightRecyclerViewAdapter
+ds.kids.apps.droid.controls.HighlightRecyclerViewAdapter;md5d57e88b522f8a87d44d2b64e786daad3.HighlightRecyclerViewAdapter
+DS.Kids.Apps.Droid.Controls.CardapiosRecyclerView, DS.Kids.Apps.Droid;ds.kids.apps.droid.controls.CardapiosRecyclerView
+DS.Kids.Apps.Droid.Controls.CardapiosRecyclerView, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;ds.kids.apps.droid.controls.CardapiosRecyclerView
+DS.Kids.Apps.Droid.Controls.CardapiosRecyclerView;ds.kids.apps.droid.controls.CardapiosRecyclerView
+ds.kids.apps.droid.controls.CardapiosRecyclerView;ds.kids.apps.droid.controls.CardapiosRecyclerView
+DS.Kids.Apps.Droid.Controls.CategoriasRecyclerView, DS.Kids.Apps.Droid;ds.kids.apps.droid.controls.CategoriasRecyclerView
+DS.Kids.Apps.Droid.Controls.CategoriasRecyclerView, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;ds.kids.apps.droid.controls.CategoriasRecyclerView
+DS.Kids.Apps.Droid.Controls.CategoriasRecyclerView;ds.kids.apps.droid.controls.CategoriasRecyclerView
+ds.kids.apps.droid.controls.CategoriasRecyclerView;ds.kids.apps.droid.controls.CategoriasRecyclerView
+DS.Kids.Apps.Droid.Controls.DicaRecyclerView, DS.Kids.Apps.Droid;ds.kids.apps.droid.controls.DicaRecyclerView
+DS.Kids.Apps.Droid.Controls.DicaRecyclerView, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;ds.kids.apps.droid.controls.DicaRecyclerView
+DS.Kids.Apps.Droid.Controls.DicaRecyclerView;ds.kids.apps.droid.controls.DicaRecyclerView
+ds.kids.apps.droid.controls.DicaRecyclerView;ds.kids.apps.droid.controls.DicaRecyclerView
+DS.Kids.Apps.Droid.Controls.DicaRecyclerViewAdapter, DS.Kids.Apps.Droid;md5d57e88b522f8a87d44d2b64e786daad3.DicaRecyclerViewAdapter
+DS.Kids.Apps.Droid.Controls.DicaRecyclerViewAdapter, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md5d57e88b522f8a87d44d2b64e786daad3.DicaRecyclerViewAdapter
+DS.Kids.Apps.Droid.Controls.DicaRecyclerViewAdapter;md5d57e88b522f8a87d44d2b64e786daad3.DicaRecyclerViewAdapter
+ds.kids.apps.droid.controls.DicaRecyclerViewAdapter;md5d57e88b522f8a87d44d2b64e786daad3.DicaRecyclerViewAdapter
+DS.Kids.Apps.Droid.Controls.BgBindableView, DS.Kids.Apps.Droid;ds.kids.apps.droid.controls.BgBindableView
+DS.Kids.Apps.Droid.Controls.BgBindableView, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;ds.kids.apps.droid.controls.BgBindableView
+DS.Kids.Apps.Droid.Controls.BgBindableView;ds.kids.apps.droid.controls.BgBindableView
+ds.kids.apps.droid.controls.BgBindableView;ds.kids.apps.droid.controls.BgBindableView
+DS.Kids.Apps.Droid.Controls.DiarioRefeicaoRecyclerView, DS.Kids.Apps.Droid;ds.kids.apps.droid.controls.DiarioRefeicaoRecyclerView
+DS.Kids.Apps.Droid.Controls.DiarioRefeicaoRecyclerView, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;ds.kids.apps.droid.controls.DiarioRefeicaoRecyclerView
+DS.Kids.Apps.Droid.Controls.DiarioRefeicaoRecyclerView;ds.kids.apps.droid.controls.DiarioRefeicaoRecyclerView
+ds.kids.apps.droid.controls.DiarioRefeicaoRecyclerView;ds.kids.apps.droid.controls.DiarioRefeicaoRecyclerView
+DS.Kids.Apps.Droid.Controls.DiarioRefeicaoRecyclerViewAdapter, DS.Kids.Apps.Droid;md5d57e88b522f8a87d44d2b64e786daad3.DiarioRefeicaoRecyclerViewAdapter
+DS.Kids.Apps.Droid.Controls.DiarioRefeicaoRecyclerViewAdapter, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md5d57e88b522f8a87d44d2b64e786daad3.DiarioRefeicaoRecyclerViewAdapter
+DS.Kids.Apps.Droid.Controls.DiarioRefeicaoRecyclerViewAdapter;md5d57e88b522f8a87d44d2b64e786daad3.DiarioRefeicaoRecyclerViewAdapter
+ds.kids.apps.droid.controls.DiarioRefeicaoRecyclerViewAdapter;md5d57e88b522f8a87d44d2b64e786daad3.DiarioRefeicaoRecyclerViewAdapter
+DS.Kids.Apps.Droid.Controls.HeaderFooterRecyclerView`1, DS.Kids.Apps.Droid;md5d57e88b522f8a87d44d2b64e786daad3.HeaderFooterRecyclerView_1
+DS.Kids.Apps.Droid.Controls.HeaderFooterRecyclerView`1, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;md5d57e88b522f8a87d44d2b64e786daad3.HeaderFooterRecyclerView_1
+DS.Kids.Apps.Droid.Controls.HeaderFooterRecyclerView`1;md5d57e88b522f8a87d44d2b64e786daad3.HeaderFooterRecyclerView_1
+ds.kids.apps.droid.controls.HeaderFooterRecyclerView_1;md5d57e88b522f8a87d44d2b64e786daad3.HeaderFooterRecyclerView_1
+DS.Kids.Apps.Droid.Controls.PagedHorizontalScrollView, DS.Kids.Apps.Droid;ds.kids.apps.droid.controls.PagedHorizontalScrollView
+DS.Kids.Apps.Droid.Controls.PagedHorizontalScrollView, DS.Kids.Apps.Droid, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null;ds.kids.apps.droid.controls.PagedHorizontalScrollView
+DS.Kids.Apps.Droid.Controls.PagedHorizontalScrollView;ds.kids.apps.droid.controls.PagedHorizontalScrollView
+ds.kids.apps.droid.controls.PagedHorizontalScrollView;ds.kids.apps.droid.controls.PagedHorizontalScrollView
+BRFX.Core.Droid.Views.BaseView, BRFX.Core.Droid;md50db1706b21da072cf1b85e6ce2983071.BaseView
+BRFX.Core.Droid.Views.BaseView, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md50db1706b21da072cf1b85e6ce2983071.BaseView
+BRFX.Core.Droid.Views.BaseView;md50db1706b21da072cf1b85e6ce2983071.BaseView
+brfx.core.droid.views.BaseView;md50db1706b21da072cf1b85e6ce2983071.BaseView
+BRFX.Core.Droid.Views.BRFXActionBarActivity, BRFX.Core.Droid;md50db1706b21da072cf1b85e6ce2983071.BRFXActionBarActivity
+BRFX.Core.Droid.Views.BRFXActionBarActivity, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md50db1706b21da072cf1b85e6ce2983071.BRFXActionBarActivity
+BRFX.Core.Droid.Views.BRFXActionBarActivity;md50db1706b21da072cf1b85e6ce2983071.BRFXActionBarActivity
+brfx.core.droid.views.BRFXActionBarActivity;md50db1706b21da072cf1b85e6ce2983071.BRFXActionBarActivity
+BRFX.Core.Droid.Views.BRFXActionBarEventSourceActivity, BRFX.Core.Droid;md50db1706b21da072cf1b85e6ce2983071.BRFXActionBarEventSourceActivity
+BRFX.Core.Droid.Views.BRFXActionBarEventSourceActivity, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md50db1706b21da072cf1b85e6ce2983071.BRFXActionBarEventSourceActivity
+BRFX.Core.Droid.Views.BRFXActionBarEventSourceActivity;md50db1706b21da072cf1b85e6ce2983071.BRFXActionBarEventSourceActivity
+brfx.core.droid.views.BRFXActionBarEventSourceActivity;md50db1706b21da072cf1b85e6ce2983071.BRFXActionBarEventSourceActivity
+BRFX.Core.Droid.Views.BRFXTabHostBaseView, BRFX.Core.Droid;md50db1706b21da072cf1b85e6ce2983071.BRFXTabHostBaseView
+BRFX.Core.Droid.Views.BRFXTabHostBaseView, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md50db1706b21da072cf1b85e6ce2983071.BRFXTabHostBaseView
+BRFX.Core.Droid.Views.BRFXTabHostBaseView;md50db1706b21da072cf1b85e6ce2983071.BRFXTabHostBaseView
+brfx.core.droid.views.BRFXTabHostBaseView;md50db1706b21da072cf1b85e6ce2983071.BRFXTabHostBaseView
+BRFX.Core.Droid.Views.FormBaseView, BRFX.Core.Droid;md50db1706b21da072cf1b85e6ce2983071.FormBaseView
+BRFX.Core.Droid.Views.FormBaseView, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md50db1706b21da072cf1b85e6ce2983071.FormBaseView
+BRFX.Core.Droid.Views.FormBaseView;md50db1706b21da072cf1b85e6ce2983071.FormBaseView
+brfx.core.droid.views.FormBaseView;md50db1706b21da072cf1b85e6ce2983071.FormBaseView
+BRFX.Core.Droid.Views.NavigationDrawerBaseView, BRFX.Core.Droid;md50db1706b21da072cf1b85e6ce2983071.NavigationDrawerBaseView
+BRFX.Core.Droid.Views.NavigationDrawerBaseView, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md50db1706b21da072cf1b85e6ce2983071.NavigationDrawerBaseView
+BRFX.Core.Droid.Views.NavigationDrawerBaseView;md50db1706b21da072cf1b85e6ce2983071.NavigationDrawerBaseView
+brfx.core.droid.views.NavigationDrawerBaseView;md50db1706b21da072cf1b85e6ce2983071.NavigationDrawerBaseView
+BRFX.Core.Droid.Views.TabContentFactory, BRFX.Core.Droid;md50db1706b21da072cf1b85e6ce2983071.TabContentFactory
+BRFX.Core.Droid.Views.TabContentFactory, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md50db1706b21da072cf1b85e6ce2983071.TabContentFactory
+BRFX.Core.Droid.Views.TabContentFactory;md50db1706b21da072cf1b85e6ce2983071.TabContentFactory
+brfx.core.droid.views.TabContentFactory;md50db1706b21da072cf1b85e6ce2983071.TabContentFactory
+BRFX.Core.Droid.Validation.BRFXClearableEditText, BRFX.Core.Droid;brfx.core.droid.validation.BRFXClearableEditText
+BRFX.Core.Droid.Validation.BRFXClearableEditText, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;brfx.core.droid.validation.BRFXClearableEditText
+BRFX.Core.Droid.Validation.BRFXClearableEditText;brfx.core.droid.validation.BRFXClearableEditText
+brfx.core.droid.validation.BRFXClearableEditText;brfx.core.droid.validation.BRFXClearableEditText
+BRFX.Core.Droid.Validation.BRFXEditText, BRFX.Core.Droid;md594b0be1d0534065838eccc07cb762d81.BRFXEditText
+BRFX.Core.Droid.Validation.BRFXEditText, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md594b0be1d0534065838eccc07cb762d81.BRFXEditText
+BRFX.Core.Droid.Validation.BRFXEditText;md594b0be1d0534065838eccc07cb762d81.BRFXEditText
+brfx.core.droid.validation.BRFXEditText;md594b0be1d0534065838eccc07cb762d81.BRFXEditText
+BRFX.Core.Droid.Plugins.FacebookPlugin, BRFX.Core.Droid;md5971b7d827cf7b6568b54630233ce7f2d.FacebookPlugin
+BRFX.Core.Droid.Plugins.FacebookPlugin, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5971b7d827cf7b6568b54630233ce7f2d.FacebookPlugin
+BRFX.Core.Droid.Plugins.FacebookPlugin;md5971b7d827cf7b6568b54630233ce7f2d.FacebookPlugin
+brfx.core.droid.plugins.FacebookPlugin;md5971b7d827cf7b6568b54630233ce7f2d.FacebookPlugin
+BRFX.Core.Droid.Helpers.AnimatorSetHelpers/ColorAnimatorUpdateListener, BRFX.Core.Droid;md5bde12959bffa8278429445232de2f112.AnimatorSetHelpers_ColorAnimatorUpdateListener
+BRFX.Core.Droid.Helpers.AnimatorSetHelpers+ColorAnimatorUpdateListener, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5bde12959bffa8278429445232de2f112.AnimatorSetHelpers_ColorAnimatorUpdateListener
+BRFX.Core.Droid.Helpers.AnimatorSetHelpers.ColorAnimatorUpdateListener;md5bde12959bffa8278429445232de2f112.AnimatorSetHelpers_ColorAnimatorUpdateListener
+brfx.core.droid.helpers.AnimatorSetHelpers_ColorAnimatorUpdateListener;md5bde12959bffa8278429445232de2f112.AnimatorSetHelpers_ColorAnimatorUpdateListener
+BRFX.Core.Droid.Helpers.Animations.BounceEaseOut, BRFX.Core.Droid;md5c603d9e1ef639cdd8269b753e6ddf44f.BounceEaseOut
+BRFX.Core.Droid.Helpers.Animations.BounceEaseOut, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5c603d9e1ef639cdd8269b753e6ddf44f.BounceEaseOut
+BRFX.Core.Droid.Helpers.Animations.BounceEaseOut;md5c603d9e1ef639cdd8269b753e6ddf44f.BounceEaseOut
+brfx.core.droid.helpers.animations.BounceEaseOut;md5c603d9e1ef639cdd8269b753e6ddf44f.BounceEaseOut
+BRFX.Core.Droid.Helpers.Animations.ExpoEaseInOut, BRFX.Core.Droid;md5c603d9e1ef639cdd8269b753e6ddf44f.ExpoEaseInOut
+BRFX.Core.Droid.Helpers.Animations.ExpoEaseInOut, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5c603d9e1ef639cdd8269b753e6ddf44f.ExpoEaseInOut
+BRFX.Core.Droid.Helpers.Animations.ExpoEaseInOut;md5c603d9e1ef639cdd8269b753e6ddf44f.ExpoEaseInOut
+brfx.core.droid.helpers.animations.ExpoEaseInOut;md5c603d9e1ef639cdd8269b753e6ddf44f.ExpoEaseInOut
+BRFX.Core.Droid.Helpers.Animations.BaseEasingMethod, BRFX.Core.Droid;md5c603d9e1ef639cdd8269b753e6ddf44f.BaseEasingMethod
+BRFX.Core.Droid.Helpers.Animations.BaseEasingMethod, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5c603d9e1ef639cdd8269b753e6ddf44f.BaseEasingMethod
+BRFX.Core.Droid.Helpers.Animations.BaseEasingMethod;md5c603d9e1ef639cdd8269b753e6ddf44f.BaseEasingMethod
+brfx.core.droid.helpers.animations.BaseEasingMethod;md5c603d9e1ef639cdd8269b753e6ddf44f.BaseEasingMethod
+BRFX.Core.Droid.Controls.BindableHorizontalListView, BRFX.Core.Droid;md51a7d789230e3aded279e8b20dec2d4dc.BindableHorizontalListView
+BRFX.Core.Droid.Controls.BindableHorizontalListView, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51a7d789230e3aded279e8b20dec2d4dc.BindableHorizontalListView
+BRFX.Core.Droid.Controls.BindableHorizontalListView;md51a7d789230e3aded279e8b20dec2d4dc.BindableHorizontalListView
+brfx.core.droid.controls.BindableHorizontalListView;md51a7d789230e3aded279e8b20dec2d4dc.BindableHorizontalListView
+BRFX.Core.Droid.Controls.BindableViewPager, BRFX.Core.Droid;md51a7d789230e3aded279e8b20dec2d4dc.BindableViewPager
+BRFX.Core.Droid.Controls.BindableViewPager, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51a7d789230e3aded279e8b20dec2d4dc.BindableViewPager
+BRFX.Core.Droid.Controls.BindableViewPager;md51a7d789230e3aded279e8b20dec2d4dc.BindableViewPager
+brfx.core.droid.controls.BindableViewPager;md51a7d789230e3aded279e8b20dec2d4dc.BindableViewPager
+BRFX.Core.Droid.Controls.BRFXCheckBox, BRFX.Core.Droid;md51a7d789230e3aded279e8b20dec2d4dc.BRFXCheckBox
+BRFX.Core.Droid.Controls.BRFXCheckBox, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51a7d789230e3aded279e8b20dec2d4dc.BRFXCheckBox
+BRFX.Core.Droid.Controls.BRFXCheckBox;md51a7d789230e3aded279e8b20dec2d4dc.BRFXCheckBox
+brfx.core.droid.controls.BRFXCheckBox;md51a7d789230e3aded279e8b20dec2d4dc.BRFXCheckBox
+BRFX.Core.Droid.Controls.BRFXDatePickerFragment, BRFX.Core.Droid;md51a7d789230e3aded279e8b20dec2d4dc.BRFXDatePickerFragment
+BRFX.Core.Droid.Controls.BRFXDatePickerFragment, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51a7d789230e3aded279e8b20dec2d4dc.BRFXDatePickerFragment
+BRFX.Core.Droid.Controls.BRFXDatePickerFragment;md51a7d789230e3aded279e8b20dec2d4dc.BRFXDatePickerFragment
+brfx.core.droid.controls.BRFXDatePickerFragment;md51a7d789230e3aded279e8b20dec2d4dc.BRFXDatePickerFragment
+BRFX.Core.Droid.Controls.IcsLinearLayout, BRFX.Core.Droid;md51a7d789230e3aded279e8b20dec2d4dc.IcsLinearLayout
+BRFX.Core.Droid.Controls.IcsLinearLayout, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51a7d789230e3aded279e8b20dec2d4dc.IcsLinearLayout
+BRFX.Core.Droid.Controls.IcsLinearLayout;md51a7d789230e3aded279e8b20dec2d4dc.IcsLinearLayout
+brfx.core.droid.controls.IcsLinearLayout;md51a7d789230e3aded279e8b20dec2d4dc.IcsLinearLayout
+BRFX.Core.Droid.Controls.BRFXSquareImageView, BRFX.Core.Droid;md51a7d789230e3aded279e8b20dec2d4dc.BRFXSquareImageView
+BRFX.Core.Droid.Controls.BRFXSquareImageView, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51a7d789230e3aded279e8b20dec2d4dc.BRFXSquareImageView
+BRFX.Core.Droid.Controls.BRFXSquareImageView;md51a7d789230e3aded279e8b20dec2d4dc.BRFXSquareImageView
+brfx.core.droid.controls.BRFXSquareImageView;md51a7d789230e3aded279e8b20dec2d4dc.BRFXSquareImageView
+BRFX.Core.Droid.Controls.BRFXSVGButton, BRFX.Core.Droid;md51a7d789230e3aded279e8b20dec2d4dc.BRFXSVGButton
+BRFX.Core.Droid.Controls.BRFXSVGButton, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51a7d789230e3aded279e8b20dec2d4dc.BRFXSVGButton
+BRFX.Core.Droid.Controls.BRFXSVGButton;md51a7d789230e3aded279e8b20dec2d4dc.BRFXSVGButton
+brfx.core.droid.controls.BRFXSVGButton;md51a7d789230e3aded279e8b20dec2d4dc.BRFXSVGButton
+BRFX.Core.Droid.Controls.BRFXSVGButtonSelector, BRFX.Core.Droid;md51a7d789230e3aded279e8b20dec2d4dc.BRFXSVGButtonSelector
+BRFX.Core.Droid.Controls.BRFXSVGButtonSelector, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51a7d789230e3aded279e8b20dec2d4dc.BRFXSVGButtonSelector
+BRFX.Core.Droid.Controls.BRFXSVGButtonSelector;md51a7d789230e3aded279e8b20dec2d4dc.BRFXSVGButtonSelector
+brfx.core.droid.controls.BRFXSVGButtonSelector;md51a7d789230e3aded279e8b20dec2d4dc.BRFXSVGButtonSelector
+BRFX.Core.Droid.Controls.BRFXVideoView, BRFX.Core.Droid;brfx.core.droid.controls.BRFXVideoView
+BRFX.Core.Droid.Controls.BRFXVideoView, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;brfx.core.droid.controls.BRFXVideoView
+BRFX.Core.Droid.Controls.BRFXVideoView;brfx.core.droid.controls.BRFXVideoView
+brfx.core.droid.controls.BRFXVideoView;brfx.core.droid.controls.BRFXVideoView
+BRFX.Core.Droid.Controls.BRFXWebView, BRFX.Core.Droid;md51a7d789230e3aded279e8b20dec2d4dc.BRFXWebView
+BRFX.Core.Droid.Controls.BRFXWebView, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51a7d789230e3aded279e8b20dec2d4dc.BRFXWebView
+BRFX.Core.Droid.Controls.BRFXWebView;md51a7d789230e3aded279e8b20dec2d4dc.BRFXWebView
+brfx.core.droid.controls.BRFXWebView;md51a7d789230e3aded279e8b20dec2d4dc.BRFXWebView
+BRFX.Core.Droid.Controls.CustomActionBarDrawerToggle, BRFX.Core.Droid;md51a7d789230e3aded279e8b20dec2d4dc.CustomActionBarDrawerToggle
+BRFX.Core.Droid.Controls.CustomActionBarDrawerToggle, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51a7d789230e3aded279e8b20dec2d4dc.CustomActionBarDrawerToggle
+BRFX.Core.Droid.Controls.CustomActionBarDrawerToggle;md51a7d789230e3aded279e8b20dec2d4dc.CustomActionBarDrawerToggle
+brfx.core.droid.controls.CustomActionBarDrawerToggle;md51a7d789230e3aded279e8b20dec2d4dc.CustomActionBarDrawerToggle
+BRFX.Core.Droid.Controls.DecimalDigitsInputFilter, BRFX.Core.Droid;md51a7d789230e3aded279e8b20dec2d4dc.DecimalDigitsInputFilter
+BRFX.Core.Droid.Controls.DecimalDigitsInputFilter, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51a7d789230e3aded279e8b20dec2d4dc.DecimalDigitsInputFilter
+BRFX.Core.Droid.Controls.DecimalDigitsInputFilter;md51a7d789230e3aded279e8b20dec2d4dc.DecimalDigitsInputFilter
+brfx.core.droid.controls.DecimalDigitsInputFilter;md51a7d789230e3aded279e8b20dec2d4dc.DecimalDigitsInputFilter
+BRFX.Core.Droid.Controls.DecimalMaskTextWatcher, BRFX.Core.Droid;md51a7d789230e3aded279e8b20dec2d4dc.DecimalMaskTextWatcher
+BRFX.Core.Droid.Controls.DecimalMaskTextWatcher, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51a7d789230e3aded279e8b20dec2d4dc.DecimalMaskTextWatcher
+BRFX.Core.Droid.Controls.DecimalMaskTextWatcher;md51a7d789230e3aded279e8b20dec2d4dc.DecimalMaskTextWatcher
+brfx.core.droid.controls.DecimalMaskTextWatcher;md51a7d789230e3aded279e8b20dec2d4dc.DecimalMaskTextWatcher
+BRFX.Core.Droid.Controls.HeaderMvxAdapter, BRFX.Core.Droid;md51a7d789230e3aded279e8b20dec2d4dc.HeaderMvxAdapter
+BRFX.Core.Droid.Controls.HeaderMvxAdapter, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51a7d789230e3aded279e8b20dec2d4dc.HeaderMvxAdapter
+BRFX.Core.Droid.Controls.HeaderMvxAdapter;md51a7d789230e3aded279e8b20dec2d4dc.HeaderMvxAdapter
+brfx.core.droid.controls.HeaderMvxAdapter;md51a7d789230e3aded279e8b20dec2d4dc.HeaderMvxAdapter
+BRFX.Core.Droid.Controls.MultiItemRowWithFirstLastListView, BRFX.Core.Droid;md51a7d789230e3aded279e8b20dec2d4dc.MultiItemRowWithFirstLastListView
+BRFX.Core.Droid.Controls.MultiItemRowWithFirstLastListView, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51a7d789230e3aded279e8b20dec2d4dc.MultiItemRowWithFirstLastListView
+BRFX.Core.Droid.Controls.MultiItemRowWithFirstLastListView;md51a7d789230e3aded279e8b20dec2d4dc.MultiItemRowWithFirstLastListView
+brfx.core.droid.controls.MultiItemRowWithFirstLastListView;md51a7d789230e3aded279e8b20dec2d4dc.MultiItemRowWithFirstLastListView
+BRFX.Core.Droid.Controls.MultiItemRowListView, BRFX.Core.Droid;md51a7d789230e3aded279e8b20dec2d4dc.MultiItemRowListView
+BRFX.Core.Droid.Controls.MultiItemRowListView, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51a7d789230e3aded279e8b20dec2d4dc.MultiItemRowListView
+BRFX.Core.Droid.Controls.MultiItemRowListView;md51a7d789230e3aded279e8b20dec2d4dc.MultiItemRowListView
+brfx.core.droid.controls.MultiItemRowListView;md51a7d789230e3aded279e8b20dec2d4dc.MultiItemRowListView
+BRFX.Core.Droid.Controls.MvxListViewWithHeader, BRFX.Core.Droid;md51a7d789230e3aded279e8b20dec2d4dc.MvxListViewWithHeader
+BRFX.Core.Droid.Controls.MvxListViewWithHeader, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51a7d789230e3aded279e8b20dec2d4dc.MvxListViewWithHeader
+BRFX.Core.Droid.Controls.MvxListViewWithHeader;md51a7d789230e3aded279e8b20dec2d4dc.MvxListViewWithHeader
+brfx.core.droid.controls.MvxListViewWithHeader;md51a7d789230e3aded279e8b20dec2d4dc.MvxListViewWithHeader
+BRFX.Core.Droid.Controls.RoundedImageView, BRFX.Core.Droid;md51a7d789230e3aded279e8b20dec2d4dc.RoundedImageView
+BRFX.Core.Droid.Controls.RoundedImageView, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51a7d789230e3aded279e8b20dec2d4dc.RoundedImageView
+BRFX.Core.Droid.Controls.RoundedImageView;md51a7d789230e3aded279e8b20dec2d4dc.RoundedImageView
+brfx.core.droid.controls.RoundedImageView;md51a7d789230e3aded279e8b20dec2d4dc.RoundedImageView
+BRFX.Core.Droid.Controls.BRFXViewPager, BRFX.Core.Droid;md51a7d789230e3aded279e8b20dec2d4dc.BRFXViewPager
+BRFX.Core.Droid.Controls.BRFXViewPager, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51a7d789230e3aded279e8b20dec2d4dc.BRFXViewPager
+BRFX.Core.Droid.Controls.BRFXViewPager;md51a7d789230e3aded279e8b20dec2d4dc.BRFXViewPager
+brfx.core.droid.controls.BRFXViewPager;md51a7d789230e3aded279e8b20dec2d4dc.BRFXViewPager
+BRFX.Core.Droid.Controls.BRFXViewPagerAdapter, BRFX.Core.Droid;md51a7d789230e3aded279e8b20dec2d4dc.BRFXViewPagerAdapter
+BRFX.Core.Droid.Controls.BRFXViewPagerAdapter, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51a7d789230e3aded279e8b20dec2d4dc.BRFXViewPagerAdapter
+BRFX.Core.Droid.Controls.BRFXViewPagerAdapter;md51a7d789230e3aded279e8b20dec2d4dc.BRFXViewPagerAdapter
+brfx.core.droid.controls.BRFXViewPagerAdapter;md51a7d789230e3aded279e8b20dec2d4dc.BRFXViewPagerAdapter
+BRFX.Core.Droid.Controls.IconPageIndicator, BRFX.Core.Droid;md51a7d789230e3aded279e8b20dec2d4dc.IconPageIndicator
+BRFX.Core.Droid.Controls.IconPageIndicator, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51a7d789230e3aded279e8b20dec2d4dc.IconPageIndicator
+BRFX.Core.Droid.Controls.IconPageIndicator;md51a7d789230e3aded279e8b20dec2d4dc.IconPageIndicator
+brfx.core.droid.controls.IconPageIndicator;md51a7d789230e3aded279e8b20dec2d4dc.IconPageIndicator
+BRFX.Core.Droid.Controls.FirstLastAdapter, BRFX.Core.Droid;md51a7d789230e3aded279e8b20dec2d4dc.FirstLastAdapter
+BRFX.Core.Droid.Controls.FirstLastAdapter, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51a7d789230e3aded279e8b20dec2d4dc.FirstLastAdapter
+BRFX.Core.Droid.Controls.FirstLastAdapter;md51a7d789230e3aded279e8b20dec2d4dc.FirstLastAdapter
+brfx.core.droid.controls.FirstLastAdapter;md51a7d789230e3aded279e8b20dec2d4dc.FirstLastAdapter
+BRFX.Core.Droid.Controls.FirstLastListView, BRFX.Core.Droid;md51a7d789230e3aded279e8b20dec2d4dc.FirstLastListView
+BRFX.Core.Droid.Controls.FirstLastListView, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51a7d789230e3aded279e8b20dec2d4dc.FirstLastListView
+BRFX.Core.Droid.Controls.FirstLastListView;md51a7d789230e3aded279e8b20dec2d4dc.FirstLastListView
+brfx.core.droid.controls.FirstLastListView;md51a7d789230e3aded279e8b20dec2d4dc.FirstLastListView
+BRFX.Core.Droid.Controls.HorizontalListView, BRFX.Core.Droid;md51a7d789230e3aded279e8b20dec2d4dc.HorizontalListView
+BRFX.Core.Droid.Controls.HorizontalListView, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51a7d789230e3aded279e8b20dec2d4dc.HorizontalListView
+BRFX.Core.Droid.Controls.HorizontalListView;md51a7d789230e3aded279e8b20dec2d4dc.HorizontalListView
+brfx.core.droid.controls.HorizontalListView;md51a7d789230e3aded279e8b20dec2d4dc.HorizontalListView
+BRFX.Core.Droid.Controls.HorizontalListView/DataObserver, BRFX.Core.Droid;md51a7d789230e3aded279e8b20dec2d4dc.HorizontalListView_DataObserver
+BRFX.Core.Droid.Controls.HorizontalListView+DataObserver, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51a7d789230e3aded279e8b20dec2d4dc.HorizontalListView_DataObserver
+BRFX.Core.Droid.Controls.HorizontalListView.DataObserver;md51a7d789230e3aded279e8b20dec2d4dc.HorizontalListView_DataObserver
+brfx.core.droid.controls.HorizontalListView_DataObserver;md51a7d789230e3aded279e8b20dec2d4dc.HorizontalListView_DataObserver
+BRFX.Core.Droid.Controls.HorizontalListView/GestureListener, BRFX.Core.Droid;md51a7d789230e3aded279e8b20dec2d4dc.HorizontalListView_GestureListener
+BRFX.Core.Droid.Controls.HorizontalListView+GestureListener, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51a7d789230e3aded279e8b20dec2d4dc.HorizontalListView_GestureListener
+BRFX.Core.Droid.Controls.HorizontalListView.GestureListener;md51a7d789230e3aded279e8b20dec2d4dc.HorizontalListView_GestureListener
+brfx.core.droid.controls.HorizontalListView_GestureListener;md51a7d789230e3aded279e8b20dec2d4dc.HorizontalListView_GestureListener
+BRFX.Core.Droid.Controls.BRFXButton, BRFX.Core.Droid;md51a7d789230e3aded279e8b20dec2d4dc.BRFXButton
+BRFX.Core.Droid.Controls.BRFXButton, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51a7d789230e3aded279e8b20dec2d4dc.BRFXButton
+BRFX.Core.Droid.Controls.BRFXButton;md51a7d789230e3aded279e8b20dec2d4dc.BRFXButton
+brfx.core.droid.controls.BRFXButton;md51a7d789230e3aded279e8b20dec2d4dc.BRFXButton
+BRFX.Core.Droid.Controls.BRFXSVGImageView, BRFX.Core.Droid;brfx.core.droid.controls.BRFXSVGImageView
+BRFX.Core.Droid.Controls.BRFXSVGImageView, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;brfx.core.droid.controls.BRFXSVGImageView
+BRFX.Core.Droid.Controls.BRFXSVGImageView;brfx.core.droid.controls.BRFXSVGImageView
+brfx.core.droid.controls.BRFXSVGImageView;brfx.core.droid.controls.BRFXSVGImageView
+BRFX.Core.Droid.Controls.BRFXTextView, BRFX.Core.Droid;md51a7d789230e3aded279e8b20dec2d4dc.BRFXTextView
+BRFX.Core.Droid.Controls.BRFXTextView, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51a7d789230e3aded279e8b20dec2d4dc.BRFXTextView
+BRFX.Core.Droid.Controls.BRFXTextView;md51a7d789230e3aded279e8b20dec2d4dc.BRFXTextView
+brfx.core.droid.controls.BRFXTextView;md51a7d789230e3aded279e8b20dec2d4dc.BRFXTextView
+BRFX.Core.Droid.Controls.MvxBindablePagerAdapter, BRFX.Core.Droid;md51a7d789230e3aded279e8b20dec2d4dc.MvxBindablePagerAdapter
+BRFX.Core.Droid.Controls.MvxBindablePagerAdapter, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51a7d789230e3aded279e8b20dec2d4dc.MvxBindablePagerAdapter
+BRFX.Core.Droid.Controls.MvxBindablePagerAdapter;md51a7d789230e3aded279e8b20dec2d4dc.MvxBindablePagerAdapter
+brfx.core.droid.controls.MvxBindablePagerAdapter;md51a7d789230e3aded279e8b20dec2d4dc.MvxBindablePagerAdapter
+BRFX.Core.Droid.Controls.BRFXSVGCheckBoxSelector, BRFX.Core.Droid;md51a7d789230e3aded279e8b20dec2d4dc.BRFXSVGCheckBoxSelector
+BRFX.Core.Droid.Controls.BRFXSVGCheckBoxSelector, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51a7d789230e3aded279e8b20dec2d4dc.BRFXSVGCheckBoxSelector
+BRFX.Core.Droid.Controls.BRFXSVGCheckBoxSelector;md51a7d789230e3aded279e8b20dec2d4dc.BRFXSVGCheckBoxSelector
+brfx.core.droid.controls.BRFXSVGCheckBoxSelector;md51a7d789230e3aded279e8b20dec2d4dc.BRFXSVGCheckBoxSelector
+BRFX.Core.Droid.Controls.BRFXSVGDrawable, BRFX.Core.Droid;md51a7d789230e3aded279e8b20dec2d4dc.BRFXSVGDrawable
+BRFX.Core.Droid.Controls.BRFXSVGDrawable, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51a7d789230e3aded279e8b20dec2d4dc.BRFXSVGDrawable
+BRFX.Core.Droid.Controls.BRFXSVGDrawable;md51a7d789230e3aded279e8b20dec2d4dc.BRFXSVGDrawable
+brfx.core.droid.controls.BRFXSVGDrawable;md51a7d789230e3aded279e8b20dec2d4dc.BRFXSVGDrawable
+BRFX.Core.Droid.Controls.RangeSeekBar`1, BRFX.Core.Droid;md51a7d789230e3aded279e8b20dec2d4dc.RangeSeekBar_1
+BRFX.Core.Droid.Controls.RangeSeekBar`1, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51a7d789230e3aded279e8b20dec2d4dc.RangeSeekBar_1
+BRFX.Core.Droid.Controls.RangeSeekBar`1;md51a7d789230e3aded279e8b20dec2d4dc.RangeSeekBar_1
+brfx.core.droid.controls.RangeSeekBar_1;md51a7d789230e3aded279e8b20dec2d4dc.RangeSeekBar_1
+BRFX.Core.Droid.Controls.RoundedDrawable, BRFX.Core.Droid;md51a7d789230e3aded279e8b20dec2d4dc.RoundedDrawable
+BRFX.Core.Droid.Controls.RoundedDrawable, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51a7d789230e3aded279e8b20dec2d4dc.RoundedDrawable
+BRFX.Core.Droid.Controls.RoundedDrawable;md51a7d789230e3aded279e8b20dec2d4dc.RoundedDrawable
+brfx.core.droid.controls.RoundedDrawable;md51a7d789230e3aded279e8b20dec2d4dc.RoundedDrawable
+BRFX.Core.Droid.Controls.MultiItemRowListAdapter, BRFX.Core.Droid;md51a7d789230e3aded279e8b20dec2d4dc.MultiItemRowListAdapter
+BRFX.Core.Droid.Controls.MultiItemRowListAdapter, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51a7d789230e3aded279e8b20dec2d4dc.MultiItemRowListAdapter
+BRFX.Core.Droid.Controls.MultiItemRowListAdapter;md51a7d789230e3aded279e8b20dec2d4dc.MultiItemRowListAdapter
+brfx.core.droid.controls.MultiItemRowListAdapter;md51a7d789230e3aded279e8b20dec2d4dc.MultiItemRowListAdapter
+BRFX.Core.Droid.Controls.MultiItemRowListAdapter/OnClickListener, BRFX.Core.Droid;md51a7d789230e3aded279e8b20dec2d4dc.MultiItemRowListAdapter_OnClickListener
+BRFX.Core.Droid.Controls.MultiItemRowListAdapter+OnClickListener, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51a7d789230e3aded279e8b20dec2d4dc.MultiItemRowListAdapter_OnClickListener
+BRFX.Core.Droid.Controls.MultiItemRowListAdapter.OnClickListener;md51a7d789230e3aded279e8b20dec2d4dc.MultiItemRowListAdapter_OnClickListener
+brfx.core.droid.controls.MultiItemRowListAdapter_OnClickListener;md51a7d789230e3aded279e8b20dec2d4dc.MultiItemRowListAdapter_OnClickListener
+BRFX.Core.Droid.Controls.MultiItemRowListAdapter/OnLongClickListener, BRFX.Core.Droid;md51a7d789230e3aded279e8b20dec2d4dc.MultiItemRowListAdapter_OnLongClickListener
+BRFX.Core.Droid.Controls.MultiItemRowListAdapter+OnLongClickListener, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51a7d789230e3aded279e8b20dec2d4dc.MultiItemRowListAdapter_OnLongClickListener
+BRFX.Core.Droid.Controls.MultiItemRowListAdapter.OnLongClickListener;md51a7d789230e3aded279e8b20dec2d4dc.MultiItemRowListAdapter_OnLongClickListener
+brfx.core.droid.controls.MultiItemRowListAdapter_OnLongClickListener;md51a7d789230e3aded279e8b20dec2d4dc.MultiItemRowListAdapter_OnLongClickListener
+BRFX.Core.Droid.Controls.MultiItemRowListAdapter/PlaceholderView, BRFX.Core.Droid;md51a7d789230e3aded279e8b20dec2d4dc.MultiItemRowListAdapter_PlaceholderView
+BRFX.Core.Droid.Controls.MultiItemRowListAdapter+PlaceholderView, BRFX.Core.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51a7d789230e3aded279e8b20dec2d4dc.MultiItemRowListAdapter_PlaceholderView
+BRFX.Core.Droid.Controls.MultiItemRowListAdapter.PlaceholderView;md51a7d789230e3aded279e8b20dec2d4dc.MultiItemRowListAdapter_PlaceholderView
+brfx.core.droid.controls.MultiItemRowListAdapter_PlaceholderView;md51a7d789230e3aded279e8b20dec2d4dc.MultiItemRowListAdapter_PlaceholderView
+Cirrious.CrossCore.Droid.MvxJavaContainer, Cirrious.CrossCore.Droid;md594e974f7daaa4f544d8fe5f075a74d26.MvxJavaContainer
+Cirrious.CrossCore.Droid.MvxJavaContainer, Cirrious.CrossCore.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md594e974f7daaa4f544d8fe5f075a74d26.MvxJavaContainer
+Cirrious.CrossCore.Droid.MvxJavaContainer;md594e974f7daaa4f544d8fe5f075a74d26.MvxJavaContainer
+cirrious.crosscore.droid.MvxJavaContainer;md594e974f7daaa4f544d8fe5f075a74d26.MvxJavaContainer
+Cirrious.CrossCore.Droid.MvxReplaceableJavaContainer, Cirrious.CrossCore.Droid;md594e974f7daaa4f544d8fe5f075a74d26.MvxReplaceableJavaContainer
+Cirrious.CrossCore.Droid.MvxReplaceableJavaContainer, Cirrious.CrossCore.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md594e974f7daaa4f544d8fe5f075a74d26.MvxReplaceableJavaContainer
+Cirrious.CrossCore.Droid.MvxReplaceableJavaContainer;md594e974f7daaa4f544d8fe5f075a74d26.MvxReplaceableJavaContainer
+cirrious.crosscore.droid.MvxReplaceableJavaContainer;md594e974f7daaa4f544d8fe5f075a74d26.MvxReplaceableJavaContainer
+Cirrious.CrossCore.Droid.Views.MvxEventSourceActivity, Cirrious.CrossCore.Droid;md558d3f6ff0b1b93a8788ee4e30a21efd8.MvxEventSourceActivity
+Cirrious.CrossCore.Droid.Views.MvxEventSourceActivity, Cirrious.CrossCore.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md558d3f6ff0b1b93a8788ee4e30a21efd8.MvxEventSourceActivity
+Cirrious.CrossCore.Droid.Views.MvxEventSourceActivity;md558d3f6ff0b1b93a8788ee4e30a21efd8.MvxEventSourceActivity
+cirrious.crosscore.droid.views.MvxEventSourceActivity;md558d3f6ff0b1b93a8788ee4e30a21efd8.MvxEventSourceActivity
+Cirrious.MvvmCross.Binding.Droid.Binders.MvxLayoutInfactorFactory/FactoryWrapper, Cirrious.MvvmCross.Binding.Droid;md526640ad76fe23f68c2347e9ddd4c5a15.MvxLayoutInfactorFactory_FactoryWrapper
+Cirrious.MvvmCross.Binding.Droid.Binders.MvxLayoutInfactorFactory+FactoryWrapper, Cirrious.MvvmCross.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md526640ad76fe23f68c2347e9ddd4c5a15.MvxLayoutInfactorFactory_FactoryWrapper
+Cirrious.MvvmCross.Binding.Droid.Binders.MvxLayoutInfactorFactory.FactoryWrapper;md526640ad76fe23f68c2347e9ddd4c5a15.MvxLayoutInfactorFactory_FactoryWrapper
+cirrious.mvvmcross.binding.droid.binders.MvxLayoutInfactorFactory_FactoryWrapper;md526640ad76fe23f68c2347e9ddd4c5a15.MvxLayoutInfactorFactory_FactoryWrapper
+Cirrious.MvvmCross.Binding.Droid.Binders.MvxLayoutInfactorFactory/FactoryWrapper2, Cirrious.MvvmCross.Binding.Droid;md526640ad76fe23f68c2347e9ddd4c5a15.MvxLayoutInfactorFactory_FactoryWrapper2
+Cirrious.MvvmCross.Binding.Droid.Binders.MvxLayoutInfactorFactory+FactoryWrapper2, Cirrious.MvvmCross.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md526640ad76fe23f68c2347e9ddd4c5a15.MvxLayoutInfactorFactory_FactoryWrapper2
+Cirrious.MvvmCross.Binding.Droid.Binders.MvxLayoutInfactorFactory.FactoryWrapper2;md526640ad76fe23f68c2347e9ddd4c5a15.MvxLayoutInfactorFactory_FactoryWrapper2
+cirrious.mvvmcross.binding.droid.binders.MvxLayoutInfactorFactory_FactoryWrapper2;md526640ad76fe23f68c2347e9ddd4c5a15.MvxLayoutInfactorFactory_FactoryWrapper2
+Cirrious.MvvmCross.Binding.Droid.Views.MvxBaseListItemView, Cirrious.MvvmCross.Binding.Droid;md53471cbf751f08dad2f5f63288aefa6f2.MvxBaseListItemView
+Cirrious.MvvmCross.Binding.Droid.Views.MvxBaseListItemView, Cirrious.MvvmCross.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md53471cbf751f08dad2f5f63288aefa6f2.MvxBaseListItemView
+Cirrious.MvvmCross.Binding.Droid.Views.MvxBaseListItemView;md53471cbf751f08dad2f5f63288aefa6f2.MvxBaseListItemView
+cirrious.mvvmcross.binding.droid.views.MvxBaseListItemView;md53471cbf751f08dad2f5f63288aefa6f2.MvxBaseListItemView
+Cirrious.MvvmCross.Binding.Droid.Views.MvxAdapter, Cirrious.MvvmCross.Binding.Droid;md53471cbf751f08dad2f5f63288aefa6f2.MvxAdapter
+Cirrious.MvvmCross.Binding.Droid.Views.MvxAdapter, Cirrious.MvvmCross.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md53471cbf751f08dad2f5f63288aefa6f2.MvxAdapter
+Cirrious.MvvmCross.Binding.Droid.Views.MvxAdapter;md53471cbf751f08dad2f5f63288aefa6f2.MvxAdapter
+cirrious.mvvmcross.binding.droid.views.MvxAdapter;md53471cbf751f08dad2f5f63288aefa6f2.MvxAdapter
+Cirrious.MvvmCross.Binding.Droid.Views.MvxExpandableListAdapter, Cirrious.MvvmCross.Binding.Droid;md53471cbf751f08dad2f5f63288aefa6f2.MvxExpandableListAdapter
+Cirrious.MvvmCross.Binding.Droid.Views.MvxExpandableListAdapter, Cirrious.MvvmCross.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md53471cbf751f08dad2f5f63288aefa6f2.MvxExpandableListAdapter
+Cirrious.MvvmCross.Binding.Droid.Views.MvxExpandableListAdapter;md53471cbf751f08dad2f5f63288aefa6f2.MvxExpandableListAdapter
+cirrious.mvvmcross.binding.droid.views.MvxExpandableListAdapter;md53471cbf751f08dad2f5f63288aefa6f2.MvxExpandableListAdapter
+Cirrious.MvvmCross.Binding.Droid.Views.MvxExpandableListView, Cirrious.MvvmCross.Binding.Droid;cirrious.mvvmcross.binding.droid.views.MvxExpandableListView
+Cirrious.MvvmCross.Binding.Droid.Views.MvxExpandableListView, Cirrious.MvvmCross.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;cirrious.mvvmcross.binding.droid.views.MvxExpandableListView
+Cirrious.MvvmCross.Binding.Droid.Views.MvxExpandableListView;cirrious.mvvmcross.binding.droid.views.MvxExpandableListView
+cirrious.mvvmcross.binding.droid.views.MvxExpandableListView;cirrious.mvvmcross.binding.droid.views.MvxExpandableListView
+Cirrious.MvvmCross.Binding.Droid.Views.MvxFrameControl, Cirrious.MvvmCross.Binding.Droid;cirrious.mvvmcross.binding.droid.views.MvxFrameControl
+Cirrious.MvvmCross.Binding.Droid.Views.MvxFrameControl, Cirrious.MvvmCross.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;cirrious.mvvmcross.binding.droid.views.MvxFrameControl
+Cirrious.MvvmCross.Binding.Droid.Views.MvxFrameControl;cirrious.mvvmcross.binding.droid.views.MvxFrameControl
+cirrious.mvvmcross.binding.droid.views.MvxFrameControl;cirrious.mvvmcross.binding.droid.views.MvxFrameControl
+Cirrious.MvvmCross.Binding.Droid.Views.MvxDatePicker, Cirrious.MvvmCross.Binding.Droid;cirrious.mvvmcross.binding.droid.views.MvxDatePicker
+Cirrious.MvvmCross.Binding.Droid.Views.MvxDatePicker, Cirrious.MvvmCross.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;cirrious.mvvmcross.binding.droid.views.MvxDatePicker
+Cirrious.MvvmCross.Binding.Droid.Views.MvxDatePicker;cirrious.mvvmcross.binding.droid.views.MvxDatePicker
+cirrious.mvvmcross.binding.droid.views.MvxDatePicker;cirrious.mvvmcross.binding.droid.views.MvxDatePicker
+Cirrious.MvvmCross.Binding.Droid.Views.MvxGridView, Cirrious.MvvmCross.Binding.Droid;cirrious.mvvmcross.binding.droid.views.MvxGridView
+Cirrious.MvvmCross.Binding.Droid.Views.MvxGridView, Cirrious.MvvmCross.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;cirrious.mvvmcross.binding.droid.views.MvxGridView
+Cirrious.MvvmCross.Binding.Droid.Views.MvxGridView;cirrious.mvvmcross.binding.droid.views.MvxGridView
+cirrious.mvvmcross.binding.droid.views.MvxGridView;cirrious.mvvmcross.binding.droid.views.MvxGridView
+Cirrious.MvvmCross.Binding.Droid.Views.MvxAutoCompleteTextView, Cirrious.MvvmCross.Binding.Droid;cirrious.mvvmcross.binding.droid.views.MvxAutoCompleteTextView
+Cirrious.MvvmCross.Binding.Droid.Views.MvxAutoCompleteTextView, Cirrious.MvvmCross.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;cirrious.mvvmcross.binding.droid.views.MvxAutoCompleteTextView
+Cirrious.MvvmCross.Binding.Droid.Views.MvxAutoCompleteTextView;cirrious.mvvmcross.binding.droid.views.MvxAutoCompleteTextView
+cirrious.mvvmcross.binding.droid.views.MvxAutoCompleteTextView;cirrious.mvvmcross.binding.droid.views.MvxAutoCompleteTextView
+Cirrious.MvvmCross.Binding.Droid.Views.MvxRadioGroup, Cirrious.MvvmCross.Binding.Droid;cirrious.mvvmcross.binding.droid.views.MvxRadioGroup
+Cirrious.MvvmCross.Binding.Droid.Views.MvxRadioGroup, Cirrious.MvvmCross.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;cirrious.mvvmcross.binding.droid.views.MvxRadioGroup
+Cirrious.MvvmCross.Binding.Droid.Views.MvxRadioGroup;cirrious.mvvmcross.binding.droid.views.MvxRadioGroup
+cirrious.mvvmcross.binding.droid.views.MvxRadioGroup;cirrious.mvvmcross.binding.droid.views.MvxRadioGroup
+Cirrious.MvvmCross.Binding.Droid.Views.MvxSpinner, Cirrious.MvvmCross.Binding.Droid;cirrious.mvvmcross.binding.droid.views.MvxSpinner
+Cirrious.MvvmCross.Binding.Droid.Views.MvxSpinner, Cirrious.MvvmCross.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;cirrious.mvvmcross.binding.droid.views.MvxSpinner
+Cirrious.MvvmCross.Binding.Droid.Views.MvxSpinner;cirrious.mvvmcross.binding.droid.views.MvxSpinner
+cirrious.mvvmcross.binding.droid.views.MvxSpinner;cirrious.mvvmcross.binding.droid.views.MvxSpinner
+Cirrious.MvvmCross.Binding.Droid.Views.MvxFilteringAdapter, Cirrious.MvvmCross.Binding.Droid;md53471cbf751f08dad2f5f63288aefa6f2.MvxFilteringAdapter
+Cirrious.MvvmCross.Binding.Droid.Views.MvxFilteringAdapter, Cirrious.MvvmCross.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md53471cbf751f08dad2f5f63288aefa6f2.MvxFilteringAdapter
+Cirrious.MvvmCross.Binding.Droid.Views.MvxFilteringAdapter;md53471cbf751f08dad2f5f63288aefa6f2.MvxFilteringAdapter
+cirrious.mvvmcross.binding.droid.views.MvxFilteringAdapter;md53471cbf751f08dad2f5f63288aefa6f2.MvxFilteringAdapter
+Cirrious.MvvmCross.Binding.Droid.Views.MvxFilteringAdapter/MyFilter, Cirrious.MvvmCross.Binding.Droid;md53471cbf751f08dad2f5f63288aefa6f2.MvxFilteringAdapter_MyFilter
+Cirrious.MvvmCross.Binding.Droid.Views.MvxFilteringAdapter+MyFilter, Cirrious.MvvmCross.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md53471cbf751f08dad2f5f63288aefa6f2.MvxFilteringAdapter_MyFilter
+Cirrious.MvvmCross.Binding.Droid.Views.MvxFilteringAdapter.MyFilter;md53471cbf751f08dad2f5f63288aefa6f2.MvxFilteringAdapter_MyFilter
+cirrious.mvvmcross.binding.droid.views.MvxFilteringAdapter_MyFilter;md53471cbf751f08dad2f5f63288aefa6f2.MvxFilteringAdapter_MyFilter
+Cirrious.MvvmCross.Binding.Droid.Views.MvxLinearLayout, Cirrious.MvvmCross.Binding.Droid;cirrious.mvvmcross.binding.droid.views.MvxLinearLayout
+Cirrious.MvvmCross.Binding.Droid.Views.MvxLinearLayout, Cirrious.MvvmCross.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;cirrious.mvvmcross.binding.droid.views.MvxLinearLayout
+Cirrious.MvvmCross.Binding.Droid.Views.MvxLinearLayout;cirrious.mvvmcross.binding.droid.views.MvxLinearLayout
+cirrious.mvvmcross.binding.droid.views.MvxLinearLayout;cirrious.mvvmcross.binding.droid.views.MvxLinearLayout
+Cirrious.MvvmCross.Binding.Droid.Views.MvxListItemView, Cirrious.MvvmCross.Binding.Droid;cirrious.mvvmcross.binding.droid.views.MvxListItemView
+Cirrious.MvvmCross.Binding.Droid.Views.MvxListItemView, Cirrious.MvvmCross.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;cirrious.mvvmcross.binding.droid.views.MvxListItemView
+Cirrious.MvvmCross.Binding.Droid.Views.MvxListItemView;cirrious.mvvmcross.binding.droid.views.MvxListItemView
+cirrious.mvvmcross.binding.droid.views.MvxListItemView;cirrious.mvvmcross.binding.droid.views.MvxListItemView
+Cirrious.MvvmCross.Binding.Droid.Views.MvxListView, Cirrious.MvvmCross.Binding.Droid;cirrious.mvvmcross.binding.droid.views.MvxListView
+Cirrious.MvvmCross.Binding.Droid.Views.MvxListView, Cirrious.MvvmCross.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;cirrious.mvvmcross.binding.droid.views.MvxListView
+Cirrious.MvvmCross.Binding.Droid.Views.MvxListView;cirrious.mvvmcross.binding.droid.views.MvxListView
+cirrious.mvvmcross.binding.droid.views.MvxListView;cirrious.mvvmcross.binding.droid.views.MvxListView
+Cirrious.MvvmCross.Binding.Droid.Views.MvxAdapterWithChangedEvent, Cirrious.MvvmCross.Binding.Droid;md53471cbf751f08dad2f5f63288aefa6f2.MvxAdapterWithChangedEvent
+Cirrious.MvvmCross.Binding.Droid.Views.MvxAdapterWithChangedEvent, Cirrious.MvvmCross.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md53471cbf751f08dad2f5f63288aefa6f2.MvxAdapterWithChangedEvent
+Cirrious.MvvmCross.Binding.Droid.Views.MvxAdapterWithChangedEvent;md53471cbf751f08dad2f5f63288aefa6f2.MvxAdapterWithChangedEvent
+cirrious.mvvmcross.binding.droid.views.MvxAdapterWithChangedEvent;md53471cbf751f08dad2f5f63288aefa6f2.MvxAdapterWithChangedEvent
+Cirrious.MvvmCross.Binding.Droid.Views.MvxImageView, Cirrious.MvvmCross.Binding.Droid;cirrious.mvvmcross.binding.droid.views.MvxImageView
+Cirrious.MvvmCross.Binding.Droid.Views.MvxImageView, Cirrious.MvvmCross.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;cirrious.mvvmcross.binding.droid.views.MvxImageView
+Cirrious.MvvmCross.Binding.Droid.Views.MvxImageView;cirrious.mvvmcross.binding.droid.views.MvxImageView
+cirrious.mvvmcross.binding.droid.views.MvxImageView;cirrious.mvvmcross.binding.droid.views.MvxImageView
+Cirrious.MvvmCross.Binding.Droid.Views.MvxTimePicker, Cirrious.MvvmCross.Binding.Droid;cirrious.mvvmcross.binding.droid.views.MvxTimePicker
+Cirrious.MvvmCross.Binding.Droid.Views.MvxTimePicker, Cirrious.MvvmCross.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;cirrious.mvvmcross.binding.droid.views.MvxTimePicker
+Cirrious.MvvmCross.Binding.Droid.Views.MvxTimePicker;cirrious.mvvmcross.binding.droid.views.MvxTimePicker
+cirrious.mvvmcross.binding.droid.views.MvxTimePicker;cirrious.mvvmcross.binding.droid.views.MvxTimePicker
+Cirrious.MvvmCross.Binding.Droid.Views.MvxRelativeLayout, Cirrious.MvvmCross.Binding.Droid;cirrious.mvvmcross.binding.droid.views.MvxRelativeLayout
+Cirrious.MvvmCross.Binding.Droid.Views.MvxRelativeLayout, Cirrious.MvvmCross.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;cirrious.mvvmcross.binding.droid.views.MvxRelativeLayout
+Cirrious.MvvmCross.Binding.Droid.Views.MvxRelativeLayout;cirrious.mvvmcross.binding.droid.views.MvxRelativeLayout
+cirrious.mvvmcross.binding.droid.views.MvxRelativeLayout;cirrious.mvvmcross.binding.droid.views.MvxRelativeLayout
+Cirrious.MvvmCross.Binding.Droid.Views.MvxFrameLayout, Cirrious.MvvmCross.Binding.Droid;cirrious.mvvmcross.binding.droid.views.MvxFrameLayout
+Cirrious.MvvmCross.Binding.Droid.Views.MvxFrameLayout, Cirrious.MvvmCross.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;cirrious.mvvmcross.binding.droid.views.MvxFrameLayout
+Cirrious.MvvmCross.Binding.Droid.Views.MvxFrameLayout;cirrious.mvvmcross.binding.droid.views.MvxFrameLayout
+cirrious.mvvmcross.binding.droid.views.MvxFrameLayout;cirrious.mvvmcross.binding.droid.views.MvxFrameLayout
+Cirrious.MvvmCross.Binding.Droid.Views.MvxTableLayout, Cirrious.MvvmCross.Binding.Droid;cirrious.mvvmcross.binding.droid.views.MvxTableLayout
+Cirrious.MvvmCross.Binding.Droid.Views.MvxTableLayout, Cirrious.MvvmCross.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;cirrious.mvvmcross.binding.droid.views.MvxTableLayout
+Cirrious.MvvmCross.Binding.Droid.Views.MvxTableLayout;cirrious.mvvmcross.binding.droid.views.MvxTableLayout
+cirrious.mvvmcross.binding.droid.views.MvxTableLayout;cirrious.mvvmcross.binding.droid.views.MvxTableLayout
+Cirrious.MvvmCross.Droid.Views.MvxActivity, Cirrious.MvvmCross.Droid;md57b8dd31b26d57b878589ceca204f3b49.MvxActivity
+Cirrious.MvvmCross.Droid.Views.MvxActivity, Cirrious.MvvmCross.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md57b8dd31b26d57b878589ceca204f3b49.MvxActivity
+Cirrious.MvvmCross.Droid.Views.MvxActivity;md57b8dd31b26d57b878589ceca204f3b49.MvxActivity
+cirrious.mvvmcross.droid.views.MvxActivity;md57b8dd31b26d57b878589ceca204f3b49.MvxActivity
+Cirrious.MvvmCross.Droid.Views.MvxSplashScreenActivity, Cirrious.MvvmCross.Droid;md57b8dd31b26d57b878589ceca204f3b49.MvxSplashScreenActivity
+Cirrious.MvvmCross.Droid.Views.MvxSplashScreenActivity, Cirrious.MvvmCross.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md57b8dd31b26d57b878589ceca204f3b49.MvxSplashScreenActivity
+Cirrious.MvvmCross.Droid.Views.MvxSplashScreenActivity;md57b8dd31b26d57b878589ceca204f3b49.MvxSplashScreenActivity
+cirrious.mvvmcross.droid.views.MvxSplashScreenActivity;md57b8dd31b26d57b878589ceca204f3b49.MvxSplashScreenActivity
+Cirrious.MvvmCross.Droid.Fragging.Fragments.EventSource.MvxEventSourceFragment, Cirrious.MvvmCross.Droid.Fragging;md53ec9782042c6d83f00749bd38a033d3d.MvxEventSourceFragment
+Cirrious.MvvmCross.Droid.Fragging.Fragments.EventSource.MvxEventSourceFragment, Cirrious.MvvmCross.Droid.Fragging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md53ec9782042c6d83f00749bd38a033d3d.MvxEventSourceFragment
+Cirrious.MvvmCross.Droid.Fragging.Fragments.EventSource.MvxEventSourceFragment;md53ec9782042c6d83f00749bd38a033d3d.MvxEventSourceFragment
+cirrious.mvvmcross.droid.fragging.fragments.eventsource.MvxEventSourceFragment;md53ec9782042c6d83f00749bd38a033d3d.MvxEventSourceFragment
+Cirrious.MvvmCross.Droid.Fragging.Fragments.MvxFragment, Cirrious.MvvmCross.Droid.Fragging;md5a8f025a8cad3d863cfc102eacf93dc45.MvxFragment
+Cirrious.MvvmCross.Droid.Fragging.Fragments.MvxFragment, Cirrious.MvvmCross.Droid.Fragging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5a8f025a8cad3d863cfc102eacf93dc45.MvxFragment
+Cirrious.MvvmCross.Droid.Fragging.Fragments.MvxFragment;md5a8f025a8cad3d863cfc102eacf93dc45.MvxFragment
+cirrious.mvvmcross.droid.fragging.fragments.MvxFragment;md5a8f025a8cad3d863cfc102eacf93dc45.MvxFragment
+Com.Crashlytics.Android.Core.ICrashlyticsListenerImplementor, Crashlytics.Droid;mono.com.crashlytics.android.core.CrashlyticsListenerImplementor
+Com.Crashlytics.Android.Core.ICrashlyticsListenerImplementor, Crashlytics.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.crashlytics.android.core.CrashlyticsListenerImplementor
+Com.Crashlytics.Android.Core.ICrashlyticsListenerImplementor;mono.com.crashlytics.android.core.CrashlyticsListenerImplementor
+mono.com.crashlytics.android.core.CrashlyticsListenerImplementor;mono.com.crashlytics.android.core.CrashlyticsListenerImplementor
+MoPub.MobileAds.IMoPubRewardedVideoListenerImplementor, MoPubAndroid;mono.com.mopub.mobileads.MoPubRewardedVideoListenerImplementor
+MoPub.MobileAds.IMoPubRewardedVideoListenerImplementor, MoPubAndroid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.mopub.mobileads.MoPubRewardedVideoListenerImplementor
+MoPub.MobileAds.IMoPubRewardedVideoListenerImplementor;mono.com.mopub.mobileads.MoPubRewardedVideoListenerImplementor
+mono.com.mopub.mobileads.MoPubRewardedVideoListenerImplementor;mono.com.mopub.mobileads.MoPubRewardedVideoListenerImplementor
+MoPub.MobileAds.MoPubInterstitial/IInterstitialAdListenerImplementor, MoPubAndroid;mono.com.mopub.mobileads.MoPubInterstitial_InterstitialAdListenerImplementor
+MoPub.MobileAds.MoPubInterstitial+IInterstitialAdListenerImplementor, MoPubAndroid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.mopub.mobileads.MoPubInterstitial_InterstitialAdListenerImplementor
+MoPub.MobileAds.MoPubInterstitial.IInterstitialAdListenerImplementor;mono.com.mopub.mobileads.MoPubInterstitial_InterstitialAdListenerImplementor
+mono.com.mopub.mobileads.MoPubInterstitial_InterstitialAdListenerImplementor;mono.com.mopub.mobileads.MoPubInterstitial_InterstitialAdListenerImplementor
+MoPub.MobileAds.MoPubInterstitial/IMoPubInterstitialListenerImplementor, MoPubAndroid;mono.com.mopub.mobileads.MoPubInterstitial_MoPubInterstitialListenerImplementor
+MoPub.MobileAds.MoPubInterstitial+IMoPubInterstitialListenerImplementor, MoPubAndroid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.mopub.mobileads.MoPubInterstitial_MoPubInterstitialListenerImplementor
+MoPub.MobileAds.MoPubInterstitial.IMoPubInterstitialListenerImplementor;mono.com.mopub.mobileads.MoPubInterstitial_MoPubInterstitialListenerImplementor
+mono.com.mopub.mobileads.MoPubInterstitial_MoPubInterstitialListenerImplementor;mono.com.mopub.mobileads.MoPubInterstitial_MoPubInterstitialListenerImplementor
+MoPub.MobileAds.MoPubView/IBannerAdListenerImplementor, MoPubAndroid;mono.com.mopub.mobileads.MoPubView_BannerAdListenerImplementor
+MoPub.MobileAds.MoPubView+IBannerAdListenerImplementor, MoPubAndroid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.mopub.mobileads.MoPubView_BannerAdListenerImplementor
+MoPub.MobileAds.MoPubView.IBannerAdListenerImplementor;mono.com.mopub.mobileads.MoPubView_BannerAdListenerImplementor
+mono.com.mopub.mobileads.MoPubView_BannerAdListenerImplementor;mono.com.mopub.mobileads.MoPubView_BannerAdListenerImplementor
+MoPub.MobileAds.MoPubView/IOnAdClickedListenerImplementor, MoPubAndroid;mono.com.mopub.mobileads.MoPubView_OnAdClickedListenerImplementor
+MoPub.MobileAds.MoPubView+IOnAdClickedListenerImplementor, MoPubAndroid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.mopub.mobileads.MoPubView_OnAdClickedListenerImplementor
+MoPub.MobileAds.MoPubView.IOnAdClickedListenerImplementor;mono.com.mopub.mobileads.MoPubView_OnAdClickedListenerImplementor
+mono.com.mopub.mobileads.MoPubView_OnAdClickedListenerImplementor;mono.com.mopub.mobileads.MoPubView_OnAdClickedListenerImplementor
+MoPub.MobileAds.MoPubView/IOnAdClosedListenerImplementor, MoPubAndroid;mono.com.mopub.mobileads.MoPubView_OnAdClosedListenerImplementor
+MoPub.MobileAds.MoPubView+IOnAdClosedListenerImplementor, MoPubAndroid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.mopub.mobileads.MoPubView_OnAdClosedListenerImplementor
+MoPub.MobileAds.MoPubView.IOnAdClosedListenerImplementor;mono.com.mopub.mobileads.MoPubView_OnAdClosedListenerImplementor
+mono.com.mopub.mobileads.MoPubView_OnAdClosedListenerImplementor;mono.com.mopub.mobileads.MoPubView_OnAdClosedListenerImplementor
+MoPub.MobileAds.MoPubView/IOnAdFailedListenerImplementor, MoPubAndroid;mono.com.mopub.mobileads.MoPubView_OnAdFailedListenerImplementor
+MoPub.MobileAds.MoPubView+IOnAdFailedListenerImplementor, MoPubAndroid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.mopub.mobileads.MoPubView_OnAdFailedListenerImplementor
+MoPub.MobileAds.MoPubView.IOnAdFailedListenerImplementor;mono.com.mopub.mobileads.MoPubView_OnAdFailedListenerImplementor
+mono.com.mopub.mobileads.MoPubView_OnAdFailedListenerImplementor;mono.com.mopub.mobileads.MoPubView_OnAdFailedListenerImplementor
+MoPub.MobileAds.MoPubView/IOnAdLoadedListenerImplementor, MoPubAndroid;mono.com.mopub.mobileads.MoPubView_OnAdLoadedListenerImplementor
+MoPub.MobileAds.MoPubView+IOnAdLoadedListenerImplementor, MoPubAndroid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.mopub.mobileads.MoPubView_OnAdLoadedListenerImplementor
+MoPub.MobileAds.MoPubView.IOnAdLoadedListenerImplementor;mono.com.mopub.mobileads.MoPubView_OnAdLoadedListenerImplementor
+mono.com.mopub.mobileads.MoPubView_OnAdLoadedListenerImplementor;mono.com.mopub.mobileads.MoPubView_OnAdLoadedListenerImplementor
+MoPub.MobileAds.MoPubView/IOnAdPresentedOverlayListenerImplementor, MoPubAndroid;mono.com.mopub.mobileads.MoPubView_OnAdPresentedOverlayListenerImplementor
+MoPub.MobileAds.MoPubView+IOnAdPresentedOverlayListenerImplementor, MoPubAndroid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.mopub.mobileads.MoPubView_OnAdPresentedOverlayListenerImplementor
+MoPub.MobileAds.MoPubView.IOnAdPresentedOverlayListenerImplementor;mono.com.mopub.mobileads.MoPubView_OnAdPresentedOverlayListenerImplementor
+mono.com.mopub.mobileads.MoPubView_OnAdPresentedOverlayListenerImplementor;mono.com.mopub.mobileads.MoPubView_OnAdPresentedOverlayListenerImplementor
+MoPub.MobileAds.MoPubView/IOnAdWillLoadListenerImplementor, MoPubAndroid;mono.com.mopub.mobileads.MoPubView_OnAdWillLoadListenerImplementor
+MoPub.MobileAds.MoPubView+IOnAdWillLoadListenerImplementor, MoPubAndroid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.mopub.mobileads.MoPubView_OnAdWillLoadListenerImplementor
+MoPub.MobileAds.MoPubView.IOnAdWillLoadListenerImplementor;mono.com.mopub.mobileads.MoPubView_OnAdWillLoadListenerImplementor
+mono.com.mopub.mobileads.MoPubView_OnAdWillLoadListenerImplementor;mono.com.mopub.mobileads.MoPubView_OnAdWillLoadListenerImplementor
+OxyPlot.Xamarin.Android.PlotView, OxyPlot.Xamarin.Android;md5299a304c8be8cf3eb65572c1cb1ae9a4.PlotView
+OxyPlot.Xamarin.Android.PlotView, OxyPlot.Xamarin.Android, Version=2015.1.741.0, Culture=neutral, PublicKeyToken=null;md5299a304c8be8cf3eb65572c1cb1ae9a4.PlotView
+OxyPlot.Xamarin.Android.PlotView;md5299a304c8be8cf3eb65572c1cb1ae9a4.PlotView
+oxyplot.xamarin.android.PlotView;md5299a304c8be8cf3eb65572c1cb1ae9a4.PlotView
+Parse.ParsePushBroadcastReceiver, Parse.Android;parse.ParsePushBroadcastReceiver
+Parse.ParsePushBroadcastReceiver, Parse.Android, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null;parse.ParsePushBroadcastReceiver
+Parse.ParsePushBroadcastReceiver;parse.ParsePushBroadcastReceiver
+parse.ParsePushBroadcastReceiver;parse.ParsePushBroadcastReceiver
+Parse.ParsePushService, Parse.Android;parse.ParsePushService
+Parse.ParsePushService, Parse.Android, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null;parse.ParsePushService
+Parse.ParsePushService;parse.ParsePushService
+parse.ParsePushService;parse.ParsePushService
+Android.Support.V4.View.ViewPager/IOnPageChangeListenerImplementor, Xamarin.Android.Support.v4;mono.android.support.v4.view.ViewPager_OnPageChangeListenerImplementor
+Android.Support.V4.View.ViewPager+IOnPageChangeListenerImplementor, Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.view.ViewPager_OnPageChangeListenerImplementor
+Android.Support.V4.View.ViewPager.IOnPageChangeListenerImplementor;mono.android.support.v4.view.ViewPager_OnPageChangeListenerImplementor
+mono.android.support.v4.view.ViewPager_OnPageChangeListenerImplementor;mono.android.support.v4.view.ViewPager_OnPageChangeListenerImplementor
+Android.Support.V4.App.FragmentManager/IOnBackStackChangedListenerImplementor, Xamarin.Android.Support.v4;mono.android.support.v4.app.FragmentManager_OnBackStackChangedListenerImplementor
+Android.Support.V4.App.FragmentManager+IOnBackStackChangedListenerImplementor, Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.app.FragmentManager_OnBackStackChangedListenerImplementor
+Android.Support.V4.App.FragmentManager.IOnBackStackChangedListenerImplementor;mono.android.support.v4.app.FragmentManager_OnBackStackChangedListenerImplementor
+mono.android.support.v4.app.FragmentManager_OnBackStackChangedListenerImplementor;mono.android.support.v4.app.FragmentManager_OnBackStackChangedListenerImplementor
+Android.Support.V4.View.ActionProvider/ISubUiVisibilityListenerImplementor, Xamarin.Android.Support.v4;mono.android.support.v4.view.ActionProvider_SubUiVisibilityListenerImplementor
+Android.Support.V4.View.ActionProvider+ISubUiVisibilityListenerImplementor, Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.view.ActionProvider_SubUiVisibilityListenerImplementor
+Android.Support.V4.View.ActionProvider.ISubUiVisibilityListenerImplementor;mono.android.support.v4.view.ActionProvider_SubUiVisibilityListenerImplementor
+mono.android.support.v4.view.ActionProvider_SubUiVisibilityListenerImplementor;mono.android.support.v4.view.ActionProvider_SubUiVisibilityListenerImplementor
+Android.Support.V4.View.ActionProvider/IVisibilityListenerImplementor, Xamarin.Android.Support.v4;mono.android.support.v4.view.ActionProvider_VisibilityListenerImplementor
+Android.Support.V4.View.ActionProvider+IVisibilityListenerImplementor, Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.view.ActionProvider_VisibilityListenerImplementor
+Android.Support.V4.View.ActionProvider.IVisibilityListenerImplementor;mono.android.support.v4.view.ActionProvider_VisibilityListenerImplementor
+mono.android.support.v4.view.ActionProvider_VisibilityListenerImplementor;mono.android.support.v4.view.ActionProvider_VisibilityListenerImplementor
+Android.Support.V4.Widget.DrawerLayout/IDrawerListenerImplementor, Xamarin.Android.Support.v4;mono.android.support.v4.widget.DrawerLayout_DrawerListenerImplementor
+Android.Support.V4.Widget.DrawerLayout+IDrawerListenerImplementor, Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.widget.DrawerLayout_DrawerListenerImplementor
+Android.Support.V4.Widget.DrawerLayout.IDrawerListenerImplementor;mono.android.support.v4.widget.DrawerLayout_DrawerListenerImplementor
+mono.android.support.v4.widget.DrawerLayout_DrawerListenerImplementor;mono.android.support.v4.widget.DrawerLayout_DrawerListenerImplementor
+Android.Support.V7.App.AlertDialog/IDialogInterfaceOnClickListenerImplementor, Xamarin.Android.Support.v7.AppCompat;android.support.v7.app.AlertDialog_IDialogInterfaceOnClickListenerImplementor
+Android.Support.V7.App.AlertDialog+IDialogInterfaceOnClickListenerImplementor, Xamarin.Android.Support.v7.AppCompat, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;android.support.v7.app.AlertDialog_IDialogInterfaceOnClickListenerImplementor
+Android.Support.V7.App.AlertDialog.IDialogInterfaceOnClickListenerImplementor;android.support.v7.app.AlertDialog_IDialogInterfaceOnClickListenerImplementor
+android.support.v7.app.AlertDialog_IDialogInterfaceOnClickListenerImplementor;android.support.v7.app.AlertDialog_IDialogInterfaceOnClickListenerImplementor
+Android.Support.V7.App.AlertDialog/IDialogInterfaceOnCancelListenerImplementor, Xamarin.Android.Support.v7.AppCompat;android.support.v7.app.AlertDialog_IDialogInterfaceOnCancelListenerImplementor
+Android.Support.V7.App.AlertDialog+IDialogInterfaceOnCancelListenerImplementor, Xamarin.Android.Support.v7.AppCompat, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;android.support.v7.app.AlertDialog_IDialogInterfaceOnCancelListenerImplementor
+Android.Support.V7.App.AlertDialog.IDialogInterfaceOnCancelListenerImplementor;android.support.v7.app.AlertDialog_IDialogInterfaceOnCancelListenerImplementor
+android.support.v7.app.AlertDialog_IDialogInterfaceOnCancelListenerImplementor;android.support.v7.app.AlertDialog_IDialogInterfaceOnCancelListenerImplementor
+Android.Support.V7.App.AlertDialog/IDialogInterfaceOnMultiChoiceClickListenerImplementor, Xamarin.Android.Support.v7.AppCompat;android.support.v7.app.AlertDialog_IDialogInterfaceOnMultiChoiceClickListenerImplementor
+Android.Support.V7.App.AlertDialog+IDialogInterfaceOnMultiChoiceClickListenerImplementor, Xamarin.Android.Support.v7.AppCompat, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;android.support.v7.app.AlertDialog_IDialogInterfaceOnMultiChoiceClickListenerImplementor
+Android.Support.V7.App.AlertDialog.IDialogInterfaceOnMultiChoiceClickListenerImplementor;android.support.v7.app.AlertDialog_IDialogInterfaceOnMultiChoiceClickListenerImplementor
+android.support.v7.app.AlertDialog_IDialogInterfaceOnMultiChoiceClickListenerImplementor;android.support.v7.app.AlertDialog_IDialogInterfaceOnMultiChoiceClickListenerImplementor
+Android.Support.V7.Widget.Toolbar/NavigationOnClickEventDispatcher, Xamarin.Android.Support.v7.AppCompat;android.support.v7.widget.Toolbar_NavigationOnClickEventDispatcher
+Android.Support.V7.Widget.Toolbar+NavigationOnClickEventDispatcher, Xamarin.Android.Support.v7.AppCompat, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;android.support.v7.widget.Toolbar_NavigationOnClickEventDispatcher
+Android.Support.V7.Widget.Toolbar.NavigationOnClickEventDispatcher;android.support.v7.widget.Toolbar_NavigationOnClickEventDispatcher
+android.support.v7.widget.Toolbar_NavigationOnClickEventDispatcher;android.support.v7.widget.Toolbar_NavigationOnClickEventDispatcher
+Android.Support.V7.Widget.Toolbar/IOnMenuItemClickListenerImplementor, Xamarin.Android.Support.v7.AppCompat;mono.android.support.v7.widget.Toolbar_OnMenuItemClickListenerImplementor
+Android.Support.V7.Widget.Toolbar+IOnMenuItemClickListenerImplementor, Xamarin.Android.Support.v7.AppCompat, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v7.widget.Toolbar_OnMenuItemClickListenerImplementor
+Android.Support.V7.Widget.Toolbar.IOnMenuItemClickListenerImplementor;mono.android.support.v7.widget.Toolbar_OnMenuItemClickListenerImplementor
+mono.android.support.v7.widget.Toolbar_OnMenuItemClickListenerImplementor;mono.android.support.v7.widget.Toolbar_OnMenuItemClickListenerImplementor
+Android.Support.V7.App.ActionBar/IOnMenuVisibilityListenerImplementor, Xamarin.Android.Support.v7.AppCompat;mono.android.support.v7.app.ActionBar_OnMenuVisibilityListenerImplementor
+Android.Support.V7.App.ActionBar+IOnMenuVisibilityListenerImplementor, Xamarin.Android.Support.v7.AppCompat, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v7.app.ActionBar_OnMenuVisibilityListenerImplementor
+Android.Support.V7.App.ActionBar.IOnMenuVisibilityListenerImplementor;mono.android.support.v7.app.ActionBar_OnMenuVisibilityListenerImplementor
+mono.android.support.v7.app.ActionBar_OnMenuVisibilityListenerImplementor;mono.android.support.v7.app.ActionBar_OnMenuVisibilityListenerImplementor
+Android.Support.V7.Widget.ActionMenuView/IOnMenuItemClickListenerImplementor, Xamarin.Android.Support.v7.AppCompat;mono.android.support.v7.widget.ActionMenuView_OnMenuItemClickListenerImplementor
+Android.Support.V7.Widget.ActionMenuView+IOnMenuItemClickListenerImplementor, Xamarin.Android.Support.v7.AppCompat, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v7.widget.ActionMenuView_OnMenuItemClickListenerImplementor
+Android.Support.V7.Widget.ActionMenuView.IOnMenuItemClickListenerImplementor;mono.android.support.v7.widget.ActionMenuView_OnMenuItemClickListenerImplementor
+mono.android.support.v7.widget.ActionMenuView_OnMenuItemClickListenerImplementor;mono.android.support.v7.widget.ActionMenuView_OnMenuItemClickListenerImplementor
+Android.Support.V7.Widget.RecyclerView/IOnChildAttachStateChangeListenerImplementor, Xamarin.Android.Support.v7.RecyclerView;mono.android.support.v7.widget.RecyclerView_OnChildAttachStateChangeListenerImplementor
+Android.Support.V7.Widget.RecyclerView+IOnChildAttachStateChangeListenerImplementor, Xamarin.Android.Support.v7.RecyclerView, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v7.widget.RecyclerView_OnChildAttachStateChangeListenerImplementor
+Android.Support.V7.Widget.RecyclerView.IOnChildAttachStateChangeListenerImplementor;mono.android.support.v7.widget.RecyclerView_OnChildAttachStateChangeListenerImplementor
+mono.android.support.v7.widget.RecyclerView_OnChildAttachStateChangeListenerImplementor;mono.android.support.v7.widget.RecyclerView_OnChildAttachStateChangeListenerImplementor
+Android.Support.V7.Widget.RecyclerView/IOnItemTouchListenerImplementor, Xamarin.Android.Support.v7.RecyclerView;mono.android.support.v7.widget.RecyclerView_OnItemTouchListenerImplementor
+Android.Support.V7.Widget.RecyclerView+IOnItemTouchListenerImplementor, Xamarin.Android.Support.v7.RecyclerView, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v7.widget.RecyclerView_OnItemTouchListenerImplementor
+Android.Support.V7.Widget.RecyclerView.IOnItemTouchListenerImplementor;mono.android.support.v7.widget.RecyclerView_OnItemTouchListenerImplementor
+mono.android.support.v7.widget.RecyclerView_OnItemTouchListenerImplementor;mono.android.support.v7.widget.RecyclerView_OnItemTouchListenerImplementor
+Android.Support.V7.Widget.RecyclerView/IRecyclerListenerImplementor, Xamarin.Android.Support.v7.RecyclerView;mono.android.support.v7.widget.RecyclerView_RecyclerListenerImplementor
+Android.Support.V7.Widget.RecyclerView+IRecyclerListenerImplementor, Xamarin.Android.Support.v7.RecyclerView, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v7.widget.RecyclerView_RecyclerListenerImplementor
+Android.Support.V7.Widget.RecyclerView.IRecyclerListenerImplementor;mono.android.support.v7.widget.RecyclerView_RecyclerListenerImplementor
+mono.android.support.v7.widget.RecyclerView_RecyclerListenerImplementor;mono.android.support.v7.widget.RecyclerView_RecyclerListenerImplementor

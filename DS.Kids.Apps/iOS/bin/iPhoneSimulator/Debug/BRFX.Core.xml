@@ -1,0 +1,1910 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BRFX.Core</name>
+    </assembly>
+    <members>
+        <member name="T:BRFX.Core.Converters.InvertedBoolConverter">
+            <summary>
+                Converter de bool inverso
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Converters.InvertedBoolConverter.Convert(System.Boolean,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+                Método chamado automaticamente pelo converter para a conversão do dado.
+            </summary>
+            <param name="value">Valor utilizado para a conversão.</param>
+            <param name="targetType">Não é utilizado neste converter.</param>
+            <param name="parameter">Não é utilizado neste converter.</param>
+            <param name="culture">Não é utilizado neste converter.</param>
+            <returns>Retorna true se <paramref name="value" /> for false, ou o inverso.</returns>
+        </member>
+        <member name="T:BRFX.Core.Converters.StringFormatValueConverter">
+            <summary>
+                Conveter para string com formato, da mesma forma que o string.Format()
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Converters.StringFormatValueConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Método chamado automaticamente pelo converter para a conversão do dado.
+            </summary>
+            <param name="value">Valor utilizado para a conversão.</param>
+            <param name="targetType">Não é utilizado neste converter.</param>
+            <param name="parameter">String utilizada no string.Format para a formatação do texto.</param>
+            <param name="culture">Não é utilizado neste converter.</param>
+            <returns>Retorna o texto formatado com o <paramref name="parameter"/>.</returns>
+        </member>
+        <member name="T:BRFX.Core.MessageBox.IInputBox">
+            <summary>
+                Interface de serviço de InputBox.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.MessageBox.IInputBox.Show(System.String,System.Action{System.Boolean,System.String},System.String,BRFX.Core.MessageBox.MessageBoxButtons)">
+            <summary>
+                Mostra um InputBox nativo na plataforma com uma simples mensagem e um título.
+            </summary>
+            <param name="response">Ação a ser executada com a resposta do InputBox</param>
+            <param name="message">Mensagem a ser mostrada.</param>
+            <param name="title">Título da mensagem a ser mostrada.</param>
+            <param name="buttons">Quais botões serão mostrados no InputBox.</param>
+        </member>
+        <member name="T:BRFX.Core.MessageBox.IMessageBox">
+            <summary>
+                Interface de serviço de MessageBox.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.MessageBox.IMessageBox.Show(System.String,System.Action{System.Boolean},System.String,BRFX.Core.MessageBox.MessageBoxButtons,System.Boolean)">
+            <summary>
+                Mostra um MessageBox nativo na plataforma com uma simples mensagem e um título.
+            </summary>
+            <param name="response">Ação a ser executada com a resposta do MessageBox</param>
+            <param name="message">Mensagem a ser mostrada.</param>
+            <param name="title">Título da mensagem a ser mostrada.</param>
+            <param name="buttons">Quais botões serão mostrados no MessageBox.</param>
+            <param name="stack">Indica se mostrará a mensagem mesmo se já existir outra mensagem sendo exibida.</param>
+        </member>
+        <member name="M:BRFX.Core.MessageBox.IMessageBox.ShowToast(System.String,System.String)">
+            <summary>
+            	Mostra um Toast nativo na plataforma.
+            </summary>
+            <param name="message">Mensagem a ser mostrada.</param>
+            <param name="title">Título da mensagem a ser mostrada</param>
+        </member>
+        <member name="T:BRFX.Core.MessageBox.MessageBoxButtons">
+            <summary>
+                Tipo enumerado que define quais botões serão mostrados em um MessageBox.
+            </summary>
+        </member>
+        <member name="F:BRFX.Core.MessageBox.MessageBoxButtons.Ok">
+            <summary>
+            Mostra apenas o botão OK.
+            </summary>
+        </member>
+        <member name="F:BRFX.Core.MessageBox.MessageBoxButtons.OkCancel">
+            <summary>
+            Mostra o botão OK e o botão Cancel
+            </summary>
+        </member>
+        <member name="T:BRFX.Core.Messages.ErrorMessage">
+            <summary>
+                Messsage sent when any error occurs
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Messages.ErrorMessage.#ctor(System.Object,System.String)">
+            <summary>
+                Constructor
+            </summary>
+            <param name="sender"></param>
+            <param name="error">Raised error message</param>
+        </member>
+        <member name="P:BRFX.Core.Messages.ErrorMessage.Error">
+            <summary>
+                Raised error
+            </summary>
+        </member>
+        <member name="T:BRFX.Core.Messages.FacebookLoginCompletedMessage">
+            <summary>
+                Message sent when the user completes login with facebook
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Messages.FacebookLoginCompletedMessage.#ctor(System.Object,System.String,System.Boolean)">
+            <summary>
+                Class constructor
+            </summary>
+            <param name="sender"></param>
+            <param name="error"></param>
+            <param name="cancelled"></param>
+        </member>
+        <member name="P:BRFX.Core.Messages.FacebookLoginCompletedMessage.Cancelled">
+            <summary>
+                Indica se o login foi cancelado pelo usuário
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.Messages.FacebookLoginCompletedMessage.Success">
+            <summary>
+                Indica se conseguiu realizar o login do facebook
+            </summary>
+        </member>
+        <member name="T:BRFX.Core.Messages.LoadingChangedMessage">
+            <summary>
+                Mensagem de validação de formulários.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Messages.LoadingChangedMessage.#ctor(System.Object,System.Boolean)">
+            <summary>
+                Inicializa uma nova instância da classe LoadingChangedMessage.
+            </summary>
+            <param name="sender">Qual instância que chamou esta mensagem (normalmente "this")</param>
+            <param name="progressVisible">Indica se a barra de progresso esta visível ou não.</param>
+        </member>
+        <member name="P:BRFX.Core.Messages.LoadingChangedMessage.ProgressVisible">
+            <summary>
+                Dicionário de mensagens de validação.
+            </summary>
+        </member>
+        <member name="T:BRFX.Core.Messages.ValidationMessage">
+            <summary>
+                Mensagem de validação de formulários.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Messages.ValidationMessage.#ctor(System.Object,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{BRFX.Core.Validation.ValidationAttribute}})">
+            <summary>
+                Inicializa uma nova instância da classe ValidationMessage.
+            </summary>
+            <param name="sender">Qual instância que chamou esta mensagem (normalmente "this")</param>
+            <param name="validationMessages">Dicionário de mensagens de validação.</param>
+        </member>
+        <member name="P:BRFX.Core.Messages.ValidationMessage.ValidationErrors">
+            <summary>
+                Dicionário de mensagens de validação.
+            </summary>
+        </member>
+        <member name="T:BRFX.Core.NonMainThreadDispatcher">
+            <summary>
+                Dispatcher que não executa na thread de UI.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.NonMainThreadDispatcher.RequestMainThreadAction(System.Action)">
+            <summary>
+                Método chamado para executar a action
+            </summary>
+            <param name="action"></param>
+            <returns></returns>
+        </member>
+        <member name="T:BRFX.Core.Platform">
+            <summary>
+            Indica a plataforma de execução do app
+            </summary>
+        </member>
+        <member name="F:BRFX.Core.Platform.Android">
+            <summary>
+            Plataforma Android
+            </summary>
+        </member>
+        <member name="F:BRFX.Core.Platform.iOS">
+            <summary>
+            Plataforma iOS
+            </summary>
+        </member>
+        <member name="F:BRFX.Core.Platform.WindowsPhone">
+            <summary>
+            Plataforma Windows Phone
+            </summary>
+        </member>
+        <member name="F:BRFX.Core.Platform.WinRT">
+            <summary>
+            Plataforma Windows8
+            </summary>
+        </member>
+        <member name="T:BRFX.Core.PlatformInstance">
+            <summary>
+            Instância estática de Platform
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.PlatformInstance.Platform">
+            <summary>
+            Indica a plataforma da execução corrente do app
+            </summary>
+        </member>
+        <member name="T:BRFX.Core.Plugins.IFacebook">
+            <summary>
+                Facebook plugin interface
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.Plugins.IFacebook.AccessToken">
+            <summary>
+                Stored AccessToken from Facebook, filled after Authorize()
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.Plugins.IFacebook.AppId">
+            <summary>
+                AppId used to authorize facebook, fill before authorize
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.Plugins.IFacebook.FacebookId">
+            <summary>
+                Stored Facebook Id from Facebook,  filled after Authorize()
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.Plugins.IFacebook.LoginInProgress">
+            <summary>
+                Indicates if an authentication process had already started
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Plugins.IFacebook.Authorize(System.String)">
+            <summary>
+                Authorize the user with facebook using configured Permissions
+            </summary>
+            <param name="permissions"></param>
+        </member>
+        <member name="M:BRFX.Core.Plugins.IFacebook.Logout">
+            <summary>
+                Logs the user out of Facebook, deleting any cache
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Plugins.IFacebook.Reauthorize(System.String,System.Boolean)">
+            <summary>
+                Reauthorize the user with facebook using configured Permissions
+            </summary>
+            <param name="permissions"></param>
+            <param name="force"></param>
+        </member>
+        <member name="T:BRFX.Core.PortableBackgroundApp">
+            <summary>
+            Classe que deve ser chamada no BackgroundSetup (MvxStoreSetup) de cada plataforma.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.PortableBackgroundApp.Initialize">
+            <summary>
+            Método chamado automáticamente pelo MVVMCross durante a inicialização do framework. Ele apenas registra os serviços.
+            </summary>
+        </member>
+        <member name="T:BRFX.Core.Services.BaseService">
+            <summary>
+                Classe base para serviços REST.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Services.BaseService.#ctor(System.String)">
+            <summary>
+                Initializes a new instance of the <see cref="T:BRFX.Core.Services.BaseService" /> class.
+            </summary>
+            <param name="rootUrl">Fragmento inicial da URL utilizada no serviço (ex.: http://localhost/Service/api).</param>
+        </member>
+        <member name="P:BRFX.Core.Services.BaseService.Http">
+            <summary>
+                Instância do <see cref="T:BRFX.Core.Services.Http.BaseHttp">gerenciador HTTP</see>.
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.Services.BaseService.RootUrl">
+            <summary>
+                Fragmento inicial da URL utilizada no serviço (ex.: http://localhost/Service/api).
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Services.BaseService.Dispose">
+            <summary>
+                Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Services.BaseService.Get(System.String,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+                Realiza uma chamada GET ao serviço com os argumentos especificados.
+            </summary>
+            <param name="urlFragment">Fragmento da URL a chamar (será concatenada com o BaseUrl).</param>
+            <param name="arguments">Argumentos a enviar para a chamada.</param>
+            <returns>
+                <see cref="T:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.BaseHttpResponse">Resposta da requisição.</see>
+            </returns>
+        </member>
+        <member name="T:BRFX.Core.Services.Cache.CacheData">
+            <summary>
+            Representa uma entrada no sistema de cache.
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.Services.Cache.CacheData.Key">
+            <summary>
+            Chave deste objeto no cache.
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.Services.Cache.CacheData.CreationDateTimeUtc">
+            <summary>
+            Data de criação desta entrada, em UTC.
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.Services.Cache.CacheData.ExpirationDateTimeUtc">
+            <summary>
+            Data de expiração desta entrada, em UTC.
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.Services.Cache.CacheData.SerializedData">
+            <summary>
+            Dado do cache serializado.
+            </summary>
+        </member>
+        <member name="T:BRFX.Core.Services.Cache.ICache">
+            <summary>
+            Cache genérico (key/value).
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Services.Cache.ICache.IsValidAsync(System.String)">
+            <summary>
+                O cache para a chave especificada é válido?
+            </summary>
+            <param name="key">Chave do cache.</param>
+            <returns>
+                <c>true</c> caso o cache exista e esteja dentro do prazo de validade, <c>false</c> para cache inexistente ou
+                vencido.
+            </returns>
+        </member>
+        <member name="M:BRFX.Core.Services.Cache.ICache.SetAsync(System.String,System.Object,System.TimeSpan)">
+            <summary>
+                Insere um objeto no cache.
+            </summary>
+            <param name="key">Chave do cache.</param>
+            <param name="value">Valor a inserir.</param>
+            <param name="maxAge">Idade máxima do item no cache.</param>
+        </member>
+        <member name="M:BRFX.Core.Services.Cache.ICache.RemoveAsync(System.String)">
+            <summary>
+                Remove um objeto do cache.
+            </summary>
+            <param name="key">Chave do cache.</param>
+        </member>
+        <member name="M:BRFX.Core.Services.Cache.ICache.RemoveAllAsync">
+            <summary>
+            Remove todos os itens do cache.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Services.Cache.ICache.GetAsync``1(System.String,``0)">
+            <summary>
+                Obtém um item do cache.
+            </summary>
+            <typeparam name="T">Tipo do item.</typeparam>
+            <param name="key">Chave do cache.</param>
+            <param name="defaultValue">Valor padrão do item, caso não exista ou expirou.</param>
+            <returns><typeparamref name="T">Objeto</typeparamref> no cache ou <c>null</c> para objeto expirado ou inexistente.</returns>
+        </member>
+        <member name="M:BRFX.Core.Services.Cache.ICache.WhenWillExpireAsync(System.String)">
+            <summary>
+                Retorna o tempo até a expiração deste item no cache.
+            </summary>
+            <param name="key">Chave do cache.</param>
+            <returns><see cref="T:System.TimeSpan">Tempo</see> restante do objeto em cache.</returns>
+        </member>
+        <member name="M:BRFX.Core.Services.Cache.ICache.GetExpirationUtcDateTimeAsync(System.String)">
+            <summary>
+            Data absoluta de expiração do cache especificado.
+            </summary>
+            <param name="key">Chave do cache.</param>
+            <returns>Data absoluta de expiração do cache.</returns>
+        </member>
+        <member name="M:BRFX.Core.Services.Cache.ICache.GetCreationUtcDateTimeAsync(System.String)">
+            <summary>
+            Data absoluta de criação do cache especificado.
+            </summary>
+            <param name="key">Chave do cache.</param>
+            <returns>Data absoluta de criação do cache.</returns>
+        </member>
+        <member name="M:BRFX.Core.Services.Cache.ICache.SlideExpirationAsync(System.String,System.TimeSpan)">
+            <summary>
+            Renova o cache de um item para o tempo determinado.
+            </summary>
+            <param name="key">Chave do item a ser renovado.</param>
+            <param name="maxAge">Novo tempo de expiração.</param>
+            <returns><c>true</c> se a operação foi concluída com sucesso ou <c>false</c> se o item não existe ou já expirou.</returns>
+        </member>
+        <member name="T:BRFX.Core.Services.Cache.MemoryCache">
+            <summary>
+                Implementação de <see cref="T:BRFX.Core.Services.Cache.ICache">cache</see> em memória.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Services.Cache.MemoryCache.#ctor">
+            <summary>
+                Initializes a new instance of the <see cref="T:BRFX.Core.Services.Cache.MemoryCache" /> class.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Services.Cache.MemoryCache.Initialize">
+            <summary>
+                Registra dependência de <see cref="T:BRFX.Core.Services.Cache.ICache" /> para <see cref="T:BRFX.Core.Services.Cache.MemoryCache" />.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Services.Cache.MemoryCache.IsValidAsync(System.String)">
+            <summary>
+                O cache para a chave especificada é válido?
+            </summary>
+            <param name="key">Chave do cache.</param>
+            <returns>
+                <c>true</c> caso o cache exista e esteja dentro do prazo de validade, <c>false</c> para cache inexistente ou
+                vencido.
+            </returns>
+        </member>
+        <member name="M:BRFX.Core.Services.Cache.MemoryCache.SetAsync(System.String,System.Object,System.TimeSpan)">
+            <summary>
+                Insere um objeto no cache.
+            </summary>
+            <param name="key">Chave do cache.</param>
+            <param name="value">Valor a inserir.</param>
+            <param name="maxAge">Idade máxima do item no cache.</param>
+            <returns></returns>
+        </member>
+        <member name="M:BRFX.Core.Services.Cache.MemoryCache.RemoveAsync(System.String)">
+            <summary>
+                Remove um objeto do cache.
+            </summary>
+            <param name="key">Chave do cache.</param>
+            <returns></returns>
+        </member>
+        <member name="M:BRFX.Core.Services.Cache.MemoryCache.RemoveAllAsync">
+            <summary>
+                Remove todos os itens do cache.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BRFX.Core.Services.Cache.MemoryCache.GetAsync``1(System.String,``0)">
+            <summary>
+                Obtém um item do cache.
+            </summary>
+            <typeparam name="T">Tipo do item.</typeparam>
+            <param name="key">Chave do cache.</param>
+            <param name="defaultValue">Valor padrão do item, caso não exista ou expirou.</param>
+            <returns>
+                <typeparamref name="T">Objeto</typeparamref> no cache ou <c>null</c> para objeto expirado ou inexistente.
+            </returns>
+        </member>
+        <member name="M:BRFX.Core.Services.Cache.MemoryCache.WhenWillExpireAsync(System.String)">
+            <summary>
+                Retorna o tempo até a expiração deste item no cache.
+            </summary>
+            <param name="key">Chave do cache.</param>
+            <returns>
+                <see cref="T:System.TimeSpan">Tempo</see> restante do objeto em cache.
+            </returns>
+        </member>
+        <member name="M:BRFX.Core.Services.Cache.MemoryCache.SlideExpirationAsync(System.String,System.TimeSpan)">
+            <summary>
+                Renova o cache de um item para o tempo determinado.
+            </summary>
+            <param name="key">Chave do item a ser renovado.</param>
+            <param name="maxAge">Novo tempo de expiração.</param>
+            <returns>
+                <c>true</c> se a operação foi concluída com sucesso ou <c>false</c> se o item não existe ou já expirou.
+            </returns>
+        </member>
+        <member name="M:BRFX.Core.Services.Cache.MemoryCache.GetExpirationUtcDateTimeAsync(System.String)">
+            <summary>
+                Data absoluta de expiração do cache especificado.
+            </summary>
+            <param name="key">Chave do cache.</param>
+            <returns>
+                Data absoluta de expiração do cache.
+            </returns>
+        </member>
+        <member name="M:BRFX.Core.Services.Cache.MemoryCache.GetCreationUtcDateTimeAsync(System.String)">
+            <summary>
+                Data absoluta de criação do cache especificado.
+            </summary>
+            <param name="key">Chave do cache.</param>
+            <returns>
+                Data absoluta de criação do cache.
+            </returns>
+        </member>
+        <member name="T:BRFX.Core.Services.Http.BaseHttp">
+            <summary>
+                Requisitor de chamadas HTTP.
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.Services.Http.BaseHttp.HttpRequest">
+            <summary>
+                <see cref="T:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest" /> criado.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Services.Http.BaseHttp.Dispose">
+            <summary>
+                Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Services.Http.BaseHttp.Put(System.String)">
+            <summary>
+                Realiza a chamada para a url definida via PUT (Update).
+            </summary>
+            <param name="rootUrl">URL a chamar (sem argumentos).</param>
+            <returns>Esta instância de <see cref="T:BRFX.Core.Services.Http.BaseHttp" /> para fluent.</returns>
+        </member>
+        <member name="M:BRFX.Core.Services.Http.BaseHttp.Delete(System.String)">
+            <summary>
+                Realiza a chamada para a url definida via DELETE (Delete).
+            </summary>
+            <param name="rootUrl">URL a chamar (sem argumentos).</param>
+            <returns>Esta instância de <see cref="T:BRFX.Core.Services.Http.BaseHttp" /> para fluent.</returns>
+        </member>
+        <member name="M:BRFX.Core.Services.Http.BaseHttp.Get(System.String)">
+            <summary>
+                Realiza a chamada para a url definida via GET (Retrieve).
+            </summary>
+            <param name="rootUrl">URL a chamar (sem argumentos).</param>
+            <returns>Esta instância de <see cref="T:BRFX.Core.Services.Http.BaseHttp" /> para fluent.</returns>
+        </member>
+        <member name="M:BRFX.Core.Services.Http.BaseHttp.Head(System.String)">
+            <summary>
+                Realiza a chamada para a url definida via HEAD (esta chamada retorna apenas header, não conteúdo).
+            </summary>
+            <param name="rootUrl">URL a chamar (sem argumentos).</param>
+            <returns>Esta instância de <see cref="T:BRFX.Core.Services.Http.BaseHttp" /> para fluent.</returns>
+        </member>
+        <member name="M:BRFX.Core.Services.Http.BaseHttp.Post(System.String)">
+            <summary>
+                Realiza a chamada para a url definida via POST (Create).
+            </summary>
+            <param name="rootUrl">URL a chamar (sem argumentos).</param>
+            <returns>Esta instância de <see cref="T:BRFX.Core.Services.Http.BaseHttp" /> para fluent.</returns>
+        </member>
+        <member name="T:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest">
+            <summary>
+                Helper fluent para suporte à <see cref="T:BRFX.Core.Services.Http.BaseHttp" />.
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.HttpMethod">
+            <summary>
+                <see cref="P:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.HttpMethod">Método http</see> a ser utilizado.
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.RootUrl">
+            <summary>
+                URL a ser utilizada.
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.Args">
+            <summary>
+                Argumentos a serem enviados no URL da requisição.
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.AutoRedirectionMaxCountSetting">
+            <summary>
+                Quantidade máxima de redirecionamentos (default = 50).
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.Cache">
+            <summary>
+                Referência para um <see cref="T:BRFX.Core.Services.Cache.ICache">Cache</see>.
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.CacheMaxAge">
+            <summary>
+                Idade máxima do cache (0 = NoCache).
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.ContentData">
+            <summary>
+                Dado a ser enviado no corpo da requisição.
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.ContentMimeType">
+            <summary>
+                MimeType do conteúdo.
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.Cookies">
+            <summary>
+                Cookies a serem enviados na requisição.
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.Credentials">
+            <summary>
+                Credenciais a serem enviadas na requisição.
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.Headers">
+            <summary>
+                Headers a serem enviados na requisição.
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.MaxRequestContentBufferSizeSetting">
+            <summary>
+                Define o tamanho máximo do buffer de requisição (padrão 64K).
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.PreAuthenticate">
+            <summary>
+                Enviar credenciais nos headers?
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.Proxy">
+            <summary>
+                Proxy a ser utilizado na requisição.
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.Timeout">
+            <summary>
+                Obtém o timeout da requisição.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.MaxRequestContentBufferSize(System.UInt32)">
+            <summary>
+                Define o tamanho máximo do buffer da requisição (padrão 64K).
+            </summary>
+            <param name="maxRequestContentBufferSize">Novo tamanho máximo do buffer da requisição.</param>
+            <returns>
+                Esta instância de <see cref="T:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest" /> para fluent.
+            </returns>
+        </member>
+        <member name="M:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.Dispose">
+            <summary>
+                Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.SendAsync">
+            <summary>
+                Envia esta requisição assincronamente.
+            </summary>
+            <returns>
+                Resposta assíncrona de <see cref="T:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.BaseHttpResponse" />.
+            </returns>
+        </member>
+        <member name="M:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.SendAsync(System.Threading.CancellationToken)">
+            <summary>
+                Envia esta requisição assincronamente.
+            </summary>
+            <param name="cancellationToken">Token de cancelamento da operação.</param>
+            <returns>
+                Resposta assíncrona de <see cref="T:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.BaseHttpResponse" />.
+            </returns>
+        </member>
+        <member name="M:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.Send(System.Action{BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.BaseHttpResponse},System.Action{System.Net.HttpStatusCode,System.Exception,System.String})">
+            <summary>
+                Envia esta requisição sincronamente.
+            </summary>
+            <param name="success">
+                Callback a ser chamado quando do sucesso da requisição com a
+                <see cref="T:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.BaseHttpResponse">responsta</see> da requisição.
+            </param>
+            <param name="failure">
+                Callback a ser chamado quando houver falha com o
+                <see cref="T:System.Net.HttpStatusCode">código de retorno da requisição</see>,
+                <see cref="T:System.Exception">qualquer exceção disparada</see> e
+                <see cref="T:System.String">qualquer mensagem de resultado obtida</see>.
+            </param>
+        </member>
+        <member name="M:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.Send(System.Action{BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.BaseHttpResponse},System.Action{System.Net.HttpStatusCode,System.Exception,System.String},System.Threading.CancellationToken)">
+            <summary>
+                Envia esta requisição sincronamente.
+            </summary>
+            <param name="cancellationToken">Token de cancelamento da operação.</param>
+            <param name="success">
+                Callback a ser chamado quando do sucesso da requisição com a
+                <see cref="T:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.BaseHttpResponse">resposta</see> da requisição.
+            </param>
+            <param name="failure">
+                Callback a ser chamado quando houver falha com o
+                <see cref="T:System.Net.HttpStatusCode">código de retorno da requisição</see>,
+                <see cref="T:System.Exception">qualquer exceção disparada</see> e
+                <see cref="T:System.String">qualquer mensagem de resultado obtida</see>.
+            </param>
+        </member>
+        <member name="M:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.SetTimeout(System.TimeSpan)">
+            <summary>
+                Define o timout da requisição (padrão: 30 segundos).
+            </summary>
+            <param name="timeout">Timeout a ser definido.</param>
+            <returns>
+                Esta instância de <see cref="T:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest" /> para fluent.
+            </returns>
+        </member>
+        <member name="M:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.WithArgs(System.Action{System.Collections.Generic.IDictionary{System.String,System.Object}})">
+            <summary>
+                Insere argumentos a serem colocados na query string da URL.
+            </summary>
+            <param name="args">Handler para adição dos argumentos.</param>
+            <returns>
+                Esta instância de <see cref="T:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest" /> para fluent.
+            </returns>
+        </member>
+        <member name="M:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.WithArgs(System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+                Insere argumentos a serem colocados na query string da URL.
+            </summary>
+            <param name="args">Lista de argumentos a adicionar.</param>
+            <returns>
+                Esta instância de <see cref="T:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest" /> para fluent.
+            </returns>
+        </member>
+        <member name="M:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.WithHeaders(System.Action{System.Collections.Generic.IDictionary{System.String,System.String}})">
+            <summary>
+                Insere headers na requisição.
+            </summary>
+            <param name="headers">Handler para adição de headers.</param>
+            <returns>
+                Esta instância de <see cref="T:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest" /> para fluent.
+            </returns>
+        </member>
+        <member name="M:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.WithHeaders(System.Collections.Generic.IDictionary{System.String,System.String})">
+            <summary>
+                Insere headers na requisição.
+            </summary>
+            <param name="headers">Handler para adição de headers.</param>
+            <returns>
+                Esta instância de <see cref="T:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest" /> para fluent.
+            </returns>
+        </member>
+        <member name="M:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.WithCookies(System.Action{System.Collections.Generic.IDictionary{System.String,System.String}})">
+            <summary>
+                Insere cookies na requisição.
+            </summary>
+            <param name="cookies">Cookies para adição de headers.</param>
+            <returns>
+                Esta instância de <see cref="T:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest" /> para fluent.
+            </returns>
+        </member>
+        <member name="M:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.WithCookies(System.Collections.Generic.IDictionary{System.String,System.String})">
+            <summary>
+                Insere cookies na requisição.
+            </summary>
+            <param name="cookies">Cookies para adição de headers.</param>
+            <returns>
+                Esta instância de <see cref="T:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest" /> para fluent.
+            </returns>
+        </member>
+        <member name="M:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.SetBodyJson(System.Object)">
+            <summary>
+                Insere o objeto serializado como JSON como corpo da requisição.
+            </summary>
+            <param name="obj">Objeto a ser serializado.</param>
+            <returns>
+                Esta instância de <see cref="T:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest" /> para fluent.
+            </returns>
+        </member>
+        <member name="M:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.SetBodyXml(System.Object,System.String)">
+            <summary>
+                Insere o objeto serializado como XML como corpo da requisição.
+            </summary>
+            <param name="obj">Objeto a ser serializado.</param>
+            <param name="defaultNamespace">Namespace default do XML.</param>
+            <returns>
+                Esta instância de <see cref="T:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest" /> para fluent.
+            </returns>
+        </member>
+        <member name="M:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.SetBodyString(System.String,System.String)">
+            <summary>
+                Insere a string como corpo da requisição.
+            </summary>
+            <param name="str">String a inserir.</param>
+            <param name="mimeType">MimeType do conteúdo.</param>
+            <returns>
+                Esta instância de <see cref="T:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest" /> para fluent.
+            </returns>
+        </member>
+        <member name="M:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.SetBodyByteArray(System.Byte[],System.String)">
+            <summary>
+                Insere o array de bytes como corpo da requisição.
+            </summary>
+            <param name="data">Arrays de byte a enviar no corpo da requisição.</param>
+            <param name="mimeType">MimeType do conteúdo</param>
+            <returns>
+                Esta instância de <see cref="T:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest" /> para fluent.
+            </returns>
+        </member>
+        <member name="M:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.WithCredentials(System.Net.ICredentials,System.Boolean)">
+            <summary>
+                Insere as credenciais informadas na requisição.
+            </summary>
+            <param name="credentials">Credenciais a enviar.</param>
+            <param name="preAuthenticate">Se <c>true</c>, a requisição envia um header de autenticação.</param>
+            <returns>
+                Esta instância de <see cref="T:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest" /> para fluent.
+            </returns>
+        </member>
+        <member name="M:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.WithBasicCredentials(System.String,System.String,System.Boolean)">
+            <summary>
+                Insere as credenciais informadas na requisição (BasicAuthentication).
+            </summary>
+            <param name="userName">Nome do usuário.</param>
+            <param name="password">Senha do usuário.</param>
+            <param name="preAuthenticate">Se <c>true</c>, a requisição envia um header de autenticação.</param>
+            <returns>
+                Esta instância de <see cref="T:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest" /> para fluent.
+            </returns>
+        </member>
+        <member name="M:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.SetProxy(System.Net.IWebProxy)">
+            <summary>
+                Define o proxy a ser utilizado na requisição.
+            </summary>
+            <param name="proxy">Proxy a ser utilizado na requisição.</param>
+            <returns>
+                Esta instância de <see cref="T:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest" /> para fluent.
+            </returns>
+        </member>
+        <member name="M:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.SetNoCache">
+            <summary>
+                Adiciona headers para forcar o não-caching da requisição.
+            </summary>
+            <returns>Esta instância de <see cref="T:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest" /> para fluent.</returns>
+        </member>
+        <member name="M:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.SetCache(System.TimeSpan)">
+            <summary>
+                Adiciona headers para controle de cache da requisição.
+            </summary>
+            <param name="maxAge">Idade máxima do cache.</param>
+            <returns>
+                Esta instância de <see cref="T:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest" /> para fluent.
+            </returns>
+        </member>
+        <member name="M:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.AutoRedirectionMaxCount(System.Int32)">
+            <summary>
+                Insere informações sobre quantidade máxima de AutoRedirect suportado.
+            </summary>
+            <param name="maxCount">
+                <c>0</c> para não suportar AutoRedirect ou a quantidade máxima desejada de redirecionamentos
+                automáticos.
+            </param>
+            <returns>
+                Esta instância de <see cref="T:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest" /> para fluent.
+            </returns>
+        </member>
+        <member name="T:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.BaseHttpResponse">
+            <summary>
+                Resposta para requisições <see cref="T:BRFX.Core.Services.Http.BaseHttp" />.
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.BaseHttpResponse.ContentMimeType">
+            <summary>
+                MimeType do resultado da requisição.
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.BaseHttpResponse.Cookies">
+            <summary>
+                Obtém os cookies gerados na requisição.
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.BaseHttpResponse.FetchedFromCache">
+            <summary>
+                <c>true</c> quando o resultado é obtido do cache, <c>false</c> quando é obtido como resposta online da requisição.
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.BaseHttpResponse.Headers">
+            <summary>
+                Coleção de headers obtidos na resposta.
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.BaseHttpResponse.StatusCode">
+            <summary>
+                Obtém o <see cref="T:System.Net.HttpStatusCode" /> devolvido pela requisição.
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.BaseHttpResponse.StatusCodeReasonPhrase">
+            <summary>
+                Mensagem obtida pela razão do status code retornado.
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.BaseHttpResponse.Success">
+            <summary>
+                <c>true</c> para operação concluída com sucesso, <c>false</c> para erro.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.BaseHttpResponse.Dispose">
+            <summary>
+                Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.BaseHttpResponse.AsDeserializableTypeAsync``1">
+            <summary>
+                Deserializa o retorno da requisição para o tipo <typeparamref name="T" />.
+            </summary>
+            <typeparam name="T">Tipo deserializado.</typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.BaseHttpResponse.AsStringAsync">
+            <summary>
+                Obtém o retorno da requisição como string.
+            </summary>
+            <returns>String do retorno da requisição.</returns>
+        </member>
+        <member name="M:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.BaseHttpResponse.AsBinaryAsync">
+            <summary>
+                Obtém o retorno da requisição como um array de bytes.
+            </summary>
+            <returns>Array de bytes do conteúdo do retorno da requisição.</returns>
+        </member>
+        <member name="T:BRFX.Core.Services.Http.NetworkHttp">
+            <summary>
+                Requisitor de chamadas HTTP.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Services.Http.NetworkHttp.Initialize">
+            <summary>
+                Inicializa o injetor de dependências para utilizar o <see cref="T:BRFX.Core.Services.Http.NetworkHttp" />.
+            </summary>
+        </member>
+        <member name="T:BRFX.Core.Services.Http.NetworkHttp.NetworkHttpRequest">
+            <summary>
+                Helper fluent para suporte à <see cref="T:BRFX.Core.Services.Http.BaseHttp" />.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Services.Http.NetworkHttp.NetworkHttpRequest.SendAsync(System.Threading.CancellationToken)">
+            <summary>
+                Envia esta requisição assincronamente.
+            </summary>
+            <param name="cancellationToken">Token de cancelamento da operação.</param>
+            <returns>
+                Resposta assíncrona de <see cref="T:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.BaseHttpResponse" />.
+            </returns>
+        </member>
+        <member name="M:BRFX.Core.Services.Http.NetworkHttp.NetworkHttpRequest.Send(System.Action{BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.BaseHttpResponse},System.Action{System.Net.HttpStatusCode,System.Exception,System.String},System.Threading.CancellationToken)">
+            <summary>
+                Envia esta requisição sincronamente.
+            </summary>
+            <param name="success">
+                Callback a ser chamado quando do sucesso da requisição com a
+                <see cref="T:BRFX.Core.Services.Http.BaseHttp.BaseHttpRequest.BaseHttpResponse">resposta</see> da requisição.
+            </param>
+            <param name="failure">
+                Callback a ser chamado quando houver falha com o
+                <see cref="T:System.Net.HttpStatusCode">código de retorno da requisição</see>,
+                <see cref="T:System.Exception">qualquer exceção disparada</see> e
+                <see cref="T:System.String">qualquer mensagem de resultado obtida</see>.
+            </param>
+            <param name="cancellationToken">Token de cancelamento da operação.</param>
+        </member>
+        <member name="T:BRFX.Core.Services.Http.NetworkHttp.NetworkHttpRequest.NetworkHttpResponse">
+            <summary>
+                Resposta para requisições <see cref="T:BRFX.Core.Services.Http.BaseHttp" />.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Services.Http.NetworkHttp.NetworkHttpRequest.NetworkHttpResponse.AsBinaryAsync">
+            <summary>
+                Obtém o retorno da requisição como um array de bytes.
+            </summary>
+            <returns>
+                Array de bytes do conteúdo do retorno da requisição.
+            </returns>
+        </member>
+        <member name="M:BRFX.Core.Services.Http.NetworkHttp.NetworkHttpRequest.NetworkHttpResponse.Dispose">
+            <summary>
+                Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+            </summary>
+        </member>
+        <member name="T:BRFX.Core.Services.LocalIp.ILocalIp">
+            <summary>
+                Recupera IP local do cliente.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Services.LocalIp.ILocalIp.GetIp">
+            <summary>
+                Recupera o IP local do cliente.
+            </summary>
+            <returns>IP local do cliente.</returns>
+        </member>
+        <member name="T:BRFX.Core.Services.OperationResult">
+            <summary>
+                Classe para comunicação de resultado de operações diversas.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Services.OperationResult.#ctor(System.String)">
+            <summary>
+                Cria um novo resultado de operação com status Válido.
+            </summary>
+            <param name="message">Mensagem amigável opcional de sucesso ou falha.</param>
+        </member>
+        <member name="M:BRFX.Core.Services.OperationResult.#ctor(System.Exception,System.String)">
+            <summary>
+                Cria um novo resultado de operação com status Inválido.
+            </summary>
+            <param name="ex">Exceção ocorrida no processo.</param>
+            <param name="message">Mensagem amigável opcional de sucesso ou falha.</param>
+        </member>
+        <member name="P:BRFX.Core.Services.OperationResult.Exception">
+            <summary>
+                Exceção ocorrida na falha da operação.
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.Services.OperationResult.Message">
+            <summary>
+                Mensagem amigável opcional de sucesso ou falha.
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.Services.OperationResult.Success">
+            <summary>
+                Operação concluída com sucesso?
+            </summary>
+        </member>
+        <member name="T:BRFX.Core.Services.OperationResult`1">
+            <summary>
+                Classe para comunicação de resultado de operações diversas.
+            </summary>
+            <typeparam name="TResult">Tipo de resultado esperado.</typeparam>
+        </member>
+        <member name="M:BRFX.Core.Services.OperationResult`1.#ctor(System.String)">
+            <summary>
+                Cria um novo resultado de operação com status Válido.
+            </summary>
+            <param name="message">Mensagem amigável opcional de sucesso ou falha.</param>
+        </member>
+        <member name="M:BRFX.Core.Services.OperationResult`1.#ctor(System.Exception,System.String)">
+            <summary>
+                Cria um novo resultado de operação com status Inválido.
+            </summary>
+            <param name="ex">Exceção ocorrida no processo.</param>
+            <param name="message">Mensagem amigável opcional de sucesso ou falha.</param>
+        </member>
+        <member name="M:BRFX.Core.Services.OperationResult`1.#ctor(`0,System.String)">
+            <summary>
+                Cria um novo resultado de operação com status Válido.
+            </summary>
+            <param name="result">Resultado da operação.</param>
+            <param name="message">Mensagem amigável opcional de sucesso ou falha.</param>
+        </member>
+        <member name="P:BRFX.Core.Services.OperationResult`1.Result">
+            <summary>
+                Gets or sets the result.
+            </summary>
+            <value>
+                The result.
+            </value>
+        </member>
+        <member name="T:BRFX.Core.Services.Trace.DebugTracer">
+            <summary>
+                Tracer para Debug Output Window.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Services.Trace.DebugTracer.Initialize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Services.Trace.DebugTracer.Trace(Cirrious.CrossCore.Platform.MvxTraceLevel,System.String,System.Func{System.String})">
+            <summary>
+            
+            </summary>
+            <param name="level"></param>
+            <param name="tag"></param>
+            <param name="message"></param>
+        </member>
+        <member name="M:BRFX.Core.Services.Trace.DebugTracer.Trace(Cirrious.CrossCore.Platform.MvxTraceLevel,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="level"></param>
+            <param name="tag"></param>
+            <param name="message"></param>
+        </member>
+        <member name="M:BRFX.Core.Services.Trace.DebugTracer.Trace(Cirrious.CrossCore.Platform.MvxTraceLevel,System.String,System.String,System.Object[])">
+            <summary>
+            
+            </summary>
+            <param name="level"></param>
+            <param name="tag"></param>
+            <param name="message"></param>
+            <param name="args"></param>
+        </member>
+        <member name="T:BRFX.Core.Services.Vibrate.IVibrate">
+            <summary>
+                Vibra o dispositivo.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Services.Vibrate.IVibrate.Shake">
+            <summary>
+                Vibra o dispositivo.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Services.Vibrate.IVibrate.Shake(System.TimeSpan)">
+            <summary>
+                Vibra o dispositivo.
+            </summary>
+        </member>
+        <member name="T:BRFX.Core.Services.Vibrate.VibrateConfig">
+            <summary>
+                Configurações do vibrate.
+            </summary>
+        </member>
+        <member name="F:BRFX.Core.Services.Vibrate.VibrateConfig.DefaultTime">
+            <summary>
+                Indica o tempo padrão de vibração.
+            </summary>
+        </member>
+        <member name="T:BRFX.Core.PortableApp`1">
+            <summary>
+            Classe que deve ser chamada no Setup (MvxStoreSetup) de cada plataforma.
+            </summary>
+            <typeparam name="T">Tipo do ViewModel que será o inicial do projeto.</typeparam>
+        </member>
+        <member name="M:BRFX.Core.PortableApp`1.#ctor(BRFX.Core.Platform)">
+            <summary>
+            Construtor do Portable App, que informa a plataforma corrente
+            </summary>
+            <param name="platform">Plataforma de execução atual do app</param>
+        </member>
+        <member name="M:BRFX.Core.PortableApp`1.Initialize">
+            <summary>
+            Método chamado automáticamente pelo MVVMCross durante a inicialização do framework. Ele apenas registra os serviços e o AppStart.
+            </summary>
+        </member>
+        <member name="T:BRFX.Core.TimerCallback">
+            <summary>
+                Callback de Timer para PCL
+            </summary>
+            <param name="state"></param>
+        </member>
+        <member name="T:BRFX.Core.Timer">
+            <summary>
+                Classe Timer para PCL
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Timer.#ctor(BRFX.Core.TimerCallback,System.Object,System.Int32,System.Int32)">
+            <summary>
+                Constroi o timer
+            </summary>
+            <param name="callback">Método de callback</param>
+            <param name="state">State</param>
+            <param name="dueTime">Tempo de aguardo da primeira execução</param>
+            <param name="period">Período do app</param>
+        </member>
+        <member name="M:BRFX.Core.Timer.Dispose">
+            <summary>
+                Cancela o timer
+            </summary>
+        </member>
+        <member name="T:BRFX.Core.Validation.DataType">
+            Summary:
+            Represents an enumeration of the data types associated with data fields and
+            parameters.
+        </member>
+        <member name="F:BRFX.Core.Validation.DataType.DateTime">
+            Summary:
+            Represents an instant in time, expressed as a date and time of day.
+        </member>
+        <member name="F:BRFX.Core.Validation.DataType.Date">
+            Summary:
+            Represents a date value.
+        </member>
+        <member name="F:BRFX.Core.Validation.DataType.PhoneNumber">
+            Summary:
+            Represents a phone number value.
+        </member>
+        <member name="F:BRFX.Core.Validation.DataType.EmailAddress">
+            Summary:
+            Represents an e-mail address.
+        </member>
+        <member name="T:BRFX.Core.Validation.DataTypeAttribute">
+            <summary>
+                Garante que uma é de um certo tipo.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Validation.DataTypeAttribute.#ctor(BRFX.Core.Validation.DataType,System.String)">
+            <summary>
+                Cria o atributo.
+            </summary>
+            <param name="dataType">Tipo do dado.</param>
+            <param name="validationMessage">Mensagem de validação do atributo.</param>
+        </member>
+        <member name="P:BRFX.Core.Validation.DataTypeAttribute.DataType">
+            <summary>
+                Tipo do dado do atributo.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Validation.DataTypeAttribute.Validate(System.Object)">
+            <summary>
+                Método que valida o dado.
+            </summary>
+            <param name="value">Valor do dado.</param>
+            <returns>Retorna true se o valor é válido.</returns>
+        </member>
+        <member name="T:BRFX.Core.Validation.MaxLengthAttribute">
+            <summary>
+                Garante que uma propriedade não ultrapassa um tamanho máximo.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Validation.MaxLengthAttribute.#ctor(System.Int32,System.String)">
+            <summary>
+                Cria o atributo.
+            </summary>
+            <param name="length">Tamanho máximo do campo.</param>
+            <param name="validationMessage">Mensagem de validação do atributo.</param>
+        </member>
+        <member name="P:BRFX.Core.Validation.MaxLengthAttribute.Length">
+            <summary>
+                Tamanho máximo do campo.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Validation.MaxLengthAttribute.Validate(System.Object)">
+            <summary>
+                Método que valida o dado.
+            </summary>
+            <param name="value">Valor do dado.</param>
+            <returns>Retorna true se o valor tem no máximo Lenght de tamanho.</returns>
+        </member>
+        <member name="T:BRFX.Core.Validation.RangeAttribute">
+            <summary>
+                Garante que uma propriedade esta dentro de um range de valores específico.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Validation.RangeAttribute.#ctor(System.Double,System.Double,System.String)">
+            <summary>
+                Cria o atributo.
+            </summary>
+            <param name="minimum">Valor mínimo para o campo.</param>
+            <param name="maximum">Valor máximo para o campo</param>
+            <param name="validationMessage">Mensagem de validação do atributo.</param>
+        </member>
+        <member name="M:BRFX.Core.Validation.RangeAttribute.#ctor(System.Int32,System.Int32,System.String)">
+            <summary>
+                Cria o atributo.
+            </summary>
+            <param name="minimum">Valor mínimo para o campo.</param>
+            <param name="maximum">Valor máximo para o campo</param>
+            <param name="validationMessage">Mensagem de validação do atributo.</param>
+        </member>
+        <member name="M:BRFX.Core.Validation.RangeAttribute.#ctor(System.Type,System.String,System.String,System.String)">
+            <summary>
+                Cria o atributo.
+            </summary>
+            <param name="operandType">Tipo do dado a ser feita a comparação.</param>
+            <param name="minimum">Valor mínimo para o campo, em string.</param>
+            <param name="maximum">Valor máximo para o campo, em string</param>
+            <param name="validationMessage">Mensagem de validação do atributo.</param>
+        </member>
+        <member name="P:BRFX.Core.Validation.RangeAttribute.Minimum">
+            <summary>
+                Valor mínimo permitido para o campo.
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.Validation.RangeAttribute.Maximum">
+            <summary>
+                Valor máximo permitido para o campo.
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.Validation.RangeAttribute.OperandType">
+            <summary>
+            	Tipo de dado com qual o valor deve ser validado.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Validation.RangeAttribute.Validate(System.Object)">
+            <summary>
+                Método que valida o dado.
+            </summary>
+            <param name="value">Valor do dado.</param>
+            <returns>Retorna true se o valor esta entre minimum e maximum.</returns>
+        </member>
+        <member name="T:BRFX.Core.Validation.MinLengthAttribute">
+            <summary>
+                Garante que uma propriedade tem um tamanho mínimo.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Validation.MinLengthAttribute.#ctor(System.Int32,System.String)">
+            <summary>
+                Cria o atributo.
+            </summary>
+            <param name="length">Tamanho mínimo do campo.</param>
+            <param name="validationMessage">Mensagem de validação do atributo.</param>
+        </member>
+        <member name="P:BRFX.Core.Validation.MinLengthAttribute.Length">
+            <summary>
+                Tamanho mínimo do campo.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Validation.MinLengthAttribute.Validate(System.Object)">
+            <summary>
+                Método que valida o dado.
+            </summary>
+            <param name="value">Valor do dado.</param>
+            <returns>Retorna true se o valor tem no mínimo Lenght de tamanho.</returns>
+        </member>
+        <member name="T:BRFX.Core.Validation.RegularExpressionAttribute">
+            <summary>
+                Garante que uma propriedade obedece a uma expressão regular.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Validation.RegularExpressionAttribute.#ctor(System.Text.RegularExpressions.Regex,System.String)">
+            <summary>
+                Cria o atributo.
+            </summary>
+            <param name="regex">Expressão regular.</param>
+            <param name="validationMessage">Mensagem de validação do atributo.</param>
+        </member>
+        <member name="M:BRFX.Core.Validation.RegularExpressionAttribute.#ctor(System.String,System.String)">
+            <summary>
+                Cria o atributo.
+            </summary>
+            <param name="pattern">Padrão da expressão regular.</param>
+            <param name="validationMessage">Mensagem de validação do atributo.</param>
+        </member>
+        <member name="P:BRFX.Core.Validation.RegularExpressionAttribute.Regex">
+            <summary>
+                Expressão regular que valida a propriedade.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Validation.RegularExpressionAttribute.Validate(System.Object)">
+            <summary>
+                Método que valida o dado.
+            </summary>
+            <param name="value">Valor do dado.</param>
+            <returns>Retorna true se o valor obedece à <c>Regex</c>.</returns>
+        </member>
+        <member name="T:BRFX.Core.Validation.RequiredAttribute">
+            <summary>
+                Garante que uma propriedade é obrigatória.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Validation.RequiredAttribute.#ctor(System.String)">
+            <summary>
+                Cria o atributo.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Validation.RequiredAttribute.Validate(System.Object)">
+            <summary>
+                Método que valida o dado.
+            </summary>
+            <param name="value">Valor do dado.</param>
+            <returns>Retorna true se o valor não é null.</returns>
+        </member>
+        <member name="T:BRFX.Core.Validation.ValidationAttribute">
+            <summary>
+                Atributo base de validação.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Validation.ValidationAttribute.#ctor(System.String)">
+            <summary>
+                Cria um atributo de validação com uma mensagem de validação.
+            </summary>
+            <param name="validationMessage">Mensagem de validação do atributo.</param>
+        </member>
+        <member name="P:BRFX.Core.Validation.ValidationAttribute.ValidationMessage">
+            <summary>
+                Mensagem de validação do atributo.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Validation.ValidationAttribute.Validate(System.Object)">
+            <summary>
+                Método que valida o dado.
+            </summary>
+            <param name="value">Valor do dado.</param>
+            <returns>Retorna true se o valor é válido.</returns>
+        </member>
+        <member name="T:BRFX.Core.Validation.Validator">
+            <summary>
+                Verifica todos os possíveis atributos de validação e monta o dicionário de erros.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Validation.Validator.SendValidationMessage``1(System.Object,``0,System.String)">
+            <summary>
+                Envia a ValidationMessage para o IMvxMessenger.
+            </summary>
+            <param name="sender">Instancia que será o sender da mensagem de validação.</param>
+            <param name="value">Valor que foi alterado e precisa de validação.</param>
+            <param name="propertyName">Nome da propriedade que foi alterada.</param>
+        </member>
+        <member name="M:BRFX.Core.Validation.Validator.Validate``1(System.Object,``0,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{BRFX.Core.Validation.ValidationAttribute}}@)">
+            <summary>
+            Valida a propriedade.
+            </summary>
+            <param name="sender">Instancia que será o sender da mensagem de validação.</param>
+            <param name="value">Valor que foi alterado e precisa de validação.</param>
+            <param name="propertyName">Nome da propriedade que foi alterada.</param>
+            <param name="dict">Dicionário que contém os erros de validação.</param>
+            <typeparam name="T">Tipo de dado value que esta sendo validado.</typeparam>
+            <returns>Retorna <c>true</c> se não existem erros de validação na propriedade.</returns>
+        </member>
+        <member name="M:BRFX.Core.Validation.Validator.GetValidationAttribute``1(System.Object,System.String)">
+            <summary>
+            Retorna o 1
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:BRFX.Core.Validation.Validator.ValidationAtributesTypes">
+            <summary>
+            Lista de todas as classes de validação.
+            </summary>
+        </member>
+        <member name="T:BRFX.Core.ViewModels.BaseMainViewModel">
+            <summary>
+                View model base para Views com Menu
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.ViewModels.BaseMainViewModel.#ctor">
+            <summary>
+                Classe base para main view model com menu (android e IOS)
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.ViewModels.BaseMainViewModel.ProgressVisible">
+            <summary>
+                Indica se a barra de progresso esta visível ou não. Pode ser feito binding nesta propriedade para mostrar ou não
+                uma barra de progresso.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.ViewModels.BaseMainViewModel.Init">
+            <summary>
+                Inicializar o frame principal com NavigateTo
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.ViewModels.BaseMainViewModel.OnDispose">
+            <summary>
+                Realize tarefas relacionadas com liberação de recursos não gerenciados.
+            </summary>
+        </member>
+        <member name="T:BRFX.Core.ViewModels.BaseNavigableObservable">
+            <summary>
+                Classe base de todas as classes inseridas dentro de ViewModels do projeto. Também pode
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.ViewModels.BaseNavigableObservable.#ctor(BRFX.Core.ViewModels.BaseViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="parentViewModel">ViewModel que criou este observable. Normalmente "this".</param>
+        </member>
+        <member name="P:BRFX.Core.ViewModels.BaseNavigableObservable.ParentViewModel">
+            <summary>
+                Referência para o view model no qual este observable esta associado.
+            </summary>
+        </member>
+        <member name="T:BRFX.Core.ViewModels.BaseObservable">
+            <summary>
+                Classe base de todas as classes inseridas dentro de ViewModels do projeto.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.ViewModels.BaseObservable.Finalize">
+            <summary>
+                Finalizes an instance of the <see cref="T:BRFX.Core.ViewModels.BaseObservable" /> class.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.ViewModels.BaseObservable.CompareTo(System.Object)">
+            <summary>
+                Compares the current instance with another object of the same type and returns an integer that indicates whether
+                the current instance precedes, follows, or occurs in the same position in the sort order as the other object.
+            </summary>
+            <param name="obj">An object to compare with this instance.</param>
+            <returns>
+                A value that indicates the relative order of the objects being compared. The return value has these meanings: Value
+                Meaning Less than zero This instance precedes <paramref name="obj" /> in the sort order. Zero This instance occurs
+                in the same position in the sort order as <paramref name="obj" />. Greater than zero This instance follows
+                <paramref name="obj" /> in the sort order.
+            </returns>
+        </member>
+        <member name="M:BRFX.Core.ViewModels.BaseObservable.Dispose">
+            <summary>
+                Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.ViewModels.BaseObservable.OnDispose">
+            <summary>
+                Realize tarefas relacionadas com liberação de recursos não gerenciados.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.ViewModels.BaseObservable.Set``1(``0@,``0,System.String)">
+            <summary>
+                Seta o valor do campo privado de uma propriedade, invocando o evento PropertyChanged, se necessário.
+            </summary>
+            <typeparam name="T">Tipo do campo privado.</typeparam>
+            <param name="memoryHolder">Referência do campo privado.</param>
+            <param name="newValue">Novo valor a ser aplicado.</param>
+            <param name="propertyName">Nome da propriedade sendo alterada.</param>
+            <returns><c>true</c>, caso o valor tenha sido alterado, <c>false</c> caso permanceça o mesmo.</returns>
+        </member>
+        <member name="M:BRFX.Core.ViewModels.BaseObservable.SetNullable``1(``0@,``0,System.String)">
+            <summary>
+                Seta o valor do campo privado de uma propriedade nullable, invocando o evento PropertyChanged, se necessário.
+            </summary>
+            <typeparam name="T">Tipo nullable do campo privado.</typeparam>
+            <param name="memoryHolder">Referência do campo privado.</param>
+            <param name="newValue">Novo valor a ser aplicado.</param>
+            <param name="propertyName">Nome da propriedade sendo alterada.</param>
+            <returns><c>true</c>, caso o valor tenha sido alterado, <c>false</c> caso permanceça o mesmo.</returns>
+        </member>
+        <member name="T:BRFX.Core.ViewModels.BaseViewModel">
+            <summary>
+                Classe base de todas as ViewModels do projeto.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.ViewModels.BaseViewModel.GetParametersDictionary(System.String,System.Object@)">
+            <summary>
+            Expõe o valor armazenado no dictionary
+            </summary>
+            <param name="key"> chave </param>
+            <param name="ret"> objeto que armazenará o valor contido na chave </param>
+            <returns> Booleano que indica o sucesso da operação </returns>
+        </member>
+        <member name="M:BRFX.Core.ViewModels.BaseViewModel.#ctor">
+            <summary>
+                Inicializa uma nova instância da classe <see cref="T:BRFX.Core.ViewModels.BaseViewModel" />.
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.ViewModels.BaseViewModel.GoBackCommand">
+            <summary>
+                Command padrão para voltar um nível na stack de viewModels.
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.ViewModels.BaseViewModel.Messenger">
+            <summary>
+                Referencia de mensageria
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.ViewModels.BaseViewModel.Item(System.String)">
+            <summary>
+                Usado para o binding de strings na view
+            </summary>
+            <param name="index"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BRFX.Core.ViewModels.BaseViewModel.Dispose">
+            <summary>
+                Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.ViewModels.BaseViewModel.GetResourceStringForIndex(System.String)">
+            <summary>
+                Retorna string localizada para o índice
+            </summary>
+            <param name="index"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BRFX.Core.ViewModels.BaseViewModel.NavigateTo``1(Cirrious.MvvmCross.ViewModels.IMvxBundle)">
+            <summary>
+                Navega para um view model.
+            </summary>
+            <typeparam name="TViewModel">Tipo do view model a ser mostrado.</typeparam>
+        </member>
+        <member name="M:BRFX.Core.ViewModels.BaseViewModel.NavigateTo(System.Type,Cirrious.MvvmCross.ViewModels.IMvxBundle)">
+            <summary>
+                Navega para um view model
+            </summary>
+            <param name="viewModelType">Tipo do view model a ser mostrado</param>
+            <param name="presentationBundle"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BRFX.Core.ViewModels.BaseViewModel.NavigateTo``1(System.Object,Cirrious.MvvmCross.ViewModels.IMvxBundle)">
+            <summary>
+                Navega para um view model.
+            </summary>
+            ///
+            <param name="args">Argumento a ser passado na criação do view model.</param>
+            <param name="presentationBundle"></param>
+            <typeparam name="TViewModel">Tipo do view model a ser mostrado.</typeparam>
+        </member>
+        <member name="M:BRFX.Core.ViewModels.BaseViewModel.OnDispose">
+            <summary>
+                Realize tarefas relacionadas com liberação de recursos não gerenciados.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.ViewModels.BaseViewModel.CanExecuteGoBack">
+            <summary>
+                Método executado para verificar se o botão de back pode ser clicado.
+            </summary>
+            <returns>Retorna true se o botão de back pode ser clicado.</returns>
+        </member>
+        <member name="M:BRFX.Core.ViewModels.BaseViewModel.CreateCommands">
+            <summary>
+                Cria todos os <see cref="T:Cirrious.MvvmCross.ViewModels.MvxCommand">Comandos</see> utilizados neste ViewModel.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.ViewModels.BaseViewModel.ExecuteGoBack">
+            <summary>
+                Método executado quando o botão de back é clicado.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.ViewModels.BaseViewModel.RunOnUIThread(System.Action)">
+            <summary>
+                Executa a action especificada na UI thread.
+            </summary>
+            <param name="action">Action a executar.</param>
+        </member>
+        <member name="M:BRFX.Core.ViewModels.BaseViewModel.Set``1(``0@,``0,System.String)">
+            <summary>
+                Seta o valor do campo privado de uma propriedade, invocando o evento PropertyChanged, se necessário.
+            </summary>
+            <typeparam name="T">Tipo do campo privado.</typeparam>
+            <param name="memoryHolder">Referência do campo privado.</param>
+            <param name="newValue">Novo valor a ser aplicado.</param>
+            <param name="propertyName">Nome da propriedade sendo alterada.</param>
+            <returns><c>true</c>, caso o valor tenha sido alterado, <c>false</c> caso permanceça o mesmo.</returns>
+        </member>
+        <member name="T:BRFX.Core.ViewModels.BaseViewModel`1">
+            <summary>
+            
+            </summary>
+            <typeparam name="TParam"></typeparam>
+        </member>
+        <member name="M:BRFX.Core.ViewModels.BaseViewModel`1.Init(System.String)">
+            <summary>
+                Inicializa o view model com o parâmetro recebido.
+            </summary>
+            <param name="viewModelParamId">Parâmetro recebido.</param>
+        </member>
+        <member name="M:BRFX.Core.ViewModels.BaseViewModel`1.ExecuteGoBack">
+            <summary>
+                Método executado quando o botão de back é clicado.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.ViewModels.BaseViewModel`1.GetParams(`0)">
+            <summary>
+                Obtém os parâmetros enviado para este view model.
+            </summary>
+        </member>
+        <member name="T:BRFX.Core.ViewModels.FormObservable">
+            <summary>
+                Classe base de todas as classes inseridas dentro de ViewModels do projeto que tenham validação de dados, por
+                exemplo, um
+                formulário.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.ViewModels.FormObservable.CheckValidation">
+            <summary>
+                Método que retorna a validação de todos os dados da Observable.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BRFX.Core.ViewModels.FormObservable.Set``1(``0@,``0,System.String)">
+            <summary>
+                Seta o valor do campo privado de uma propriedade, invocando o evento PropertyChanged, se necessário.
+            </summary>
+            <typeparam name="T">Tipo do campo privado.</typeparam>
+            <param name="memoryHolder">Referência do campo privado.</param>
+            <param name="newValue">Novo valor a ser aplicado.</param>
+            <param name="propertyName">Nome da propriedade sendo alterada.</param>
+            <returns><c>true</c>, caso o valor tenha sido alterado, <c>false</c> caso permanceça o mesmo.</returns>
+        </member>
+        <member name="M:BRFX.Core.ViewModels.FormObservable.SetNullable``1(``0@,``0,System.String)">
+            <summary>
+                Seta o valor do campo privado de uma propriedade nullable, invocando o evento PropertyChanged, se necessário.
+            </summary>
+            <typeparam name="T">Tipo nullable do campo privado.</typeparam>
+            <param name="memoryHolder">Referência do campo privado.</param>
+            <param name="newValue">Novo valor a ser aplicado.</param>
+            <param name="propertyName">Nome da propriedade sendo alterada.</param>
+            <returns><c>true</c>, caso o valor tenha sido alterado, <c>false</c> caso permanceça o mesmo.</returns>
+        </member>
+        <member name="T:BRFX.Core.ViewModels.FormViewModel">
+            <summary>
+                ViewModel que deve ser usado como classe base para todos os ViewModels que tem validação de dados, por exemplo, um
+                formulário.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.ViewModels.FormViewModel.GetParams(System.Object)">
+            <summary>
+                Obtém os parâmetros enviado para este view model.
+            </summary>
+        </member>
+        <member name="T:BRFX.Core.ViewModels.FormViewModel`1">
+            <summary>
+                ViewModel que deve ser usado como classe base para todos os ViewModels que tem validação de dados, por exemplo, um
+                formulário. Classe genérica.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.ViewModels.FormViewModel`1.Set``1(``0@,``0,System.String)">
+            <summary>
+                Seta o valor do campo privado de uma propriedade, invocando o evento PropertyChanged, se necessário.
+            </summary>
+            <typeparam name="T">Tipo do campo privado.</typeparam>
+            <param name="memoryHolder">Referência do campo privado.</param>
+            <param name="newValue">Novo valor a ser aplicado.</param>
+            <param name="propertyName">Nome da propriedade sendo alterada.</param>
+            <returns><c>true</c>, caso o valor tenha sido alterado, <c>false</c> caso permanceça o mesmo.</returns>
+        </member>
+        <member name="M:BRFX.Core.ViewModels.FormViewModel`1.GetFirstError(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{BRFX.Core.Validation.ValidationAttribute}})">
+            <summary>
+            Retorna o primeiro dos erros do dicionário enviado.
+            </summary>
+            <param name="dict">Dicionário com vários erros para vários campos, normalmente retornado pelo Validator.Validate().</param>
+            <returns></returns>
+        </member>
+        <member name="T:BRFX.Core.ViewModels.IViewModel">
+            <summary>
+                Representa uma ViewModel para injeção de dependências.
+            </summary>
+        </member>
+        <member name="T:BRFX.Core.ViewModels.MenuObservable">
+            <summary>
+            	Observable para construção de menus
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.ViewModels.MenuObservable.Icon">
+            <summary>
+             Icone que será exibido no menu
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.ViewModels.MenuObservable.ViewModelType">
+            <summary>
+            	Tipo da view model que será chamada no clique do menu
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.ViewModels.MenuObservable.Title">
+            <summary>
+            	Título do item de menu
+            </summary>
+        </member>
+        <member name="T:BRFX.Core.ViewModels.ProgressViewModel">
+            <summary>
+                ViewModel que deve ser usado como classe base para todos os ViewModels que podem utilizar loading, seja de serviços
+                ou qualquer elemento awaitable.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.ViewModels.ProgressViewModel.GetParams(System.Object)">
+            <summary>
+            Obtém os parâmetros enviado para este view model.
+            </summary>
+        </member>
+        <member name="T:BRFX.Core.ViewModels.ProgressViewModel`1">
+            <summary>
+                ViewModel que deve ser usado como classe base para todos os ViewModels que podem utilizar loading, seja de serviços
+                ou qualquer elemento awaitable. Classe genérica.
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.ViewModels.ProgressViewModel`1.LoadingCount">
+            <summary>
+            Indica quantos loadings foram feitos.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.ViewModels.ProgressViewModel`1.#ctor">
+            <summary>
+                Inicializa a classe com o progresso (ProgressVisible) não visível (false).
+            </summary>
+        </member>
+        <member name="P:BRFX.Core.ViewModels.ProgressViewModel`1.ProgressVisible">
+            <summary>
+                Indica se a barra de progresso esta visível ou não. Pode ser feito binding nesta propriedade para mostrar ou não
+                uma barra de progresso.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.ViewModels.ProgressViewModel`1.OnDispose">
+            <summary>
+                Realize tarefas relacionadas com liberação de recursos não gerenciados.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.ViewModels.ProgressViewModel`1.StartLoading">
+            <summary>
+                Inicializa a indicação de loading sem prazo definido. Pode ser chamado mais de uma vez pois utiliza um contador de
+                quantos loadings estão ocorrendo.
+            </summary>
+            <threadsafety instance="true" />
+        </member>
+        <member name="M:BRFX.Core.ViewModels.ProgressViewModel`1.StopLoading">
+            <summary>
+                Finaliza a indicação de loading.
+            </summary>
+            <threadsafety instance="true" />
+        </member>
+        <member name="M:BRFX.Core.ViewModels.ProgressViewModel`1.Update">
+            <summary>
+            	Atualiza a variavel de ProgressVisible e envia a LoadingChangedMessage
+            </summary>
+        </member>
+        <member name="T:BRFX.Core.Views.IView">
+            <summary>
+                Representa uma View multi-plataforma.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Views.IView.OnLoad">
+            <summary>
+                Chamado quando a view acaba de ser carregada.
+            </summary>
+        </member>
+        <member name="M:BRFX.Core.Views.IView.OnUnload">
+            <summary>
+                Chamado quando a view está para ser descarregada.
+            </summary>
+        </member>
+        <member name="T:NumberExtensions">
+            <summary>
+            Classe de extension methods para números.
+            </summary>
+        </member>
+        <member name="M:NumberExtensions.RandomUntil(System.Int32,System.Int32)">
+            <summary>
+            Retorna um número aleatório entre <paramref name="minValue"/> até <paramref name="maxValue"/>.
+            </summary>
+            <param name="minValue">Valor mínimo (inclusivo) do número aleatório.</param>
+            <param name="maxValue">Valor máximo (exclusivo) do número aleatório.</param>
+            <returns>Número aleatório gerado.</returns>
+        </member>
+        <member name="T:XmlExtensions">
+            <summary>
+                Classe de extension methods para serialização/deserialização JSON.
+            </summary>
+        </member>
+        <member name="M:XmlExtensions.ToXml(System.Object,System.String)">
+            <summary>
+                Serializa um objeto para uma string XML.
+            </summary>
+            <param name="graph">Objeto a ser serializado.</param>
+            <param name="defaultNamespace">O namespace default para serialização XML, se disponível.</param>
+            <returns>
+                String XML representando o objeto.
+            </returns>
+        </member>
+        <member name="M:XmlExtensions.FromXml``1(System.String,System.String)">
+            <summary>
+                Deserializa um objeto a partir de uma string XML.
+            </summary>
+            <typeparam name="T">Tipo de objeto a retornar.</typeparam>
+            <param name="xml">String contendo um objeto XML serializado.</param>
+            <param name="defaultNamespace">O namespace default para serialização XML, se disponível.</param>
+            <returns>Objeto do tipo <typeparamref name="T" />.</returns>
+        </member>
+        <member name="T:JsonExtensions">
+            <summary>
+                Classe de extension methods para serialização/deserialização JSON.
+            </summary>
+        </member>
+        <member name="M:JsonExtensions.ToJson(System.Object)">
+            <summary>
+                Serializa um objeto para uma string JSON.
+            </summary>
+            <param name="graph">Objeto a ser serializado.</param>
+            <returns>String JSON representando o objeto.</returns>
+        </member>
+        <member name="M:JsonExtensions.FromJson``1(System.String)">
+            <summary>
+                Deserializa um objeto a partir de uma string JSON.
+            </summary>
+            <typeparam name="T">Tipo de objeto a retornar.</typeparam>
+            <param name="json">String contendo um objeto JSON serializado.</param>
+            <returns>Objeto do tipo <typeparamref name="T" />.</returns>
+        </member>
+        <member name="T:JsonExtensions.TimeZoneSafeDateTimeConverter">
+            <summary>
+                Conversor JSON para incluir sempre a zona de tempo de uma data no formato ISO.
+            </summary>
+        </member>
+        <member name="M:JsonExtensions.TimeZoneSafeDateTimeConverter.WriteJson(Newtonsoft.Json.JsonWriter,System.Object,Newtonsoft.Json.JsonSerializer)">
+            <summary>
+                Writes the JSON representation of the object.
+            </summary>
+            <param name="writer">The <see cref="T:Newtonsoft.Json.JsonWriter" /> to write to.</param>
+            <param name="value">The value.</param>
+            <param name="serializer">The calling serializer.</param>
+        </member>
+        <member name="T:StringExtensions">
+            <summary>
+            Classe de extension methods para strings.
+            </summary>
+        </member>
+        <member name="M:StringExtensions.AsComparable(System.String)">
+            <summary>
+                Prepara uma string para comparação, removendo acentos e convertendo para caixa baixa.
+            </summary>
+            <param name="text">Texto a ser formatado.</param>
+            <returns>Texto formatado sem acentos e em caixa baixa.</returns>
+        </member>
+        <member name="T:TaskExtensions">
+            <summary>
+                Classe de extension methods para <see cref="T:System.Threading.Tasks.Task" />.
+            </summary>
+        </member>
+        <member name="M:TaskExtensions.ParallelPromise(System.Threading.Tasks.Task[],System.Action,System.Action{System.Collections.Generic.IList{System.Exception}})">
+            <summary>
+                Roda uma lista de <see cref="T:System.Threading.Tasks.Task">Tasks</see> paralelamente, retornando quando todas as tasks forem concluídas.
+            </summary>
+            <param name="tasks">Lista de <see cref="T:System.Threading.Tasks.Task">Tasks</see> a executar.</param>
+            <param name="completed">Método a ser chamado quando todas as <see cref="T:System.Threading.Tasks.Task">Tasks</see> forem concluídas.</param>
+            <param name="failure">
+                Método a ser chamado quando uma ou mais <see cref="T:System.Threading.Tasks.Task">Tasks</see> reportarem cancelamento ou
+                exceção.
+            </param>
+            <returns><see cref="T:System.Threading.Tasks.Task"/>.</returns>
+        </member>
+        <member name="M:TaskExtensions.Promise(System.Threading.Tasks.Task,System.Action,System.Action{System.Exception})">
+            <summary>
+                Executa a <see cref="T:System.Threading.Tasks.Task">Task</see> atual e roda os métodos <paramref name="completed" /> ou
+                <paramref name="failure" />, dependendo do
+                resultado da <see cref="T:System.Threading.Tasks.Task">Task</see>.
+            </summary>
+            <param name="task"><see cref="T:System.Threading.Tasks.Task">Task</see> a ser executada.</param>
+            <param name="completed">Método a ser executado quando a <see cref="T:System.Threading.Tasks.Task">Task</see> é concluída com sucesso.</param>
+            <param name="failure">
+                Método a ser executado quando a <see cref="T:System.Threading.Tasks.Task">Task</see> é cancelada (Exception = null) ou
+                disparou exceções.
+            </param>
+            <returns>A <see cref="T:System.Threading.Tasks.Task">Task</see> original.</returns>
+        </member>
+        <member name="M:TaskExtensions.Promise``1(System.Threading.Tasks.Task{``0},System.Action{``0},System.Action{System.Exception})">
+            <summary>
+                Executa a <see cref="T:System.Threading.Tasks.Task">Task</see> atual e roda os métodos <paramref name="completed" /> ou
+                <paramref name="failure" />, dependendo do
+                resultado da <see cref="T:System.Threading.Tasks.Task">Task</see>.
+            </summary>
+            <param name="task"><see cref="T:System.Threading.Tasks.Task">Task</see> a ser executada.</param>
+            <param name="completed">Método a ser executado quando a <see cref="T:System.Threading.Tasks.Task">Task</see> é concluída com sucesso.</param>
+            <param name="failure">
+                Método a ser executado quando a <see cref="T:System.Threading.Tasks.Task">Task</see> é cancelada (Exception = null) ou
+                disparou exceções.
+            </param>
+            <typeparam name="T">Tipo de retorno esperado da <see cref="T:System.Threading.Tasks.Task" />.</typeparam>
+            <returns>A <see cref="T:System.Threading.Tasks.Task">Task</see> original.</returns>
+        </member>
+    </members>
+</doc>

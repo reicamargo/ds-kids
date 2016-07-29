@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_cadastro"
+    android:paddingTop="10dp"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <BRFX.BRFXSVGImageView
+        local:SVGAssetName="svg/bot_close.svg"
+        local:MvxBind="Click GoBackCommand; Visibility TemFilhoVisibility('')"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true" />
+    <LinearLayout
+        style="@style/padded_linear_layout">
+        <RelativeLayout
+            android:layout_gravity="center"
+            android:layout_width="120dp"
+            android:layout_height="120dp">
+            <BRFX.BRFXSVGImageView
+                local:SVGAssetName="svg/icologin_camera.svg"
+                android:layout_width="120dp"
+                android:layout_height="120dp" />
+            <BRFX.RoundedImageView
+                local:MvxBind="Click SelectPhotoCommand;Bitmap InMemoryImage(PictureBytes)"
+                local:riv_corner_radius="60dip"
+                android:scaleType="centerCrop"
+                android:layout_width="120dp"
+                android:layout_height="120dp" />
+        </RelativeLayout>
+        <BRFX.BRFXTextView
+            style="@style/default_label"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Insira os dados do seu filho"
+            android:hint="Nome" />
+        <BRFXValidation.BRFXEditText
+            style="@style/default_edittext"
+            android:layout_marginBottom="0dp"
+            local:MvxBind="Text Nome"
+            local:ErrorMessagePropertyName="Nome"
+            android:hint="Nome do filho" />
+        <RelativeLayout
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="28dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <BRFXValidation.BRFXEditText
+                style="@style/default_edittext"
+                android:id="@+id/adicionarFilhoView_Altura"
+                android:layout_margin="0dp"
+                local:MvxBind="Text Altura"
+                local:ErrorMessagePropertyName="Altura"
+                local:DecimalDigitsBeforeZero="1"
+                local:DecimalDigitsAfterZero="2"
+                android:inputType="numberDecimal"
+                android:hint="Altura" />
+            <TextView
+                android:text="m"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/white"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="28dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <BRFXValidation.BRFXEditText
+                style="@style/default_edittext"
+                android:layout_margin="0dp"
+                android:imeOptions="actionDone"
+                local:MvxBind="Text Peso"
+                local:DecimalDigitsBeforeZero="3"
+                local:DecimalDigitsAfterZero="2"
+                android:inputType="numberDecimal"
+                local:ErrorMessagePropertyName="Peso"
+                android:hint="Peso" />
+            <TextView
+                android:id="@+id/adicionarFilhoView_Peso"
+                android:text="kg"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <BRFXValidation.BRFXEditText
+            style="@style/default_edittext"
+            android:hint="Data de nascimento"
+            android:id="@+id/adicionarFilho_DataNascimentoEditText" />
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp">
+            <BRFX.BRFXTextView
+                style="@style/default_label"
+                android:text="Gênero: "
+                android:layout_marginRight="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+            <BRFX.BRFXSVGButton
+                android:id="@+id/adicionarFilhoView_icoFem"
+                local:MvxBind="Click SelectSexoCommand, CommandParameter=F"
+                local:SVGAssetName="svg/icologin_fem.svg"
+                android:layout_marginRight="8dp"
+                android:alpha=".75"
+                android:layout_width="50dp"
+                android:layout_height="35dp" />
+            <BRFX.BRFXSVGButton
+                android:id="@+id/adicionarFilhoView_icoMasc"
+                local:MvxBind="Click SelectSexoCommand, CommandParameter=M"
+                local:SVGAssetName="svg/icologin_masc.svg"
+                android:alpha=".75"
+                android:layout_width="35dp"
+                android:layout_height="35dp" />
+        </LinearLayout>
+        <BRFX.BRFXButton
+            local:MvxBind="Click ConcluirCommand"
+            android:text="Continuar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

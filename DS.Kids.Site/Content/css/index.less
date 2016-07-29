@@ -1,0 +1,471 @@
+﻿@import "style.less";
+@import "_partials/sprite-icons.less";
+@import url(http://fonts.googleapis.com/css?family=Chewy);
+
+/*-----------------------------------------------------------------------------------*/
+/* HEADER 
+/*-----------------------------------------------------------------------------------*/
+.header {
+    background-color: #567dd7;
+    color: #fff;
+    padding-top: 100px;
+    // Chamada
+    .chamada {
+        border-top: 8px solid #4369c0;
+        padding: 100px 0;
+
+
+        h1 {
+            color: #fff;
+            font-size: 48px;
+            font-weight: 100;
+            line-height: 1;
+            margin: 0 0 35px;
+        }
+
+        h2 {
+            .normalize-font;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 1.2;
+            margin-bottom: 25px;
+            padding: 0 70px;
+        }
+
+        p {
+            margin: 0 auto 35px;
+            max-width: 400px;
+        }
+
+        .btn-app-store {
+            margin-right: 10px;
+        }
+
+        .social {
+            margin-top: 45px;
+
+            a {
+                margin-left: 20px;
+            }
+
+            a:first-child {
+                margin: 0;
+            }
+        }
+    }
+
+    .img-principal {
+        float: right;
+        padding-top: 45px;
+
+        img {
+            max-width: 100%;
+        }
+    }
+}
+/*-----------------------------------------------------------------------------------*/
+/* BLOCOS
+/*-----------------------------------------------------------------------------------*/
+.bloco {
+    h1 {
+        border-bottom: 3px solid #e6e6e6;
+        color: #567dd7;
+        display: inline-block;
+        line-height: 1;
+        margin: 0 0 35px;
+        padding-bottom: 20px;
+
+        span {
+            color: #77ba1d;
+        }
+    }
+}
+
+// Sobre
+.sobre {
+    padding: 50px 0;
+
+    .row {
+        line-height: 28px;
+        margin-bottom: 30px;
+        text-align: left;
+
+        p {
+            margin-top: 30px;
+        }
+
+        p:first-child {
+            margin: 0;
+        }
+    }
+
+    figure img {
+        max-width: 100%;
+    }
+
+    .right {
+        > div:first-child {
+            float: right;
+            text-align: right;
+        }
+    }
+
+    .frase {
+        color: #328ee8;
+        font-size: 28px;
+        margin: 70px 0;
+        text-align: center;
+    }
+
+    ul {
+        list-style-position: inside;
+        padding: 0;
+    }
+
+    .baixar {
+        margin-top: 80px;
+        text-align: center;
+
+        h2 {
+            color: #32e872;
+            font-size: 36px;
+            margin: 0 25px 0 0;
+            line-height: 1;
+            .inBlockMiddle;
+        }
+
+        a.btn-app-store {
+            margin-right: 10px;
+        }
+    }
+}
+
+// Features
+.features {
+    background-color: #f8f8f8;
+    font-size: 15px;
+    line-height: 22px;
+    padding: 50px 0 70px;
+    text-align: left;
+
+
+    h2 {
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+
+    figure {
+        text-align: center;
+        min-height: 225px;
+
+        img {
+            display: inline-block;
+            margin-top: 50px;
+        }
+    }
+
+    .cardapios figure img {
+        margin: 0;
+    }
+
+    .evolucao h2 {
+        color: #ed4c5a;
+    }
+
+    .cardapios h2 {
+        color: #ff9f1b;
+    }
+
+    .dicas h2 {
+        color: #57ac6d;
+    }
+}
+// Livro Meu filho + saudável
+.livro {
+    background: url('/Content/img/bgLivro.png') repeat-y left top #567dd7;
+    color: #fff;
+    padding: 50px;
+
+    h1 {
+        font-family: Chewy;
+        font-size: 54px;
+        line-height: 0.8;
+        margin: 0 0 15px;
+    }
+
+    h2 {
+        color: #fff24a;
+        .normalize-font;
+        font-size: 20px;
+        font-weight: 500;
+        margin: 25px 0 15px;
+    }
+
+    img {
+        .inBlockMiddle;
+    }
+
+    p {
+        line-height: 1.5;
+
+        &.prevenda {
+            font-size: 14px;
+        }
+    }
+
+    .botao {
+        background-color: #fff24a;
+        .border-radius(28px);
+        color: #77711f;
+        .inBlockMiddle;
+        font-size: 23px;
+        font-weight: 500;
+        line-height: 53px;
+        margin: 20px 10px 25px 0;
+        height: 56px;
+        padding: 0 60px;
+
+        &:hover {
+            text-decoration: none;
+        }
+
+        + img {
+            margin: 20px 0 25px;
+        }
+    }
+}
+
+// Manifesto
+.manifesto {
+    background: url(/Content/img/bg-manifesto.jpg) no-repeat top center #613c9b;
+    padding: 50px 0;
+
+    h1 {
+        color: #fff;
+        font-size: 28px;
+        margin-right: 25px;
+        .inBlockMiddle;
+        .normalize-font;
+    }
+}
+
+// Kickante
+.kickante {
+    padding: 65px 0;
+
+    .fluid-container {
+        margin: 0 auto;
+        max-width: 1280px;
+    }
+
+    ul {
+        list-style: none;
+        font-size: 14px;
+        padding: 0;
+    }
+
+    li {
+        margin-bottom: 50px;
+    }
+
+    h3 {
+        color: #567dd7;
+        font-size: 32px;
+        margin-bottom: 25px;
+    }
+
+    .bt-kickar {
+        border-top: 1px dashed #d9d9d9;
+        position: relative;
+
+        a {
+            background-color: #77ba1d;
+            .border-radius(15px);
+            .box-sizing;
+            color: #fff;
+            .inBlockMiddle;
+            height: 31px;
+            padding: 2px 15px 0 10px;
+            margin-top: -22px;
+            text-decoration: none !important;
+        }
+
+        a:hover {
+            text-decoration: none;
+        }
+
+        strong {
+            margin-left: 3px;
+            .inBlockMiddle;
+        }
+    }
+
+    i {
+        vertical-align: middle;
+    }
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	MEDIA QUERIES
+/*-----------------------------------------------------------------------------------*/
+@media screen and (max-width:800px) {
+    img {
+        max-width: 100%;
+    }
+
+    // Header
+    .header {
+        padding-top: 82px;
+
+        .chamada {
+            border: 0 none;
+            padding: 30px 15px;
+
+            h1 {
+                margin: 0 0 15px;
+                font-size: 33px;
+            }
+
+            h2 {
+                font-weight: bold;
+                padding: 0;
+            }
+
+            .social {
+                margin-top: 25px;
+            }
+        }
+
+        .img-principal {
+            border-top: 8px solid #4369c0;
+            padding-top: 30px;
+            float: none;
+
+            img {
+                max-width: 450px;
+            }
+        }
+    }
+
+    // blocos
+    .sobre {
+        padding: 30px 0 20px;
+
+        figure {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .right > div:first-child {
+            float: none;
+        }
+
+        .vcenter {
+            display: block;
+            margin-right: 0;
+        }
+
+        .frase {
+            margin: 30px 0 50px;
+            font-size: 25px;
+        }
+
+        .baixar {
+            margin-top: 20px;
+
+            h2 {
+                font-size: 30px;
+                display: block;
+                margin: 0 0 15px;
+            }
+        }
+    }
+
+    .features {
+        font-size: 16px;
+        padding: 30px 0;
+
+        h2 {
+            text-align: center;
+        }
+
+        figure {
+            margin: 40px 0 30px;
+            min-height: 0;
+        }
+
+        .row div:first-child figure {
+            margin-top: 0;
+        }
+
+        figure img {
+            margin: 0;
+        }
+    }
+
+    .kickante {
+        padding: 40px 20px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    // Header
+    .header .img-principal img {
+        max-width: 100%;
+    }
+    // blocos
+    .bloco h1 {
+        font-size: 35px;
+        padding-bottom: 15px;
+    }
+
+    .livro {
+        background-image: none;
+        padding: 30px 0;
+
+        h1 {
+            font-size: 30px;
+        }
+
+        h2 {
+            font-size: 18px;
+        }
+
+        .botao {
+            height: 40px;
+            line-height: 37px;
+            font-size: 17px;
+            padding: 0 20px;
+        }
+    }
+
+    .manifesto {
+        h1 {
+            display: block;
+            margin: 0 0 20px;
+        }
+    }
+
+    .kickante {
+        padding: 30px 0;
+
+        .row {
+            margin: 0;
+        }
+    }
+}
+
+@media screen and (max-width:320px) {
+    .livro {
+        .botao {
+            height: 40px;
+            line-height: 37px;
+            font-size: 16px;
+            padding: 0 15px;
+
+            + img {
+                max-width: 30%;
+            }
+        }
+    }
+}

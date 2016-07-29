@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\1179-view-1180.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/1179-view-1180.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\1356-view-1361.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/1356-view-1361.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\1506-view-1509.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/1506-view-1509.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\1581-view-1584.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/1581-view-1584.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\16-view-17.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/16-view-17.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\1776-view-1779.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/1776-view-1779.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\1787-view-1806.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/1787-view-1806.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\1874-view-1899.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/1874-view-1899.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\226-view-239.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/226-view-239.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\24-view-25.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/24-view-25.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\300-view-301.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/300-view-301.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\312-view-313.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/312-view-313.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\317-view-318.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/317-view-318.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\322-view-323.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/322-view-323.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\327-view-328.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/327-view-328.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\33-view-34.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/33-view-34.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\343-view-344.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/343-view-344.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\475-view-484.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/475-view-484.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\558-view-559.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/558-view-559.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\611-view-614.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/611-view-614.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\656-view-659.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/656-view-659.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\679-view-682.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/679-view-682.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\707-view-710.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/707-view-710.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\733-view-736.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/733-view-736.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\799-view-800.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/799-view-800.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\AdicionarFilhoView.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/AdicionarFilhoView.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\AlterarFilhoView.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/AlterarFilhoView.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\AlterarSenhaView.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/AlterarSenhaView.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\AtualizarPesoAlturaView.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/AtualizarPesoAlturaView.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\AvaliacaoView.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/AvaliacaoView.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\BrincadeiraView.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/BrincadeiraView.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\BrincadeirasView.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/BrincadeirasView.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\CardapiosView.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/CardapiosView.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\CategoriaView.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/CategoriaView.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\CategoriasView.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/CategoriasView.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\ConfiguracoesView.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/ConfiguracoesView.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\CrescimentoView.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/CrescimentoView.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\CriarContaView.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/CriarContaView.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\DiarioAlimentosView.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/DiarioAlimentosView.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\DiarioHelpView.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/DiarioHelpView.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\DiarioRefeicaoView.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/DiarioRefeicaoView.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\DiarioView.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/DiarioView.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\DicaView.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/DicaView.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\EsqueciSenhaView.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/EsqueciSenhaView.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\HomeView.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/HomeView.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\Info.plist">
+      <LogicalName>ViewsStoryBoard.storyboardc/Info.plist</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\LoginView.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/LoginView.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\MainView.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/MainView.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\PoliticaPrivacidadeView.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/PoliticaPrivacidadeView.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\SemaforoView.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/SemaforoView.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\SobreView.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/SobreView.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\SobreWebView.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/SobreWebView.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Ad-Hoc\ibtool\ViewsStoryBoard.storyboardc\vXZ-lx-hvc-view-kh9-bI-dsS.nib">
+      <LogicalName>ViewsStoryBoard.storyboardc/vXZ-lx-hvc-view-kh9-bI-dsS.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+  </ItemGroup>
+</Project>

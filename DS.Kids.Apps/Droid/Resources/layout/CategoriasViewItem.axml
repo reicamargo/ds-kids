@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ds.kids.apps.droid.SquareLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    local:MvxBind="BackgroundColor CategoriasColor(.)"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_margin="1dp"
+    android:layout_width="fill_parent"
+    android:layout_height="130dp">
+    <LinearLayout
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <Mvx.MvxImageView
+            local:MvxBind="ImageUrl RelativeToAbsoluteUrl(UrlImagem)"
+            android:layout_weight="0"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" />
+        <BRFX.BRFXTextView
+            style="@style/default_label"
+            android:textSize="12sp"
+            android:clickable="false"
+            android:layout_marginBottom="7dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1"
+            local:MvxBind="Text Nome"
+            android:layout_alignParentBottom="true" />
+    </LinearLayout>
+</ds.kids.apps.droid.SquareLinearLayout>

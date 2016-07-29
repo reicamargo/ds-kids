@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{496E506E-F56F-4016-9163-DC832766B4E9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>DS.Kids.Apps.Core</RootNamespace>
+    <AssemblyName>DS.Kids.Apps.Core</AssemblyName>
+    <TargetFrameworkProfile>Profile111</TargetFrameworkProfile>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <NuGetPackageImportStamp>ac251f98</NuGetPackageImportStamp>
+    <SupportedCultures>en-US</SupportedCultures>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Label="MultilingualAppToolkit">
+    <MultilingualAppToolkitVersion>3.0</MultilingualAppToolkitVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Analytics\IAnalytics.cs" />
+    <Compile Include="Converters\BackgroundColorIndexConverter.cs" />
+    <Compile Include="Converters\BrincadeiraFooterVisibilityConverter.cs" />
+    <Compile Include="Converters\SemaforoColorConverter.cs" />
+    <Compile Include="Converters\TemFilhoVisibilityConverter.cs" />
+    <Compile Include="Converters\PrecisaAtualizarVisibilityConverter.cs" />
+    <Compile Include="Converters\RelativeToAbsoluteUrlConverter.cs" />
+    <Compile Include="Converters\TipoGrupoRefeicaoTextConverter.cs" />
+    <Compile Include="Converters\TipoRefeicaoTextConverter.cs" />
+    <Compile Include="Helpers\CrescimentoHelpers.cs" />
+    <Compile Include="Helpers\ErrorHelpers.cs" />
+    <Compile Include="Helpers\ServicesHelpers.cs" />
+    <Compile Include="Messages\CurrentCriancaChangedMessage.cs" />
+    <Compile Include="Helpers\DefaultHelpers.cs" />
+    <Compile Include="Helpers\ImageHelper.cs" />
+    <Compile Include="Helpers\LoginHelper.cs" />
+    <Compile Include="Helpers\SettingsHelper.cs" />
+    <Compile Include="Messages\CurrentUserChangedMessage.cs" />
+    <Compile Include="Messages\LogoutMessage.cs" />
+    <Compile Include="Plugins\IFbData.cs" />
+    <Compile Include="Plugins\ILocalNotifications.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\AppResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\ResourceService.cs" />
+    <Compile Include="Resources\Resx2OthersTemplate.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resx2OthersTemplate.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Strings.cs">
+      <DependentUpon>Resx2Others.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\AdicionarFilhoViewModel.cs" />
+    <Compile Include="ViewModels\AlterarSenhaViewModel.cs" />
+    <Compile Include="ViewModels\AtualizarPesoAlturaViewModel.cs" />
+    <Compile Include="ViewModels\AvaliacaoViewModel.cs" />
+    <Compile Include="ViewModels\BaseHomeChildViewModel.cs" />
+    <Compile Include="ViewModels\BrincadeiraViewModel.cs" />
+    <Compile Include="Messages\CardapioChangedMessage.cs" />
+    <Compile Include="ViewModels\CategoriaViewModel.cs" />
+    <Compile Include="ViewModels\CategoriasViewModel.cs" />
+    <Compile Include="ViewModels\BrincadeirasViewModel.cs" />
+    <Compile Include="Messages\ClearBackStackMessage.cs" />
+    <Compile Include="Messages\CloseLeftMenuMessage.cs" />
+    <Compile Include="ViewModels\ConfiguracoesViewModel.cs" />
+    <Compile Include="Messages\CrescimentosUpdatedMessage.cs" />
+    <Compile Include="ViewModels\CrescimentoViewModel.cs" />
+    <Compile Include="ViewModels\CardapiosViewModel.cs" />
+    <Compile Include="ViewModels\AlterarFilhoViewModel.cs" />
+    <Compile Include="ViewModels\CriarContaViewModel.cs" />
+    <Compile Include="ViewModels\DiarioAlimentosViewModel.cs" />
+    <Compile Include="ViewModels\DiarioHelpViewModel.cs" />
+    <Compile Include="ViewModels\DiarioRefeicaoViewModel.cs" />
+    <Compile Include="ViewModels\DicaViewModel.cs" />
+    <Compile Include="ViewModels\EsqueciSenhaViewModel.cs" />
+    <Compile Include="ViewModels\HomeViewModel.cs" />
+    <Compile Include="Messages\LeftMenuIndexChangedMessage.cs" />
+    <Compile Include="ViewModels\LeftMenuViewModel.cs" />
+    <Compile Include="ViewModels\LoginViewModel.cs" />
+    <Compile Include="ViewModels\MainViewModel.cs" />
+    <Compile Include="Messages\SexChangedMessage.cs" />
+    <Compile Include="ViewModels\SobreViewModel.cs" />
+    <Compile Include="Messages\NewCrescimentoMessage.cs" />
+    <Compile Include="ViewModels\SobreWebViewModel.cs" />
+    <Compile Include="ViewModels\PoliticaPrivacidadeViewModel.cs" />
+    <Compile Include="Messages\RefreshDiarioMessage.cs" />
+    <Compile Include="Messages\ShowDiarioCalendarMessage.cs" />
+    <Compile Include="YearRangeAttribute.cs" />
+    <Compile Include="Converters\TipoRefeicaoHeaderImageConverter.cs" />
+    <Compile Include="Converters\CardapioFooterVisibilityConverter.cs" />
+    <Compile Include="Converters\BrincadeiraHeaderVisibilityConverter.cs" />
+    <Compile Include="Converters\BrincadeiraItemColorConverter.cs" />
+    <Compile Include="Converters\CategoriasColorConverter.cs" />
+    <Compile Include="Converters\TipoCrescimentoColorConverter.cs" />
+    <Compile Include="Converters\CrescimentoDiffConverter.cs" />
+    <Compile Include="Converters\UppercaseConverter.cs" />
+    <Compile Include="ViewModels\DiarioViewModel.cs" />
+    <Compile Include="ViewModels\SemaforoViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="BRFX.Core">
+      <HintPath>..\iOS\BRFX\BRFX.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.CrossCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e16445fd9b451819, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.CrossCore.3.5.1\lib\portable-win+net45+wp8+win8+wpa81\Cirrious.CrossCore.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e16445fd9b451819, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.5.1\lib\portable-win+net45+wp8+win8+wpa81\Cirrious.MvvmCross.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Localization, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.CrossCore.3.5.1\lib\portable-win+net45+wp8+win8+wpa81\Cirrious.MvvmCross.Localization.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.Color, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.Plugin.Color.3.5.1\lib\portable-win+net45+wp8+win8+wpa81\Cirrious.MvvmCross.Plugins.Color.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.DownloadCache, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.Plugin.DownloadCache.3.5.1\lib\portable-win+net45+wp8+win8+wpa81\Cirrious.MvvmCross.Plugins.DownloadCache.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.File, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.Plugin.File.3.5.1\lib\portable-win+net45+wp8+win8+wpa81\Cirrious.MvvmCross.Plugins.File.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.Messenger, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.Plugin.Messenger.3.5.1\lib\portable-win+net45+wp8+win8+wpa81\Cirrious.MvvmCross.Plugins.Messenger.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.PictureChooser">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.Plugin.PictureChooser.3.5.1\lib\portable-win+net45+wp8+win8+wpa81\Cirrious.MvvmCross.Plugins.PictureChooser.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.Visibility, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.Plugin.Visibility.3.5.1\lib\portable-win+net45+wp8+win8+wpa81\Cirrious.MvvmCross.Plugins.Visibility.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.WebBrowser, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.Plugin.WebBrowser.3.5.1\lib\portable-win+net45+wp8+win8+wpa81\Cirrious.MvvmCross.Plugins.WebBrowser.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib.Portable">
+      <HintPath>..\..\Packages\SharpZipLib.Portable.0.86.0.0003\lib\portable-net45+netcore45+wp8+win8+wpa81+MonoTouch+MonoAndroid+Xamarin.iOS10\ICSharpCode.SharpZipLib.Portable.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.Extensions, Version=1.5.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Net.Http.2.2.29\lib\portable-net45+win8+wpa81\System.Net.Http.Extensions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives, Version=4.2.29.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Net.Http.2.2.29\lib\portable-net45+win8+wpa81\System.Net.Http.Primitives.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\DS.Kids.Model.Communication\DS.Kids.Model.Communication.csproj">
+      <Project>{642aafee-5724-49e5-9ca4-63eb57fc6d06}</Project>
+      <Name>DS.Kids.Model.Communication</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DS.Kids.Model\DS.Kids.Model.csproj">
+      <Project>{0ac4d40f-7031-4d10-9f69-5fcf2ed547a5}</Project>
+      <Name>DS.Kids.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Resources\Resx2Others.log">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resx2Others.tt</DependentUpon>
+    </None>
+    <None Include="Resources\Resx2Others.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Resx2Others.log</LastGenOutput>
+      <LastOutputs>
+..\..\Droid\Resources\Values\AppResources.xml
+..\..\Droid\Resources\Values-en-rUS\AppResources.xml
+..\..\iOS\en.lproj\Localizable.strings
+.\Resx2Others.log
+.\Strings.cs
+</LastOutputs>
+    </None>
+    <None Include="Resources\Resx2OthersTemplate.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Resx2OthersTemplate.cs</LastGenOutput>
+      <LastOutputs>.\Resx2OthersTemplate.cs</LastOutputs>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\AppResources.en-US.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.en-US.xlf</DependentUpon>
+      <culture>en-US</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <XliffResource Include="Resources\AppResources.en-US.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.en-US.resx</LastGenOutput>
+    </XliffResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+    <Error Condition="!Exists('..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets'))" />
+  </Target>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.ResxResources.targets" Label="MultilingualAppToolkit" />
+  <Import Project="..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
+</Project>

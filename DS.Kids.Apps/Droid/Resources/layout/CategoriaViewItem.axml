@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="left"
+        android:layout_height="wrap_content">
+        <TextView
+            local:MvxBind="Text Titulo;TextColor CategoriasColor(Categoria)"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            local:MvxBind="Visibility Visibility(Parceiro)"
+            android:textColor="#d3d3d3"
+            android:text="por "
+            android:textStyle="italic"
+            android:textSize="13sp"
+            android:paddingTop="20dp"
+            android:layout_width="wrap_content"
+            android:gravity="right"
+            android:layout_height="wrap_content" />
+        <Mvx.MvxImageView
+            local:MvxBind="ImageUrl RelativeToAbsoluteUrl(Parceiro.UrlIcone);Visibility Visibility(Parceiro)"
+            android:paddingTop="20dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+    </LinearLayout>
+</LinearLayout>

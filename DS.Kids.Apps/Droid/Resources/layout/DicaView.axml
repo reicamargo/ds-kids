@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingTop="?attr/actionBarSize"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <com.mopub.mobileads.MoPubView
+        android:id="@+id/ad_banner"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="6dp"
+        android:layout_height="50dp" />
+<!--<LinearLayout
+        local:MvxBind="BackgroundColor CategoriasColor(Dica.Categoria)"
+        android:layout_weight="0"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <Mvx.MvxImageView
+            local:MvxBind="ImageUrl RelativeToAbsoluteUrl(Dica.Categoria.UrlImagem)"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_width="120dp"
+            android:layout_height="60dp" />
+    </LinearLayout>-->
+    <ds.kids.apps.droid.controls.DicaRecyclerView
+        local:MvxBind="ItemsSource Dica.Paragrafos"
+        local:MvxItemTemplate="@layout/dicaview"
+        local:FooterItemTemplate="@layout/dicaviewfooteritem"
+        android:layout_weight="1"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp" />
+</LinearLayout>
